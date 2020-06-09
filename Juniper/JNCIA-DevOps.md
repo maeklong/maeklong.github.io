@@ -151,6 +151,10 @@
 + ansible-galaxy install Juniper.junos *
 + **install a Juniper Networks-created Ansible module**
 
+### Ansible Galaxy module 
++ juniper_junos_rpc
++ **Feedback : Juniper junos rpc executes one or more RPCs and returns the result.**
+
 ### Junos Ansible modules
 + junos_rpc
 + junos_facts
@@ -164,3 +168,12 @@
 [!["https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679420996.png"](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679420996.png)](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679420996.png)
 + router1 and router2 are included in the routers group.
 + **Feedback : You can place different hosts in groups, using square bracket syntax. For example, you might want to differentiate by device family (such as srx, mx, ex).**
+
+### playbook
+
++ YAML
++ **Feedback : Ansible playbooks are written in YAML and carry out the tasks defined in Python modules.**
+[!["https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png"](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png)](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png)
++ The host variable must be defined in the inventory file.
++ The Juniper.junos modules will be executed locally on the control device.
++ **Feedback : Contained within this play are the requirements that the host variable must be defined in the inventory file and that the Juniper.junos modules will be executed locally on the control device.**
