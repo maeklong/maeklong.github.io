@@ -159,3 +159,8 @@
 ### Ansible inventory file
 + /etc/ansible/hosts
 + **default path including the default file name of the Ansible inventory file**
+
+### Ansible host file
+[!["https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679420996.png"](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679420996.png)](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679420996.png)
++ router1 and router2 are included in the routers group.
++ **Feedback : You can place different hosts in groups, using square bracket syntax. For example, you might want to differentiate by device family (such as srx, mx, ex).**
