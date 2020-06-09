@@ -200,18 +200,37 @@
 + to comment
 + **Feedback : Python uses the # symbol to indicate comments (alternatively, three quotes before and after the block of code might be used to indicate a multi-line comment).**
 
+### Python operator
++ bitwise *
++ **The & and | characters represent bitwise**
++ The variables are compared to determine if they have the same value.
++ **Feedback : The == operator can be used determine if two variables contain equal values.**
+
 ### Python dictionary
 + It is identifiable by curly brackets ({}).
 + It is an unordered collection of key-value pairs.
 + **Feedback : A dictionary is an unordered collection of key, value-pairs and is identifiable by curly brackets ({}).**
 
-### Junos PyEZ
+### PyEZ
 + Python
 + **Feedback : PyEZ is a microframework used to operate Junos using Python. A microframework is a package or library that provides code that is useful for a larger application.**
 + PyEZ exception handling
 + **Feedback : These are examples of exceptions that PyEZ can catch.**
 + **ConnectAuthError, ConnectTimeout, and ConnectError**
++ Telnet
++ NETCONF over SSH
++ **Feedback : PyEZ can use a NETCONF over SSH, Telnet, or Serial Console connection to a Junos device.**
 
 ### PyEZ utils module
 + config *
 + **to write a PyEZ script that will modify the Junos configuration**
+
+### PyEZ Python script
+![](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538680670475.png)
++ The script attempts to establish a NETCONF session to connect to the device.
++ The login is established outside of the operation of this script.
++ **Feedback : NETCONF is the default method of connecting to the device. Login is established with SSH.**
+
+### Python interactive interpreter (shell)
++ ```bash$ python```
++ **Feedback : You can start the Python interactive interpreter, sometimes called the Python shell, just by typing python at the command prompt (sometimes you want to run a specific Python version, in this case you can type python2.7 for Python 2.7 or similarly for other versions).**
