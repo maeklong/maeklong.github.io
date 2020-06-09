@@ -36,7 +36,8 @@
 + **Feedback : To use Puppet with Junos devices, you need to install the jpuppet module on the Junos device. Similarly, to use Chef for Junos OS, the Chef client must first be installed on the Junos device.**
 
 ### NETCONF 
-+ 830 (connections over SSH default port)*
++ 830
++ **connections over SSH default port)** *
 
 + Java
 + Perl
