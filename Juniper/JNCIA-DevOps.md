@@ -39,11 +39,6 @@
 + Puppet
 + **Feedback : To use Puppet with Junos devices, you need to install the jpuppet module on the Junos device. Similarly, to use Chef for Junos OS, the Chef client must first be installed on the Junos device.**
 
-### on-box automation
-+ Python
-+ SLAX
-+ **Feedback : Historically, XSLT and SLAX were the first languages specifically designed to work with the Junos XML API. Starting with Junos 16.1, Python can be used for the same task as well.**
-
 ### NETCONF 
 + 830
 + **connections over SSH default port)** *
@@ -57,6 +52,15 @@
 + jsd
 + **Feedback : The processes most important to Junos automation are the management process (mgd) and JET service processes (jsd). The mgd process handles the automation requests involving the Junos XML API, YANG, the REST API, and some SNMP functions. The JET service process (jsd) handles automation requests that use the Juniper Extension Toolkit (JET) API.**
 
+
+
+## XML/NETCONF
+
+### on-box automation
++ Python
++ SLAX
++ **Feedback : Historically, XSLT and SLAX were the first languages specifically designed to work with the Junos XML API. Starting with Junos 16.1, Python can be used for the same task as well.**
+
 ### XML remote procedure call
 + router> show system name-resolution \| display xml rpc
 + **Feedback : You can determine the RPC by using the show interfaces ge-0/0/0 command with the \| display xml rpc command option at the end.**
@@ -65,6 +69,24 @@
 + Python
 + Feedback : Python communicates with the Junos XML API both on-box and off-box.
 
+### XML hierarchy
++ <example/>
++ <example></example>
++ Feedback : In some cases, there is no data to put between the opening and closing tags (<example></example>). In this case, you can combine the two tags into one using the shorthand notation (<example/>).
+
 ### XML element nodes
 + An element node consists of everything between an opening and closing tag pair.
 + **Feedback : XML elements or everything within a matching start and end tag are represented as element nodes in a document object model.**
+
+### XML document nodes
++ The document node is defined as the entire XML document.
++ **Feedback : The full XML document would be represented as a document node in a document object model.**
+
+### NETCONF protocol
++ Messages
++ Transport
++ **Feedback : Messages and Transport are both layers of the NETCONF protocol.**
++ Operations
++ Content
++ **Feedback : Operations and Content are both layers of the NETCONF protocol.**
+
