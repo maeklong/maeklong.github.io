@@ -12,6 +12,11 @@
 + This method lacks flexibility.
 + Feedback : With the waterfall model, the next phase only starts after finishing the previous one. When requirements change and a need to develop new functionality appears, the waterfall model shows its weakness. It is not flexible enough and requires a lot of time before new functionality can be brought to production.
 
+### Manifesto of Agile Software Development
++ Customer collaboration is preferred over contract negotiations.
++ Working software is preferred over comprehensive documentation.
++ Feedback : The “Manifesto” formulated the main values of Agile as follows: individuals and interactions over processes and tools; working software over comprehensive documentation; customer collaboration over contract negotiation; and responding to change over following a plan.
+
 ### DevOps
 + DevOps is a methodology used to develop software or systems.
 + DevOps is a methodology that allows for frequent, quick modifications.
