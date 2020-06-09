@@ -177,3 +177,5 @@
 + The host variable must be defined in the inventory file.
 + The Juniper.junos modules will be executed locally on the control device.
 + **Feedback : Contained within this play are the requirements that the host variable must be defined in the inventory file and that the Juniper.junos modules will be executed locally on the control device.**
+
+### Ansible operations on a Junos device
