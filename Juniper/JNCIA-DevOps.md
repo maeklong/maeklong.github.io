@@ -22,6 +22,10 @@
 + DevOps is a methodology that allows for frequent, quick modifications.
 + **Feedback : DevOps is a combination of technologies, design concepts, mentalities, and ideals that enable high performing IT teams to move fast while maintaining stability. DevOps creates a tight loop of product release and feedback. With DevOps, changes in functionality happen frequently and are moved to production fast.**
 
++ Feedback should be analyzed at each stage of the process.
++ A goal is to make development, test, and production environments as identical as possible.
++ **Feedback : You need to gather feedback at all stages of production and delivery. Collect feedback from developers, operations, customers, and anyone else who may have information that can help you improve your flow or quality of product. A benefit of both Continuous Delivery and Continuous Deployment is that they contribute to making your development, test, and production environments as identical as possible.**
+
 + to lower cost
 + to improve quality
 + **Feedback : Among other advantages, DevOps gives you consistency, security, stability and reliability, all of which contribute to increased speed, decreased cost of management per device, and decreased number of configuration errors.**
@@ -34,6 +38,11 @@
 + Chef
 + Puppet
 + **Feedback : To use Puppet with Junos devices, you need to install the jpuppet module on the Junos device. Similarly, to use Chef for Junos OS, the Chef client must first be installed on the Junos device.**
+
+### on-box automation
++ Python
++ SLAX
++ **Feedback : Historically, XSLT and SLAX were the first languages specifically designed to work with the Junos XML API. Starting with Junos 16.1, Python can be used for the same task as well.**
 
 ### NETCONF 
 + 830
