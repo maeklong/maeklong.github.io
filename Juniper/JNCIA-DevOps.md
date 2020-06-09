@@ -56,3 +56,7 @@
 + mgd
 + jsd
 + **Feedback : The processes most important to Junos automation are the management process (mgd) and JET service processes (jsd). The mgd process handles the automation requests involving the Junos XML API, YANG, the REST API, and some SNMP functions. The JET service process (jsd) handles automation requests that use the Juniper Extension Toolkit (JET) API.**
+
+### XML remote procedure call
++ router> show system name-resolution \| display xml rpc
++ **Feedback : You can determine the RPC by using the show interfaces ge-0/0/0 command with the \| display xml rpc command option at the end.**
