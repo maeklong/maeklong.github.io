@@ -11,3 +11,8 @@
 + One phase of development must be completed before the next phase can start.
 + This method lacks flexibility.
 + Feedback : With the waterfall model, the next phase only starts after finishing the previous one. When requirements change and a need to develop new functionality appears, the waterfall model shows its weakness. It is not flexible enough and requires a lot of time before new functionality can be brought to production.
+
+### DevOps
++ DevOps is a methodology used to develop software or systems.
++ DevOps is a methodology that allows for frequent, quick modifications.
++ Feedback : DevOps is a combination of technologies, design concepts, mentalities, and ideals that enable high performing IT teams to move fast while maintaining stability. DevOps creates a tight loop of product release and feedback. With DevOps, changes in functionality happen frequently and are moved to production fast.
