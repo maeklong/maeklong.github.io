@@ -113,6 +113,9 @@
 ### JSON object
 + ```{```
 + **Feedback : JSON objects begin with and end with curly braces. A single object can contain a series of key-value pairs, separated by commas. An empty object (zero key-value pairs) is allowed. Keys in JSON are always of string type.**
+[!["https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538678731369.png"](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538678731369.png)](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538678731369.png)
++ JSON object
++ **Feedback : JSON objects begin with and end with curly braces. A single object can contain a series of key-value pairs, separated by commas.**
 
 ### JSON array
 + ```[```
@@ -128,3 +131,4 @@
 ### YAML mapping
 + ```hostname: router```
 + **Feedback : YAML mappings are sets of key-value pairs, equivalent to JSON objects.The keys and corresponding values are separated by a colon (:). In YAML, the strings do not require quotation marks.**
+
