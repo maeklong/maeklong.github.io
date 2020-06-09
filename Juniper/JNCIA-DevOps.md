@@ -202,7 +202,7 @@
 
 ### Python operator
 + bitwise
-+ **Feedback : Bitwise operators like & (binary AND) and | (binary OR) allow for operations on binary numbers.**
++ **Feedback : Bitwise operators like & (binary AND) and \| (binary OR) allow for operations on binary numbers.**
 + The variables are compared to determine if they have the same value.
 + **Feedback : The == operator can be used determine if two variables contain equal values.**
 
