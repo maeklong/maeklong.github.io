@@ -226,8 +226,8 @@
 + **Feedback : PyEZ can use a NETCONF over SSH, Telnet, or Serial Console connection to a Junos device.**
 
 ### PyEZ utils module
-+ config *
-+ **to write a PyEZ script that will modify the Junos configuration**
++ config
++ **Feedback : The config module allows for Junos device configuration operations.**
 
 ### PyEZ Python script
 ![](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538680670475.png)
