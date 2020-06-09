@@ -132,3 +132,6 @@
 + ```hostname: router```
 + **Feedback : YAML mappings are sets of key-value pairs, equivalent to JSON objects.The keys and corresponding values are separated by a colon (:). In YAML, the strings do not require quotation marks.**
 
+### YAML file
++  ```---```
++ **Feedback : Although not required, it is customary to start all YAML documents with three dashes ```---```.**
