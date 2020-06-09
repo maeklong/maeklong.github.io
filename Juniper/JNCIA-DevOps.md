@@ -105,3 +105,9 @@
 ### Junos OS
 + Enable NETCONF using the set system services netconf ssh command.
 + **Feedback : To enable the Junos OS to accept NETCONF sessions on port 830, you need to issue the set system services netconf ssh command.**
+
+## Data Serialization
+
+### JSON object
+```{```
++ **Feedback : JSON objects begin with and end with curly braces. A single object can contain a series of key-value pairs, separated by commas. An empty object (zero key-value pairs) is allowed. Keys in JSON are always of string type.**
