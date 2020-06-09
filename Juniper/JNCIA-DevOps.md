@@ -109,6 +109,8 @@
 ### JSON
 + JSON is a lightweight data-interchange format; human-readable but easier for machines to parse.
 + **Feedback : JSON is a lightweight data-interchange format. JSON is human-readable, but easier for machines to parse.**
++ ```{"title": "The \"Big\" Router"}```
++ **Feedback : JSON strings can consist of any Unicode characters except for double quotes and backslashes. However, you can use double quotes and backslashes if you use the escape sequence first, so precede the characters to be escaped with a backslash as you would in C or Java.**
 
 ### JSON object
 + ```{```
