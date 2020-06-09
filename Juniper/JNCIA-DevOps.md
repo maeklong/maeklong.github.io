@@ -60,3 +60,11 @@
 ### XML remote procedure call
 + router> show system name-resolution \| display xml rpc
 + **Feedback : You can determine the RPC by using the show interfaces ge-0/0/0 command with the \| display xml rpc command option at the end.**
+
+### Programming Language
++ Python
++ Feedback : Python communicates with the Junos XML API both on-box and off-box.
+
+### XML element nodes
++ An element node consists of everything between an opening and closing tag pair.
++ **Feedback : XML elements or everything within a matching start and end tag are represented as element nodes in a document object model.**
