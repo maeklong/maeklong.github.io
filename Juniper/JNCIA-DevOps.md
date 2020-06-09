@@ -25,3 +25,8 @@
 ### Infrastructure as Code workflow
 + Code > Version Control > Code Review > Integrate > Deploy
 + Feedback : A typical IaC workflow is as follows: the device code is created and then stored in a version control system; next, the device code goes through an automated code review process; it is then integrated back into the master code branch; and finallay is deployed out to the network device.
+
+### Automation Tools (require an agent)
++ Chef
++ Puppet
++ Feedback : To use Puppet with Junos devices, you need to install the jpuppet module on the Junos device. Similarly, to use Chef for Junos OS, the Chef client must first be installed on the Junos device.
