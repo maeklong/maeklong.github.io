@@ -118,10 +118,12 @@
 + ```[```
 + **Feedback : An array in JSON is an ordered collection of values. Array structures begin and end with square brackets. Arrays contain zero, one or more values; array values are separated by commas.**
 
-### JSON over YAML
+### JSON & YAML
 + JSON uses a lowest common denominator model.
 + JSON is easier for a machine to parse than YAML.
 + **Feedback : JSON uses a lowest common denominator information model, ensuring any JSON data can be processed easily by every modern programming environment. YAML has simple-to-read files, but the language is more complex to generate and parse. In addition, YAML does not follow the lowest common denominator data types, and so requires more complex processing when crossing between different programming environments.**
++ All JSON data can convert to YAML data but not all YAML data can convert to JSON data.
++ **Feedback : JSON and YAML are similar enough that, in most cases, you can convert between the two languages. YAML, however, does not follow the lowest common denominator data types, and so requires more complex processing when crossing between different programming environments.**
 
 ### YAML mapping
 + ```hostname: router```
