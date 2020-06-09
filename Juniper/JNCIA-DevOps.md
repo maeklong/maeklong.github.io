@@ -241,13 +241,22 @@
 
 ## REST API
 
+### Advantage
++ The REST API uses simple tools that allow for fast prototyping.
++ Most programming languages include libraries for the REST API.
++ **Feedback : The REST API can be accessed using any program or programming language capable of generating HTTP requests. For a quick test, a Web browser (possibly with a suitable plugin), tools like Postman, or just the curl command line utility can be used. For actual programming, libraries have been developed for many languages that simplify the generation of REST API requests (such as the requests package for Python).**
+
 ### communicate with a Junos device
 + REST
 + **Feedback : Typically, REST uses HTTP(S), and any object accessible from the API corresponds to a unique URL on the server.**
 + lighttpd
 + **Feedback : The lighttpd server terminates HTTP(S) connection and passes request to the request to the mod_juise plugin.**
+
+### Port
 + 3000 *
 + **default HTTP port that is used by the REST API to connect to a Junos device**
++ You must enable the REST API Explorer tool and connect to the Junos device using the Explorer's default port of 3443.
++ **Feedback : To enable the REST API Explorer, issue the set system services rest enable-explorer configuration mode command. After you commit the configuration, navigate in a browser to the host name or IP address of your Junos device, appending the configured port number after the colon. The default port number is 3000 for HTTP and 3443 for HTTPS.**
 
 ### Protocol
 + IPv4 only
