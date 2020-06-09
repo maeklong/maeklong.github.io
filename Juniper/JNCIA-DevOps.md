@@ -70,10 +70,8 @@
 + Feedback : Python communicates with the Junos XML API both on-box and off-box.
 
 ### XML hierarchy
-``` 
-<example/>
-<example></example>
-```
++ ```<example/>```
++ ```<example></example>```
 + Feedback : In some cases, there is no data to put between the opening and closing tags. In this case, you can combine the two tags into one using the shorthand notation.
 
 ### XML element nodes
@@ -109,14 +107,18 @@
 ## Data Serialization
 
 ### JSON object
-```
-{
-```
++ ```{```
 + **Feedback : JSON objects begin with and end with curly braces. A single object can contain a series of key-value pairs, separated by commas. An empty object (zero key-value pairs) is allowed. Keys in JSON are always of string type.**
 
 ### JSON array
-```
-[
-```
++```[```
 + **Feedback : An array in JSON is an ordered collection of values. Array structures begin and end with square brackets. Arrays contain zero, one or more values; array values are separated by commas.**
+
+### JSON over YAML
++ JSON uses a lowest common denominator model.
++ JSON is easier for a machine to parse than YAML.
++ **Feedback : JSON uses a lowest common denominator information model, ensuring any JSON data can be processed easily by every modern programming environment. YAML has simple-to-read files, but the language is more complex to generate and parse. In addition, YAML does not follow the lowest common denominator data types, and so requires more complex processing when crossing between different programming environments.**
+
+
+
 
