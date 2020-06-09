@@ -208,3 +208,10 @@
 ### Junos PyEZ
 + Python
 + **Feedback : PyEZ is a microframework used to operate Junos using Python. A microframework is a package or library that provides code that is useful for a larger application.**
++ PyEZ exception handling
++ **Feedback : These are examples of exceptions that PyEZ can catch.**
++ **ConnectAuthError, ConnectTimeout, and ConnectError**
+
+### PyEZ utils module
++ config *
++ **to write a PyEZ script that will modify the Junos configuration**
