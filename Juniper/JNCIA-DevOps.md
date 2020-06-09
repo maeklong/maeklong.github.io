@@ -101,3 +101,7 @@
 [![https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538677135815.png](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538677135815.png)](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538677135815.png)
 + /configuration/interfaces/interface/unit/family/inet/address
 + **Feedback : You can specify the XML node you want to access by specifying each subhierarchy of XML, and separating them with a forward slash. This method is similar to the way you would specify multiple levels of subdirectories on a UNIX host.**
+
+### Junos OS
++ Enable NETCONF using the set system services netconf ssh command.
++ **Feedback : To enable the Junos OS to accept NETCONF sessions on port 830, you need to issue the set system services netconf ssh command.**
