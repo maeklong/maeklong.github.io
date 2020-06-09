@@ -148,8 +148,8 @@
 ## Ansible
 
 ### command 
-+ ansible-galaxy install Juniper.junos *
-+ **install a Juniper Networks-created Ansible module**
++ ansible-galaxy install Juniper.junos
++ **Feedback : Use the ansible-galaxy install Juniper.junos command to install a Juniper Networks-created Ansible module.**
 
 ### Ansible Galaxy module 
 + juniper_junos_rpc
