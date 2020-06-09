@@ -151,3 +151,11 @@
 + ansible-galaxy install Juniper.junos *
 + **install a Juniper Networks-created Ansible module**
 
+### Junos Ansible modules
++ junos_rpc
++ junos_facts
++ **Feedback : "junos_rpc runs an arbitrary RPC over NetConf on a Junos device, and junos_facts collects facts from remote Junos devices."**
+
+### Ansible inventory file
++ /etc/ansible/hosts
++ **default path including the default file name of the Ansible inventory file**
