@@ -183,8 +183,16 @@
 + YAML file
 + **Feedback : A playbook contains one or more plays. A play is essentially a set of hosts and a set of tasks that must be performed on the hosts. The playbook file is formatted in YAML.**
 
-### Ansible operations on a Junos device
+![](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679885474.png)
++ 2
++ **Feedback : This play executes two tasks. Each task calls a module; junos_get facts and debug in this example.**
+
+### Ansible & Junos device
 + Ansible uses NETCONF over SSH sessions.
 + Ansible requires all tasks to execute locally on the control server.
 + **Feedback : Ansible modulse are executed locally and connect using NETCONF over SSH to Junos devices, performing operations on them as needed.**
++ Ansible modules are executed on the control server.
++ **Feedback : The Juniper implementation of Ansible requires all tasks to run locally on the Ansible control server.**
 
+## Python or PyEZ
+### Python dictionary
