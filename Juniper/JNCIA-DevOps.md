@@ -170,7 +170,6 @@
 + **Feedback : You can place different hosts in groups, using square bracket syntax. For example, you might want to differentiate by device family (such as srx, mx, ex).**
 
 ### playbook
-
 + YAML
 + **Feedback : Ansible playbooks are written in YAML and carry out the tasks defined in Python modules.**
 [!["https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png"](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png)](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png)
@@ -179,3 +178,7 @@
 + **Feedback : Contained within this play are the requirements that the host variable must be defined in the inventory file and that the Juniper.junos modules will be executed locally on the control device.**
 
 ### Ansible operations on a Junos device
++ Ansible uses NETCONF over SSH sessions.
++ Ansible requires all tasks to execute locally on the control server.
++ **Feedback : Ansible modulse are executed locally and connect using NETCONF over SSH to Junos devices, performing operations on them as needed.**
+
