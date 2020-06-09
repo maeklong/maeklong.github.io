@@ -195,4 +195,12 @@
 + **Feedback : The Juniper implementation of Ansible requires all tasks to run locally on the Ansible control server.**
 
 ## Python or PyEZ
+
+### Python
++ to comment
++ **Feedback : Python uses the # symbol to indicate comments (alternatively, three quotes before and after the block of code might be used to indicate a multi-line comment).**
+
 ### Python dictionary
++ It is identifiable by curly brackets ({}).
++ It is an unordered collection of key-value pairs.
++ **Feedback : A dictionary is an unordered collection of key, value-pairs and is identifiable by curly brackets ({}).**
