@@ -21,3 +21,7 @@
 + DevOps is a methodology used to develop software or systems.
 + DevOps is a methodology that allows for frequent, quick modifications.
 + Feedback : DevOps is a combination of technologies, design concepts, mentalities, and ideals that enable high performing IT teams to move fast while maintaining stability. DevOps creates a tight loop of product release and feedback. With DevOps, changes in functionality happen frequently and are moved to production fast.
+
+### Infrastructure as Code workflow
++ Code > Version Control > Code Review > Integrate > Deploy
++ Feedback : A typical IaC workflow is as follows: the device code is created and then stored in a version control system; next, the device code goes through an automated code review process; it is then integrated back into the master code branch; and finallay is deployed out to the network device.
