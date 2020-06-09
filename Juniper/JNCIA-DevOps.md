@@ -162,7 +162,7 @@
 
 ### Ansible inventory file
 + /etc/ansible/hosts
-+ **default path including the default file name of the Ansible inventory file**
++ **Feedback : Ansible’s inventory defaults to being saved in the location /etc/ansible/hosts.**
 
 ### Ansible host file
 ![](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679420996.png)
