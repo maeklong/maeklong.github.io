@@ -93,3 +93,8 @@
 ### gem install net-netconf command
 + Ruby
 + **Feedback : The gem install net-netconf command is used to install NETCONF for the Ruby programming language.**
+
+### XPath
+https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538677135815.png
++ /configuration/interfaces/interface/unit/family/inet/address
++ **Feedback : You can specify the XML node you want to access by specifying each subhierarchy of XML, and separating them with a forward slash. This method is similar to the way you would specify multiple levels of subdirectories on a UNIX host.**
