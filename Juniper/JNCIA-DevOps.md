@@ -111,7 +111,7 @@
 + **Feedback : JSON objects begin with and end with curly braces. A single object can contain a series of key-value pairs, separated by commas. An empty object (zero key-value pairs) is allowed. Keys in JSON are always of string type.**
 
 ### JSON array
-+```[```
++ ```[```
 + **Feedback : An array in JSON is an ordered collection of values. Array structures begin and end with square brackets. Arrays contain zero, one or more values; array values are separated by commas.**
 
 ### JSON over YAML
@@ -119,6 +119,6 @@
 + JSON is easier for a machine to parse than YAML.
 + **Feedback : JSON uses a lowest common denominator information model, ensuring any JSON data can be processed easily by every modern programming environment. YAML has simple-to-read files, but the language is more complex to generate and parse. In addition, YAML does not follow the lowest common denominator data types, and so requires more complex processing when crossing between different programming environments.**
 
-
-
-
+### YAML mapping
++ ```hostname: router```
++ **Feedback : YAML mappings are sets of key-value pairs, equivalent to JSON objects.The keys and corresponding values are separated by a colon (:). In YAML, the strings do not require quotation marks.**
