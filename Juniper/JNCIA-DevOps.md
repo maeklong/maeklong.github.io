@@ -172,6 +172,7 @@
 ### playbook
 + YAML
 + **Feedback : Ansible playbooks are written in YAML and carry out the tasks defined in Python modules.**
+
 [!["https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png"](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png)](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png)
 + The host variable must be defined in the inventory file.
 + The Juniper.junos modules will be executed locally on the control device.
