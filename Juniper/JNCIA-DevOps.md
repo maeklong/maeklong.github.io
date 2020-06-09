@@ -109,5 +109,7 @@
 ## Data Serialization
 
 ### JSON object
-```{```
+```
+{
+```
 + **Feedback : JSON objects begin with and end with curly braces. A single object can contain a series of key-value pairs, separated by commas. An empty object (zero key-value pairs) is allowed. Keys in JSON are always of string type.**
