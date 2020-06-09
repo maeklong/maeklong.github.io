@@ -204,3 +204,7 @@
 + It is identifiable by curly brackets ({}).
 + It is an unordered collection of key-value pairs.
 + **Feedback : A dictionary is an unordered collection of key, value-pairs and is identifiable by curly brackets ({}).**
+
+### Junos PyEZ
++ Python
++ **Feedback : PyEZ is a microframework used to operate Junos using Python. A microframework is a package or library that provides code that is useful for a larger application.**
