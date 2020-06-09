@@ -67,12 +67,12 @@
 
 ### Programming Language
 + Python
-+ Feedback : Python communicates with the Junos XML API both on-box and off-box.
++ **Feedback : Python communicates with the Junos XML API both on-box and off-box.**
 
 ### XML hierarchy
 + ```<example/>```
 + ```<example></example>```
-+ Feedback : In some cases, there is no data to put between the opening and closing tags. In this case, you can combine the two tags into one using the shorthand notation.
++ **Feedback : In some cases, there is no data to put between the opening and closing tags. In this case, you can combine the two tags into one using the shorthand notation.**
 
 ### XML element nodes
 + An element node consists of everything between an opening and closing tag pair.
