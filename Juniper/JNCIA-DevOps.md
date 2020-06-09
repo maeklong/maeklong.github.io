@@ -106,6 +106,10 @@
 
 ## Data Serialization
 
+### JSON
++ JSON is a lightweight data-interchange format; human-readable but easier for machines to parse.
++ **Feedback : JSON is a lightweight data-interchange format. JSON is human-readable, but easier for machines to parse.**
+
 ### JSON object
 + ```{```
 + **Feedback : JSON objects begin with and end with curly braces. A single object can contain a series of key-value pairs, separated by commas. An empty object (zero key-value pairs) is allowed. Keys in JSON are always of string type.**
