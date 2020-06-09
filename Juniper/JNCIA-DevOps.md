@@ -41,7 +41,7 @@
 
 ### NETCONF 
 + 830
-+ **connections over SSH default port)** *
++ **Feedback : The IANA-assigned port for NETCONF-over-SSH sessions is 830.**
 
 + Java
 + Perl
