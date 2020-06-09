@@ -96,7 +96,7 @@
 
 ### XPath
 
-[![https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538677135815.png](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538677135815.png)](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538677135815.png)
+![](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538677135815.png)
 + /configuration/interfaces/interface/unit/family/inet/address
 + **Feedback : You can specify the XML node you want to access by specifying each subhierarchy of XML, and separating them with a forward slash. This method is similar to the way you would specify multiple levels of subdirectories on a UNIX host.**
 
@@ -115,7 +115,7 @@
 ### JSON object
 + ```{```
 + **Feedback : JSON objects begin with and end with curly braces. A single object can contain a series of key-value pairs, separated by commas. An empty object (zero key-value pairs) is allowed. Keys in JSON are always of string type.**
-[!["https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538678731369.png"](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538678731369.png)](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538678731369.png)
+![](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538678731369.png)
 + JSON object
 + **Feedback : JSON objects begin with and end with curly braces. A single object can contain a series of key-value pairs, separated by commas.**
 
@@ -165,7 +165,7 @@
 + **default path including the default file name of the Ansible inventory file**
 
 ### Ansible host file
-[!["https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679420996.png"](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679420996.png)](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679420996.png)
+![](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679420996.png)
 + router1 and router2 are included in the routers group.
 + **Feedback : You can place different hosts in groups, using square bracket syntax. For example, you might want to differentiate by device family (such as srx, mx, ex).**
 
@@ -173,7 +173,7 @@
 + YAML
 + **Feedback : Ansible playbooks are written in YAML and carry out the tasks defined in Python modules.**
 
-[!["https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png"](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png)](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png)
+![](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png)
 + The host variable must be defined in the inventory file.
 + The Juniper.junos modules will be executed locally on the control device.
 + **Feedback : Contained within this play are the requirements that the host variable must be defined in the inventory file and that the Juniper.junos modules will be executed locally on the control device.**
