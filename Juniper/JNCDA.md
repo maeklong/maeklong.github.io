@@ -1,4 +1,4 @@
-# Juniper Open Learning Design, Associate (JNCDA)
+# Design, Associate (JNCDA)
 # (JN0-1101)
 
 ## Customer Design Requirements
