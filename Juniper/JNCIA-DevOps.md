@@ -144,3 +144,10 @@
 ### YAML file
 +  ```---```
 + **Feedback : Although not required, it is customary to start all YAML documents with three dashes ```---```.**
+
+## Ansible
+
+### command 
++ ansible-galaxy install Juniper.junos *
++ **install a Juniper Networks-created Ansible module**
+
