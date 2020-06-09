@@ -245,6 +245,8 @@
 + The REST API uses simple tools that allow for fast prototyping.
 + Most programming languages include libraries for the REST API.
 + **Feedback : The REST API can be accessed using any program or programming language capable of generating HTTP requests. For a quick test, a Web browser (possibly with a suitable plugin), tools like Postman, or just the curl command line utility can be used. For actual programming, libraries have been developed for many languages that simplify the generation of REST API requests (such as the requests package for Python).**
++ REST
++ **Feedback : The Junos REST API enables Junos OS devices to participate in REST management system environments, allowing for the execution of Junos RPCs. Additionallly, the REST API provides GUI API explorer functionality.**
 
 ### communicate with a Junos device
 + REST
@@ -261,6 +263,8 @@
 ### Protocol
 + IPv4 only
 + **Feedback : The Junos OS REST API currently only works with IPv4 transport.**
++ ```protocol://device:port/rpc/procedure```
++ **Feedback : protocol://device:port/rpc/procedure is a valid example of an HTTP GET method.**
 
 ### daemon
 + mgd
