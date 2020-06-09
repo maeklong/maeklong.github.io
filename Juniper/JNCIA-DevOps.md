@@ -211,6 +211,10 @@
 + It is an unordered collection of key-value pairs.
 + **Feedback : A dictionary is an unordered collection of key, value-pairs and is identifiable by curly brackets ({}).**
 
+### Python tuple
++ ```t = ("Juniper", "Junos", "MX")```
++ **Feedback : Tuples use parentheses instead of square brackets.**
+
 ### PyEZ
 + Python
 + **Feedback : PyEZ is a microframework used to operate Junos using Python. A microframework is a package or library that provides code that is useful for a larger application.**
@@ -234,3 +238,21 @@
 ### Python interactive interpreter (shell)
 + ```bash$ python```
 + **Feedback : You can start the Python interactive interpreter, sometimes called the Python shell, just by typing python at the command prompt (sometimes you want to run a specific Python version, in this case you can type python2.7 for Python 2.7 or similarly for other versions).**
+
+## REST API
+
+### communicate with a Junos device
++ REST
++ **Feedback : Typically, REST uses HTTP(S), and any object accessible from the API corresponds to a unique URL on the server.**
++ lighttpd
++ **Feedback : The lighttpd server terminates HTTP(S) connection and passes request to the request to the mod_juise plugin.**
++ 3000 *
++ **default HTTP port that is used by the REST API to connect to a Junos device**
+
+### Protocol
++ IPv4 only
++ **Feedback : The Junos OS REST API currently only works with IPv4 transport.**
+
+### daemon
++ mgd
++ **Feedback : When a request is made, last daemon that would process the request is the mgd daemon. The MGD returns the data back to JUISE, which reformats the data for the lighttpd web server, which then passes the response back to the REST client.**
