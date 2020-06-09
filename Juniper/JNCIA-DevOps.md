@@ -178,6 +178,11 @@
 + The Juniper.junos modules will be executed locally on the control device.
 + **Feedback : Contained within this play are the requirements that the host variable must be defined in the inventory file and that the Juniper.junos modules will be executed locally on the control device.**
 
+[![](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679761631.png)]
++ Ansible playbook
++ YAML file
++ **Feedback : A playbook contains one or more plays. A play is essentially a set of hosts and a set of tasks that must be performed on the hosts. The playbook file is formatted in YAML.**
+
 ### Ansible operations on a Junos device
 + Ansible uses NETCONF over SSH sessions.
 + Ansible requires all tasks to execute locally on the control server.
