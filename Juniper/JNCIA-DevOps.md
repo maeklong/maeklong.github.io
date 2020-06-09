@@ -269,3 +269,8 @@
 ### daemon
 + mgd
 + **Feedback : When a request is made, last daemon that would process the request is the mgd daemon. The MGD returns the data back to JUISE, which reformats the data for the lighttpd web server, which then passes the response back to the REST client.**
+
+### Test API
++ curl
++ Postman
++ **Feedback : Typically you will only use a browser for simple HTTP GET queries. For more complex queries, you will likely prefer other tools like curl, Postman, REST API explorer or custom-built scripts.**
