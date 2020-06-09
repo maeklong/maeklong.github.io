@@ -201,8 +201,8 @@
 + **Feedback : Python uses the # symbol to indicate comments (alternatively, three quotes before and after the block of code might be used to indicate a multi-line comment).**
 
 ### Python operator
-+ bitwise *
-+ **The & and | characters represent bitwise**
++ bitwise
++ **Feedback : Bitwise operators like & (binary AND) and | (binary OR) allow for operations on binary numbers.**
 + The variables are compared to determine if they have the same value.
 + **Feedback : The == operator can be used determine if two variables contain equal values.**
 
