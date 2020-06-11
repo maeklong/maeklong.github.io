@@ -48,7 +48,20 @@
 + A private cloud has dedicated resources for individual customers.
 + A private cloud can be deployed in a service provider network.
 + **Feedback : Private cloud deployments allocate dedicated resources to an organization that are not shared among multiple tenants. Access to private cloud environments is through private leased connections, or over the Internet through secure VPN access. Unlike a public cloud deployment, only secure, authorized access to the resources is available.**
++ to protect sensitive data
++ to provide cloud-based services within an organization
++ **Feedback : With a private cloud, an organization retains control of the data and applications within the cloud environment. Often this is done to restrict access to sensitive information, or for internal security reasons. A private cloud within an organization often provides services to other business units or departments within the organization.**
 
 ### VMware NSX
 + QFX Series **
 + **Certified platform to interoperate with VMware NSX**
+
+### Automation Script
++ vMX Series
++ MX Series
++ **Feedback : Included in Junos OS, the Junos Automation Toolkit is a suite of tools supported on all Juniper Networks switches, routers, and security devices.**
+
+### ETSI Management and Orchestration (MANO) framework
++ virtualized network function manager (VNFM)
++ Network Functions Virtualization (NFV) orchestrator
++ **Feedback : Two of the key components of the ETSI NFV architectural framework are the NFV Orchestrator and VNF Manager, known as NFV MANO. Additional layers, such as service orchestration are also required for operators to enable true NFV services. Open Source software can facilitate the implementation of an ETSI aligned NFV architecture, provide practical and essential feedback to the ETSI ISG NFV and increase the likelihood of interoperability among NFV implementations.**
