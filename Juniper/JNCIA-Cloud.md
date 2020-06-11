@@ -16,3 +16,11 @@
 + EVPN
 + **Feedback : Some of the most common tunneling technologies are MPLS over GRE and VXLAN, where EVPN is used to establish and maintain VXLAN tunnels.**
 
+### PaaS
++ PaaS
++ **Feedback : Platform as a Service, or PaaS, goes one step beyond IaaS by providing a requested operating system on which applications can be installed.**
+
+### Data Center Underlay Network
++ spine network device redundancy
++ fast failover
++ **Feedback : Redundancy and high availability are two key properties of a robust underlay network.**
