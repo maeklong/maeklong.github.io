@@ -12,3 +12,6 @@
 + LACP
 + **Feedback : MC-LAG and LACP provide link and device redundancy without the need for Spanning Tree Protocol (STP)**
 
+### VXLAN Tunnel
++ EVPN
++ **Feedback : Some of the most common tunneling technologies are MPLS over GRE and VXLAN, where EVPN is used to establish and maintain VXLAN tunnels.**
