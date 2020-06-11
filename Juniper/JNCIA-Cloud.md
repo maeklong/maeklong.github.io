@@ -3,6 +3,12 @@
 
 ## Cloud Architectures
 
+### Software Suites
++ OpenStack
++ vSphere
++ Governments
++ **Feedback : OpenStack, vSphere, and Kubernetes are used in different roles in cloud architectures.**
+
 ### Secure VPN Technology
 + IPsec VPN
 + **Feedback : Access to private cloud environments is through private leased connections, or over the Internet through secure VPN access. IPsec VPN encrypts and hashes traffic as it traverses the putlic Internet.**
