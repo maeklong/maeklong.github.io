@@ -20,6 +20,10 @@
 + PaaS
 + **Feedback : Platform as a Service, or PaaS, goes one step beyond IaaS by providing a requested operating system on which applications can be installed.**
 
+### Underlay Network
++ BGP
++ **Feedback : The scalability of Layer 3 protocols, especially with regards to BGP, is much higher than Layer 2 technologies, and can scale from tens of thousands to hundreds of thousands of host devices.**
+
 ### Data Center Underlay Network
 + spine network device redundancy
 + fast failover
