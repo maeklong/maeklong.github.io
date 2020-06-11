@@ -30,6 +30,10 @@
 + to improve quality
 + **Feedback : Among other advantages, DevOps gives you consistency, security, stability and reliability, all of which contribute to increased speed, decreased cost of management per device, and decreased number of configuration errors.**
 
+### DevOps Three Ways
++ (Forward Thinking, Feedback, Automation)
++ (Flow)X
+
 ### Infrastructure as Code workflow
 + Code > Version Control > Code Review > Integrate > Deploy
 + **Feedback : A typical IaC workflow is as follows: the device code is created and then stored in a version control system; next, the device code goes through an automated code review process; it is then integrated back into the master code branch; and finallay is deployed out to the network device.**
@@ -52,6 +56,13 @@
 + jsd
 + **Feedback : The processes most important to Junos automation are the management process (mgd) and JET service processes (jsd). The mgd process handles the automation requests involving the Junos XML API, YANG, the REST API, and some SNMP functions. The JET service process (jsd) handles automation requests that use the Juniper Extension Toolkit (JET) API.**
 
+(handles automation using XML API)
+(mgd)
+(jsd, rpd, fwd)X
+
+(handles automation using gRPC)
+(jsd)
+(mgd, rpd, fwd)
 
 
 ## XML/NETCONF
@@ -100,9 +111,14 @@
 + /configuration/interfaces/interface/unit/family/inet/address
 + **Feedback : You can specify the XML node you want to access by specifying each subhierarchy of XML, and separating them with a forward slash. This method is similar to the way you would specify multiple levels of subdirectories on a UNIX host.**
 
+(parent node: ..)
+(login/@username)
+
 ### Junos OS
 + Enable NETCONF using the set system services netconf ssh command.
 + **Feedback : To enable the Junos OS to accept NETCONF sessions on port 830, you need to issue the set system services netconf ssh command.**
+
+(set netconf ssh)
 
 ## Data Serialization
 
@@ -111,6 +127,9 @@
 + **Feedback : JSON is a lightweight data-interchange format. JSON is human-readable, but easier for machines to parse.**
 + ```{"title": "The \"Big\" Router"}```
 + **Feedback : JSON strings can consist of any Unicode characters except for double quotes and backslashes. However, you can use double quotes and backslashes if you use the escape sequence first, so precede the characters to be escaped with a backslash as you would in C or Java.**
+
+(ignore white space, not have comment)
+(array use "[")
 
 ### JSON object
 + ```{```
@@ -136,6 +155,9 @@
 + JSON was designed for parsing speed over human readability.
 + YAML is designed around human readability over parsing speed.
 + **Feedback : Both JSON and YAML are human-readable. However, the foremost design goal of JSON is universality, so while the language is simple to generate and parse, there is a sacrifice of some human readability. In contrast, the highest priority of YAML is human readability and support for serializing arbitrary native data structures.**
+
+(YAML, has comment)
+(YAML, start w/ ---)
 
 ### YAML mapping
 + ```hostname: router```
@@ -163,6 +185,7 @@
 ### Ansible inventory file
 + /etc/ansible/hosts
 + **Feedback : Ansible’s inventory defaults to being saved in the location /etc/ansible/hosts.**
+(YAML, JSON)
 
 ### Ansible host file
 ![](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679420996.png)
@@ -172,6 +195,7 @@
 ### playbook
 + YAML
 + **Feedback : Ansible playbooks are written in YAML and carry out the tasks defined in Python modules.**
+(YAML, multiple plays)
 
 ![](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png)
 + The host variable must be defined in the inventory file.
@@ -225,6 +249,10 @@
 + NETCONF over SSH
 + **Feedback : PyEZ can use a NETCONF over SSH, Telnet, or Serial Console connection to a Junos device.**
 
+(NETCONF, console)
+
+route = dev.rpc.get_route_information(table="inet.0")
+
 ### PyEZ utils module
 + config
 + **Feedback : The config module allows for Junos device configuration operations.**
@@ -260,6 +288,9 @@
 + You must enable the REST API Explorer tool and connect to the Junos device using the Explorer's default port of 3443.
 + **Feedback : To enable the REST API Explorer, issue the set system services rest enable-explorer configuration mode command. After you commit the configuration, navigate in a browser to the host name or IP address of your Junos device, appending the configured port number after the colon. The default port number is 3000 for HTTP and 3443 for HTTPS.**
 
+(REST API supports HTTPS)
+(defualt REST API port for HTTP is 3000)
+
 ### Protocol
 + IPv4 only
 + **Feedback : The Junos OS REST API currently only works with IPv4 transport.**
@@ -274,3 +305,42 @@
 + curl
 + Postman
 + **Feedback : Typically you will only use a browser for simple HTTP GET queries. For more complex queries, you will likely prefer other tools like curl, Postman, REST API explorer or custom-built scripts.**
+
+
+
+
+Junos Automation Script : able to create custome Junos commands
+(Commit)
+(Event, SNMP, Op)X
+
+
+JSNAPy
+(Get Info, JET)
+(Get Info, REST)X
+(Compare)X
+(Update)X
+
+
+show interface terse | display xml
+(list int in XML)
+show interface terse | display xml
+XML API rpc call show int
+
+Junos OS operational command schema data file
+(describe OS config hierarchy)
+
+(ansible use NETCONF to connect dev.)
+(Ansible playbook run locally)
+
+(Juniper provide support Juniper.junos Ansible Galaxy modules)
+(The Juniper.junos and Ansible Junos mod. same playbook)
+(idempotent, task is run only when changes are needed)
+
+Python is an interpreted lang
+Python uses space to create block
+
+Python dictionary, not preserve order, separate w/ colon
+
+from jnpr.junos import Device
+
+REST API Explorer (GUI, HTTP GET, HTTP POST) (/rpc/get-interface-inforamtion)
