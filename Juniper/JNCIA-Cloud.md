@@ -45,3 +45,6 @@
 + Resources are dedicated to your organization.
 + Resources are accessed through a private connection.
 + **Feedback : Resources are not shared among multiple tenants, and access to the resources are through a private connection, as opposed to a general public connection.**
++ A private cloud has dedicated resources for individual customers.
++ A private cloud can be deployed in a service provider network.
++ **Feedback : Private cloud deployments allocate dedicated resources to an organization that are not shared among multiple tenants. Access to private cloud environments is through private leased connections, or over the Internet through secure VPN access. Unlike a public cloud deployment, only secure, authorized access to the resources is available.**
