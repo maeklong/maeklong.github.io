@@ -97,6 +97,9 @@
 + SLAX
 + **Feedback : Historically, XSLT and SLAX were the first languages specifically designed to work with the Junos XML API. Starting with Junos 16.1, Python can be used for the same task as well.**
 
+### XML API
++ Junos CLI communicates directly with XML API
+
 ### XML remote procedure call
 + router> show system name-resolution \| display xml rpc
 + **Feedback : You can determine the RPC by using the show interfaces ge-0/0/0 command with the \| display xml rpc command option at the end.**
