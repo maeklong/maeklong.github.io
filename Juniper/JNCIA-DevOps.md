@@ -373,8 +373,11 @@ Junos OS operational command schema data file
 (The Juniper.junos and Ansible Junos mod. same playbook)
 (idempotent, task is run only when changes are needed)
 
-Python is an interpreted lang
-Python uses space to create block
++ Ansible provides idempotent operations., mean...
++ The result of performing the operation once is exactly the same as the result of performing it repeatedly without any intervening actions
+
++ Python is an interpreted lang
++ Python uses space to create block
 
 Python dictionary, not preserve order, separate w/ colon
 + 
