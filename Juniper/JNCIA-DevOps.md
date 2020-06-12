@@ -226,6 +226,7 @@
 ### Python
 + to comment
 + **Feedback : Python uses the # symbol to indicate comments (alternatively, three quotes before and after the block of code might be used to indicate a multi-line comment).**
++ A global variable can only be used by functions that are defined later*
 
 ### Python operator
 + bitwise
