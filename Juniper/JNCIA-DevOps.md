@@ -105,9 +105,12 @@
 + Messages
 + Transport
 + **Feedback : Messages and Transport are both layers of the NETCONF protocol.**
-+ Operations
++ + Operations
 + Content
 + **Feedback : Operations and Content are both layers of the NETCONF protocol.**
++ ```<rpc>```
++ ```<rpc-reply>```
++ **XML elements of the NETCONF Message layer**
 
 ### gem install net-netconf command
 + Ruby
