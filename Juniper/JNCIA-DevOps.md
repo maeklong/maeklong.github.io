@@ -333,6 +333,9 @@ route = dev.rpc.get_route_information(table="inet.0")
 + **Feedback : Typically, REST uses HTTP(S), and any object accessible from the API corresponds to a unique URL on the server.**
 + lighttpd
 + **Feedback : The lighttpd server terminates HTTP(S) connection and passes request to the request to the mod_juise plugin.**
++ Restrict access by the source IP address
++ Enable a schedule of specific access times
++ **to restrict access to the REST API on a Junos device**
 
 ### log file
 + ```/var/chroot/rest-api/var/log```
