@@ -111,6 +111,8 @@
 + ```<rpc>```
 + ```<rpc-reply>```
 + **XML elements of the NETCONF Message layer**
++ NETCONF is a standardized protocol and works with multiple vendors' devices
++ NETCONF operations are processed by the **mgd** process
 
 ### gem install net-netconf command
 + Ruby
@@ -245,6 +247,8 @@
 + **Feedback : Bitwise operators like & (binary AND) and \| (binary OR) allow for operations on binary numbers.**
 + The variables are compared to determine if they have the same value.
 + **Feedback : The == operator can be used determine if two variables contain equal values.**
++ ==
++ **tests two variables to see if they contain the same value**
 
 ### Python dictionary
 + It is identifiable by curly brackets ({}).
