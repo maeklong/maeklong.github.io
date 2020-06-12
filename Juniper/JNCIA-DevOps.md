@@ -121,6 +121,8 @@
 ### XML element nodes
 + An element node consists of everything between an opening and closing tag pair.
 + **Feedback : XML elements or everything within a matching start and end tag are represented as element nodes in a document object model.**
++
++ **```<name> username </name>``` XML code, what is the entire string, including the opening and closing tags, called 'element node' **
 
 ### XML document nodes
 + The document node is defined as the entire XML document.
@@ -189,6 +191,8 @@
 
 ### JSON & YAML
 
++ YAML was designed as a superset of JSON
++
 + JSON
 + YAML
 + **Feedback : JSON is a data serialization language most often used to move data between an Internet client and server. YAML is a Unicode-based data serialization language designed around common native data types found in agile programming languages.**
@@ -226,6 +230,8 @@
 + **Feedback : Juniper junos rpc executes one or more RPCs and returns the result.**
 
 ### Junos Ansible modules
++ Ansible code modules are typically written in 'Python'
++
 + junos_rpc
 + junos_facts
 + **Feedback : "junos_rpc runs an arbitrary RPC over NetConf on a Junos device, and junos_facts collects facts from remote Junos devices."**
@@ -287,6 +293,8 @@
 + **Feedback : Python uses the # symbol to indicate comments (alternatively, three quotes before and after the block of code might be used to indicate a multi-line comment).**
 + A global variable can only be used by functions that are defined later*
 +
++ Python is a programming language
++
 + Python automatically deletes unused objects from memory
 + Python behavior is influenced by the host OS
 
@@ -309,6 +317,8 @@
 + **Feedback : Tuples use parentheses instead of square brackets.**
 
 ### PyEZ
++ PyEZ is an extension library for Python
++
 + Python
 + **Feedback : PyEZ is a microframework used to operate Junos using Python. A microframework is a package or library that provides code that is useful for a larger application.**
 + PyEZ exception handling
@@ -348,6 +358,9 @@ route = dev.rpc.get_route_information(table="inet.0")
 + **Feedback : The REST API can be accessed using any program or programming language capable of generating HTTP requests. For a quick test, a Web browser (possibly with a suitable plugin), tools like Postman, or just the curl command line utility can be used. For actual programming, libraries have been developed for many languages that simplify the generation of REST API requests (such as the requests package for Python).**
 + REST
 + **Feedback : The Junos REST API enables Junos OS devices to participate in REST management system environments, allowing for the execution of Junos RPCs. Additionallly, the REST API provides GUI API explorer functionality.**
++ HTTPS
++ SSH
++ **The REST API uses which two protocols for *transport* **
 
 ### communicate with a Junos device
 + REST
