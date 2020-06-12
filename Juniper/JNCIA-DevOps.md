@@ -23,6 +23,8 @@
 + DevOps is a methodology used to develop software or systems.
 + DevOps is a methodology that allows for frequent, quick modifications.
 + **Feedback : DevOps is a combination of technologies, design concepts, mentalities, and ideals that enable high performing IT teams to move fast while maintaining stability. DevOps creates a tight loop of product release and feedback. With DevOps, changes in functionality happen frequently and are moved to production fast.**
++ to reduce deployment anxiety
++ to quickly integrate software updates
 
 + Feedback should be analyzed at each stage of the process.
 + A goal is to make development, test, and production environments as identical as possible.
