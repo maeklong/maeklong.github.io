@@ -308,9 +308,11 @@ route = dev.rpc.get_route_information(table="inet.0")
 + **Feedback : The TCP port used for HTTP by the REST API to connect to a Junos device is 3000. You can assign a value from 1024 through 65535.**
 + You must enable the REST API Explorer tool and connect to the Junos device using the Explorer's default port of 3443.
 + **Feedback : To enable the REST API Explorer, issue the set system services rest enable-explorer configuration mode command. After you commit the configuration, navigate in a browser to the host name or IP address of your Junos device, appending the configured port number after the colon. The default port number is 3000 for HTTP and 3443 for HTTPS.**
-
-(REST API supports HTTPS)
-(defualt REST API port for HTTP is 3000)
++ REST API supports HTTPS
++ defualt REST API port for HTTP is 3000
++ 
++ server certificate
++ **use a self-signed SSL certificate and must ensure that the commit does not fail**
 
 ### Protocol
 + IPv4 only
