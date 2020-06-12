@@ -17,6 +17,7 @@
 + Customer collaboration is preferred over contract negotiations.
 + Working software is preferred over comprehensive documentation.
 + **Feedback : The “Manifesto” formulated the main values of Agile as follows: individuals and interactions over processes and tools; working software over comprehensive documentation; customer collaboration over contract negotiation; and responding to change over following a plan.**
++ After the development cycle has begun, new software requirements can be added at any point
 
 ### DevOps
 + DevOps is a methodology used to develop software or systems.
