@@ -457,3 +457,12 @@ REST API Explorer (GUI, HTTP GET, HTTP POST) (/rpc/get-interface-inforamtion)
 + NRE is a proactive process against network failures and monitors every meaningful performance indicator
 + NRE embraces failure and ensures that the same failure does not happen again
 
+>>> a = list()
+>>> a.append(2)
+>>> a.append(4)
+>>> a.append(6)
+>>> b = a
+>>> a[0] = 5
+>>> b
+[5]
+>>>
