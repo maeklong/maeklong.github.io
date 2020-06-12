@@ -225,6 +225,7 @@
 + **Feedback : Ansible modulse are executed locally and connect using NETCONF over SSH to Junos devices, performing operations on them as needed.**
 + Ansible modules are executed on the control server.
 + **Feedback : The Juniper implementation of Ansible requires all tasks to run locally on the Ansible control server.**
++ Ansible modules are copied and executed on the Junos device
 
 ## Python or PyEZ
 
