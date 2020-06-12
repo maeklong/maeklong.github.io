@@ -214,6 +214,9 @@
 + **Feedback : "junos_rpc runs an arbitrary RPC over NetConf on a Junos device, and junos_facts collects facts from remote Junos devices."**
 + Ansible core modules for the Junos OS are developed by Ansible developers
 + Ansible Galaxy modules for the Junos OS and Ansible core modules for the Junos OS can coexist on the same control machine
++ unos_package
++ juniper_junos_software
++ **to use Ansible to upgrade your Junos devices to the current JTAC supported release**
 
 ### Ansible inventory file
 + /etc/ansible/hosts
