@@ -410,3 +410,7 @@ REST API Explorer (GUI, HTTP GET, HTTP POST) (/rpc/get-interface-inforamtion)
 ![](img/Python_Script.png)
 + It saves the current configuration as a rescue configuration only if one does not exist
 + It prints the rescue configuration if one already exists
+
++ 2
++ ```>>> a = [1,4,5,2,3,8,7,9]```
++ ```print (a[3])```
