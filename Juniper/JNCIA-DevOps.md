@@ -68,6 +68,10 @@
 
 ## XML/NETCONF
 
+### XML
++ XML is used to send an event notification to a client
++ XML is used to issue Junos operational commands
+
 ### on-box automation
 + Python
 + SLAX
