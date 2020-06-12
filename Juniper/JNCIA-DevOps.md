@@ -8,6 +8,10 @@
 + Continuous Delivery means that software is deployed on demand when there is a new software build.
 + **Feedback : Continuous Delivery ensures code is ready to deploy at any time (with actual deploy not necessarily happening in a fully automated way), and Continuous Deployment includes the stage of automated deployment.**
 
+### CI/CD
++ to use a version control system
++ to have a large consolidated code delivery
+
 ### The waterfall model of software development
 + One phase of development must be completed before the next phase can start.
 + This method lacks flexibility.
