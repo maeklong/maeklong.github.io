@@ -140,6 +140,8 @@
 + **Feedback : JSON is a lightweight data-interchange format. JSON is human-readable, but easier for machines to parse.**
 + ```{"title": "The \"Big\" Router"}```
 + **Feedback : JSON strings can consist of any Unicode characters except for double quotes and backslashes. However, you can use double quotes and backslashes if you use the escape sequence first, so precede the characters to be escaped with a backslash as you would in C or Java.**
++ JSON can be used to structure data
++ JSON can be used to format data between a client and a server
 
 (ignore white space, not have comment)
 (array use "\[")
@@ -245,6 +247,9 @@
 + to comment
 + **Feedback : Python uses the # symbol to indicate comments (alternatively, three quotes before and after the block of code might be used to indicate a multi-line comment).**
 + A global variable can only be used by functions that are defined later*
++
++ Python automatically deletes unused objects from memory
++ Python behavior is influenced by the host OS
 
 ### Python operator
 + bitwise
@@ -318,7 +323,8 @@ route = dev.rpc.get_route_information(table="inet.0")
 + **Feedback : To enable the REST API Explorer, issue the set system services rest enable-explorer configuration mode command. After you commit the configuration, navigate in a browser to the host name or IP address of your Junos device, appending the configured port number after the colon. The default port number is 3000 for HTTP and 3443 for HTTPS.**
 + REST API supports HTTPS
 + defualt REST API port for HTTP is 3000
-+ 
++ default REST HTTPS port used on a Junos device is 3443
++
 + server certificate
 + **use a self-signed SSL certificate and must ensure that the commit does not fail**
 
