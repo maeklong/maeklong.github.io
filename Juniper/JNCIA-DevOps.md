@@ -320,6 +320,8 @@ route = dev.rpc.get_route_information(table="inet.0")
 ### PyEZ utils module
 + config
 + **Feedback : The config module allows for Junos device configuration operations.**
++ scp
++ **to securely copy a software image to a remote device using a Python script**
 
 ### PyEZ Python script
 ![](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538680670475.png)
