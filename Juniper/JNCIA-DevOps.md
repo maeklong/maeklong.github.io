@@ -130,7 +130,7 @@
 + **Feedback : JSON strings can consist of any Unicode characters except for double quotes and backslashes. However, you can use double quotes and backslashes if you use the escape sequence first, so precede the characters to be escaped with a backslash as you would in C or Java.**
 
 (ignore white space, not have comment)
-(array use "[")
+(array use "\[")
 
 ### JSON object
 + ```{```
