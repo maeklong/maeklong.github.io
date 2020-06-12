@@ -208,6 +208,10 @@
 + router1 and router2 are included in the routers group.
 + **Feedback : You can place different hosts in groups, using square bracket syntax. For example, you might want to differentiate by device family (such as srx, mx, ex).**
 
+### Ansible Vault
++ Ansible Vault
++ **Ansible provides encrypted files to house sensitive data such as login credentials and keys**
+
 ### playbook
 + YAML
 + **Feedback : Ansible playbooks are written in YAML and carry out the tasks defined in Python modules.**
@@ -302,6 +306,10 @@ route = dev.rpc.get_route_information(table="inet.0")
 + **Feedback : Typically, REST uses HTTP(S), and any object accessible from the API corresponds to a unique URL on the server.**
 + lighttpd
 + **Feedback : The lighttpd server terminates HTTP(S) connection and passes request to the request to the mod_juise plugin.**
+
+### log file
++ ```/var/chroot/rest-api/var/log```
++ **Junos store the associated log files in**
 
 ### Port
 + 3000
