@@ -65,14 +65,15 @@
 + mgd
 + jsd
 + **Feedback : The processes most important to Junos automation are the management process (mgd) and JET service processes (jsd). The mgd process handles the automation requests involving the Junos XML API, YANG, the REST API, and some SNMP functions. The JET service process (jsd) handles automation requests that use the Juniper Extension Toolkit (JET) API.**
-
-(handles automation using XML API)
-(mgd)
-(jsd, rpd, fwd)X
++ mgd
++ **Junos process handles automation requests involving the XML API, YANG, the REST API, and SNMP functions**
++ mgd
++ **handles automation using XML API)**
 
 (handles automation using gRPC)
 (jsd)
 (mgd, rpd, fwd)
+
 
 
 ## XML/NETCONF
@@ -178,16 +179,18 @@
 + **Feedback : Both JSON and YAML are human-readable. However, the foremost design goal of JSON is universality, so while the language is simple to generate and parse, there is a sacrifice of some human readability. In contrast, the highest priority of YAML is human readability and support for serializing arbitrary native data structures.**
 + YAML is a Unicode-based serialization language designed around common data types
 
-(YAML, has comment)
-(YAML, start w/ ---)
-
 ### YAML mapping
 + ```hostname: router```
 + **Feedback : YAML mappings are sets of key-value pairs, equivalent to JSON objects.The keys and corresponding values are separated by a colon (:). In YAML, the strings do not require quotation marks.**
 
 ### YAML file
-+  ```---```
++ ```---```
 + **Feedback : Although not required, it is customary to start all YAML documents with three dashes ```---```.**
++ YAML, has comment
++ YAML, start with ```---```
+![](img/YAML_Set.png)
++ a set
++ **YAML form is represented in*
 
 ## Ansible
 
