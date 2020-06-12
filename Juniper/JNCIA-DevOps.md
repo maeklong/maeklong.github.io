@@ -267,9 +267,12 @@
 + **Ansible provides encrypted files to house sensitive data such as login credentials and keys**
 
 ### playbook
++ A playbook is a collection of tasks to be performed on the host
++
 + YAML
 + **Feedback : Ansible playbooks are written in YAML and carry out the tasks defined in Python modules.**
 (YAML, multiple plays)
++ A playbook can contain multiple tasks and execute multiple Python modules
 
 ![](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679503383.png)
 + The host variable must be defined in the inventory file.
@@ -296,6 +299,8 @@
 ## Python or PyEZ
 
 ### Python
++ Python 3.x is not fully backwards compatible with Python 2.x
++ 
 + to comment
 + **Feedback : Python uses the # symbol to indicate comments (alternatively, three quotes before and after the block of code might be used to indicate a multi-line comment).**
 + A global variable can only be used by functions that are defined later*
