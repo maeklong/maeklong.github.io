@@ -361,7 +361,8 @@ Python is an interpreted lang
 Python uses space to create block
 
 Python dictionary, not preserve order, separate w/ colon
-
-from jnpr.junos import Device
-
++ 
++ from jnpr.junos import Device (X)
++ from jnpr.junos.exception import connectError (OK)
++
 REST API Explorer (GUI, HTTP GET, HTTP POST) (/rpc/get-interface-inforamtion)
