@@ -160,6 +160,7 @@
 + JSON was designed for parsing speed over human readability.
 + YAML is designed around human readability over parsing speed.
 + **Feedback : Both JSON and YAML are human-readable. However, the foremost design goal of JSON is universality, so while the language is simple to generate and parse, there is a sacrifice of some human readability. In contrast, the highest priority of YAML is human readability and support for serializing arbitrary native data structures.**
++ YAML is a Unicode-based serialization language designed around common data types
 
 (YAML, has comment)
 (YAML, start w/ ---)
