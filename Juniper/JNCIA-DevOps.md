@@ -215,6 +215,9 @@
 ![](https://s3.amazonaws.com/crlearningpath/crcloud/assessment/1538679420996.png)
 + router1 and router2 are included in the routers group.
 + **Feedback : You can place different hosts in groups, using square bracket syntax. For example, you might want to differentiate by device family (such as srx, mx, ex).**
++ SRX Series
++ MX Series
++ **Junos platforms support the REST API**
 
 ### Ansible Vault
 + Ansible Vault
