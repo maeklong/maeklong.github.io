@@ -29,6 +29,8 @@
 + **Feedback : DevOps is a combination of technologies, design concepts, mentalities, and ideals that enable high performing IT teams to move fast while maintaining stability. DevOps creates a tight loop of product release and feedback. With DevOps, changes in functionality happen frequently and are moved to production fast.**
 + to reduce deployment anxiety
 + to quickly integrate software updates
++
++ the foundation for DevOps success -> 'culture'
 
 ### DevOps Environments
 + The development and operations environments are different
