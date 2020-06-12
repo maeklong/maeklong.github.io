@@ -327,19 +327,17 @@ route = dev.rpc.get_route_information(table="inet.0")
 + Postman
 + **Feedback : Typically you will only use a browser for simple HTTP GET queries. For more complex queries, you will likely prefer other tools like curl, Postman, REST API explorer or custom-built scripts.**
 
+### Cannot Clasified
 
+### Junos Automation Script : able to create custome Junos commands
++ Commit (chosen)
++ (Event, SNMP, Op) (not choose)
 
-
-Junos Automation Script : able to create custome Junos commands
-(Commit)
-(Event, SNMP, Op)X
-
-
-JSNAPy
-(Get Info, JET)
-(Get Info, REST)X
-(Compare)X
-(Update)X
+### JSNAPy
++ (Get Info, JET)
++ (Get Info, REST)X
++ (Compare)X
++ (Update)X
 
 
 show interface terse | display xml
