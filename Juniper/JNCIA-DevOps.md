@@ -26,6 +26,10 @@
 + to reduce deployment anxiety
 + to quickly integrate software updates
 
+### DevOps Environments
++ The development and operations environments are different
++ The DevOps practice relies heavily on the use of virtualization
+
 + Feedback should be analyzed at each stage of the process.
 + A goal is to make development, test, and production environments as identical as possible.
 + **Feedback : You need to gather feedback at all stages of production and delivery. Collect feedback from developers, operations, customers, and anyone else who may have information that can help you improve your flow or quality of product. A benefit of both Continuous Delivery and Continuous Deployment is that they contribute to making your development, test, and production environments as identical as possible.**
