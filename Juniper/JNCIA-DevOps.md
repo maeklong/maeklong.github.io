@@ -170,6 +170,11 @@
 + JSON object
 + **Feedback : JSON objects begin with and end with curly braces. A single object can contain a series of key-value pairs, separated by commas.**
 
+# display json
++ user@router> show configuration interfaces | display json
++ [edit] user@router# show interfaces | display json
++ **commands would be used to view the interface configuration on a Junos device in JSON format**
+
 ### JSON array
 + ```[```
 + **Feedback : An array in JSON is an ordered collection of values. Array structures begin and end with square brackets. Arrays contain zero, one or more values; array values are separated by commas.**
@@ -362,6 +367,7 @@ route = dev.rpc.get_route_information(table="inet.0")
 + **Feedback : The Junos OS REST API currently only works with IPv4 transport.**
 + ```protocol://device:port/rpc/procedure```
 + **Feedback : protocol://device:port/rpc/procedure is a valid example of an HTTP GET method.**
++ HTTP supports the GET and POST methods
 
 ### daemon
 + mgd
