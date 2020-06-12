@@ -138,6 +138,7 @@
 + ```<rpc>```
 + ```<rpc-reply>```
 + **XML elements of the NETCONF Message layer**
++ **NETCONF Operation layer**
 + NETCONF is a standardized protocol and works with multiple vendors' devices
 + NETCONF operations are processed by the **mgd** process
 
@@ -172,7 +173,9 @@
 
 (ignore white space, not have comment)
 (array use "\[")
-
++
++ **object and array** are two data structures in JSON
++
 ### JSON object
 + ```{```
 + **Feedback : JSON objects begin with and end with curly braces. A single object can contain a series of key-value pairs, separated by commas. An empty object (zero key-value pairs) is allowed. Keys in JSON are always of string type.**
@@ -205,6 +208,8 @@
 + YAML is designed around human readability over parsing speed.
 + **Feedback : Both JSON and YAML are human-readable. However, the foremost design goal of JSON is universality, so while the language is simple to generate and parse, there is a sacrifice of some human readability. In contrast, the highest priority of YAML is human readability and support for serializing arbitrary native data structures.**
 + YAML is a Unicode-based serialization language designed around common data types
++ YAML is human readable and supports serializing arbitrary native data structures
++ JSON is language dependent, which uses conventions that are familiar to programmers of languages like C, C++, Java, Perl, and Python
 
 ### YAML mapping
 + ```hostname: router```
@@ -228,6 +233,8 @@
 ### Ansible Galaxy module 
 + juniper_junos_rpc
 + **Feedback : Juniper junos rpc executes one or more RPCs and returns the result.**
++ uniper_junos_config
++ **retrieve the last_reboot_reason value from a Junos device**
 
 ### Junos Ansible modules
 + Ansible code modules are typically written in 'Python'
