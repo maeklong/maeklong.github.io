@@ -160,6 +160,8 @@
 + junos_rpc
 + junos_facts
 + **Feedback : "junos_rpc runs an arbitrary RPC over NetConf on a Junos device, and junos_facts collects facts from remote Junos devices."**
++ Ansible core modules for the Junos OS are developed by Ansible developers
++ Ansible Galaxy modules for the Junos OS and Ansible core modules for the Junos OS can coexist on the same control machine
 
 ### Ansible inventory file
 + /etc/ansible/hosts
@@ -211,6 +213,7 @@
 + It is identifiable by curly brackets ({}).
 + It is an unordered collection of key-value pairs.
 + **Feedback : A dictionary is an unordered collection of key, value-pairs and is identifiable by curly brackets ({}).**
++ **a collection of multiple ordered values**
 
 ### Python tuple
 + ```t = ("Juniper", "Junos", "MX")```
