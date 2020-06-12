@@ -3,6 +3,9 @@
 
 ## Junos Automation Stack and DevOps Concepts
 
+### Automation
++ Automation reduces the costs of **managing a large number of devices**
+
 ### Continuous Delivery
 + Continuous Delivery is required for Continuous Deployment.
 + Continuous Delivery means that software is deployed on demand when there is a new software build.
@@ -337,6 +340,8 @@ route = dev.rpc.get_route_information(table="inet.0")
 
 ## REST API
 
++ REST API retrieves data from a connected device in **XML and JSON**
+
 ### Advantage
 + The REST API uses simple tools that allow for fast prototyping.
 + Most programming languages include libraries for the REST API.
@@ -434,3 +439,8 @@ REST API Explorer (GUI, HTTP GET, HTTP POST) (/rpc/get-interface-inforamtion)
 + 2
 + ```>>> a = [1,4,5,2,3,8,7,9]```
 + ```print (a[3])```
+
++ **NRE**
++ NRE is a proactive process against network failures and monitors every meaningful performance indicator
++ NRE embraces failure and ensures that the same failure does not happen again
+
