@@ -69,6 +69,8 @@
 + **Junos process handles automation requests involving the XML API, YANG, the REST API, and SNMP functions**
 + mgd
 + **handles automation using XML API)**
++ jsd
++ **Junos process is responsible for handling automation requests involving the JET API**
 
 (handles automation using gRPC)
 (jsd)
