@@ -364,3 +364,6 @@ Python dictionary, not preserve order, separate w/ colon
 + from jnpr.junos.exception import connectError (OK)
 +
 REST API Explorer (GUI, HTTP GET, HTTP POST) (/rpc/get-interface-inforamtion)
+
+
+![](img/Python_Script.png)
