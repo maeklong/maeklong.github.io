@@ -163,4 +163,45 @@
 + You must include highly available redundant connections for all applications in your design.
 + You need to include hardware redundancy in your design.
 + **Feedback : In campus redundancy, you must ensure that there is high availability for all applications and hardware redundancy must be part of your design.**
++ You need to include network redundancy in your design.
++ You need to include redundant wireless access points in your design.
++ **Feedback : In campus redundancy, you must ensure that there is network redundancy and redundant wireless access points in your design.**
 
+### distance between the Ethernet switches
++ 100 meters
++ **???***
+
+## Logical Design Considerations
+
+### size and scope of a new network design
++ The number of users is important.
++ The type of devices is important.
++ **Feedback : When determining the size and scope of a new network design you should consider the number of users and the type of devices that will be accessing the network.**
+
+### capacity and scaling of systems for a campus switching design
++ The average number of wireless devices that will be connecting to the network.
++ The average bandwidth usage of users.
++ **Feedback : When determining the capacity and scaling of systems in a campus design you should consider the average number of wireless devices that will be connecting to the network and the average bandwidth usage for the users.**
+
+### large campus building with many users who are in different department
++ VLAN
++ **Feedback : The VLAN technology should be used to separate the users within different departments.**
+
+### different groups must be tightly restricted
++ A Layer 4 firewall
++ **Feedback : You should use a firewall to restrict between the different groups.**
+
+### redundant WAN links
++ **Feedback : Redundant WAN links can address the connectivity issue as a single WAN link could be flapping and causing the connectivity issues.**
+
+### hub-and-spoke VPN
++ **Replace the hub-and-spoke VPN with an ADVPN.
+Feedback : Deploying an ADVPN removes the hub device from the forwarding path in spoke-to-spoke communication. Full-meshed VPN does not work in this situation because of the management overhead a full mesh VPN places on the IT staff that has recently seen cutbacks.**
+
+### SSL VPN
++ **Feedback : SSL VPNs allow remote home workers to access corporate resources securely.**
++ **allows remote home workers to access resources at the corporate headquarters securely**
+
+### Junos Space
++ Network Director
++ **Feedback : The Network Director application can be used to manage VLANs on EX devices.**
