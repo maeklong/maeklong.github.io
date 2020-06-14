@@ -398,6 +398,10 @@
 + centralized
 + **Feedback : The Junos Space Security Director application is a centralized management solution.**
 
+### Network Director
++ centralized
++ **Feedback : Network Director is a centralized management application.**
+
 ### disaster recovery
 + Deploying a Data Center Interconnect.
 + **Feedback : Deploying a Data Center Interconnect between two data centers would ensure that the customer is completely prepared for a disaster recovery scenario.**
