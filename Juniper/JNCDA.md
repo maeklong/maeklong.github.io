@@ -20,4 +20,14 @@
 + **Feedback : The two sub-phases of the plan methodology are access and design.**
 
 ### key RFP elements
-+ 
++ Business requirements
++ Environmental requirements
++ **Feedback : The business and environmental requirements are key RFP elements.**
+
+### business continuity RFP element
+????
+
+### environmental requirements RFP element
++ A detailed report that describes the facility specifications.
++ The number of users and workstation requirements.
++ **Feedback : The environmental requirements RFP element includes a detailed report that describes the facility specifications and the number of users and workstation requirements.**
