@@ -147,7 +147,20 @@
 + open standards protocol
 + provides redundancy through a virtual IP address
 + **Feedback : VRRP is an open standards protocol and provides redundancy through the use of a virtual IP address.**
++ The VRRP members can contain two different routing platforms.
++ **Feedback : VRRP do not need any special connections between the members. VRRP is an open standards protocol, which means the routing platforms can be different.**
++ The maximum number of routing devices in a VRRP group is two
++ **????**
 
 ### chassis cluster
 + The SRX model numbers must be the same to form a chassis cluster.
 + **Feedback : A chassis cluster must contain the same SRX models. Attempting to cluster an SRX340 and a SRX345 together will not work.**
++ The chassis cluster uses a fabric link between the two nodes.
++ The chassis cluster nodes can be located in different cities.
++ **Feedback : To form a chassis cluster you must use a fabric link between the two nodes and the two nodes can be located in different cities.**
+
+### campus redundancy best practices
++ You must include highly available redundant connections for all applications in your design.
++ You need to include hardware redundancy in your design.
++ **Feedback : In campus redundancy, you must ensure that there is high availability for all applications and hardware redundancy must be part of your design.**
+
