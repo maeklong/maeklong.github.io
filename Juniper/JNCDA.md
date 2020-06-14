@@ -488,6 +488,10 @@
 + It supports up to 40 Gbps interfaces.
 + **Feedback : VCF combines multiple devices into a single logical device and supports up to 40 Gbps interfaces.**
 
+### spine-and-leaf
++ **Feedback : The spine-and-leaf architecture provides low application latency because each host in the data center is no more than two hops away from each other.**
++ **data center and the applications require very low latency**
+
 ### data-interchange format
 + JSON
 + **Feedback : You can use JSON to automate Junos OS platforms.**
