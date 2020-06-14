@@ -11,6 +11,10 @@
 + interviews
 + questionnaires
 + **Feedback : As you begin to work with the customer more closely, you will need to gather the data necessary to accurately determine what you will need for your network design. Use questionnaires, surveys, and interviews to interact with your customer’s workforce.**
++ questionnaires
++ interviews
++ job aids
++ **Feedback : Using questionnaires, interviews, and job aids are great ways to gather data about the customer's current networking environment.**
 
 ### Network Design
 + You should understand the state of the customer's current network.
@@ -32,7 +36,7 @@
 + SONET/SDH
 + **Feedback : MPLS/VPN and SONET/SDH will most likely be used in your network design.**
 
-# Untrusted Domains
+### Untrusted Domains
 + WAN edge
 + access
 + **Feedback : The WAN edge and access tiers connect to untrusted domains.**
@@ -63,6 +67,11 @@
 + A list of design requirements.
 + The types of solutions the design must provide.
 + **Feedback : An RFP must include a list of design requirements and the types of solutions that the design will provide.**
+
+### modular requirements RFP element
++ Hierarchical design considerations
++ Functionality of each module within the design
++ **Feedback : The modular requirements RFP element includes the hierarchical design considerations and the functionality of each module within the design.**
 
 ### business requirements RFP element 
 + A summary the type of business the customer is in.
@@ -113,12 +122,20 @@
 + Modularity provides hierarchical structure to your design.
 + **Feedback : Modularity is important because it helps with future growth and troubleshooting efforts as well as giving a hierarchical structure to your design.**
 
+### brownfield projects
++ Old equipment that should be replaced.
++ Legacy applications that are no longer used.
++ **Feedback : Brownfield projects typically involve an existing network in which legacy and existing application must be considered.**
+
 ## Customer Organizational Structure
 
 ### business continuity
 + The prevention of interruption to mission-critical services.
 + The ability to reestablish full functionality quickly after a disaster.
 + **Feedback : Business continuity should involve prevention and recovery methods that are proactive. Reactive measures such as manually turning on a backup server, or manually loading backed up data are reactive disaster recovery methods.**
++ Create continuity plans.
++ Analyze packet flow.
++ **Feedback : Business continuity should be proactively built into the network design to ensure that essential functions can continue. Before a business continuity plan can be tested, staff must be notified and also be familiar with what is expected of them for a given scenario. The actual tests can be theoretical or, better yet, they can be full-fledged live exercises.**
 
 ### business continuity planning
 + test the plan
