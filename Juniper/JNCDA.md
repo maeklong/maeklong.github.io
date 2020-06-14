@@ -297,6 +297,9 @@
 + The chassis cluster uses a fabric link between the two nodes.
 + The chassis cluster nodes can be located in different cities.
 + **Feedback : To form a chassis cluster you must use a fabric link between the two nodes and the two nodes can be located in different cities.**
++ The chassis cluster uses a control link between the two nodes.
++ The chassis cluster must contain two identical SRX Series devices.
++ **Feedback : To form a chassis cluster you must use a control link between both nodes and both nodes must be the same SRX Series devices. Note that the interface arrangement should be the same, but the chassis cluster will form if the interface arrangement is different.**
 
 ### campus network design
 + distribution of users
