@@ -76,3 +76,41 @@
 + formulate the plan
 + **Feedback : The steps of business continuity planning are, know your network, assess the risks, formulate the plan, and test the plan.**
 
+### Know Your Network step
++ You should list all the functions and services in the network.
++ You should perform a business impact analysis.
++ **Feedback : In the Know Your Network step of the business continuity planning you should list all the functions and services of the network and perform a business impact analysis.**
+
+### Assess the Risks step
++ You should perform a risk assessment.
++ **Feedback : In the Assess the Risks step of business continuity planning you should perform a risk assessment.**
+
+### Formulate the Plan step
++ You should develop a plan of action to mitigate the risks.
++ **Feedback : In the Formulate the Plan step of business continuity planning you should develop a plan of action to mitigate the risks.**
+
+### RFP response
++ Executive summary
++ A solution overview
++ technical specifications
++ **Feedback : An RFP response should include an executive summary, a solution overview, and technical specifications.**
+
+### executive summary section
++ It is likely to be read by all decision makers.
++ It is an overview of Juniper's value proposition to the customer.
++ **Feedback : The executive summary section of an RFP is so important because it is likely to be read by all decision makers and it contains an overview of Juniper's value proposition to the customer.**
++ Identification of business benefits.
++ **Feedback : The steps of the Juniper recommended executive summary structure in an RFP are: Introduction of the customer's need or problem, identification of business benefits, overview of your proposed solution, and relevant supporting information outlining why the customer should choose your plan.**
+
+### technical specifications section
++ It should contain the logical and physical topology design requirements.
++ It should contain the bill of materials.
++ **Feedback : The technical specifications section of an RFP should contain the logical and physical topology design requirements. It should also contain the bill of materials.**
+
+### network design checklist
++ A process for understanding the customer's business and technical goals.
++ **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
++ The steps for designing a network topology
++ **???***
++  A process for selecting protocols, address schemes, naming conventions, and so forth.
++ **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
