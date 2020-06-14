@@ -254,6 +254,12 @@
 + Stateful failover for firewall platforms.
 + Chassis clusters for firewall platforms.
 + **Feedback : Stateful failover and chassis clusters for firewall platforms helps ensure that the network is highly resilient.**
++ How-swappable chassis components.
++ Redundant network devices
++ **Feedback : Hot-swappable chassis components and redundant network devices helps ensure that the network is highly resilient.**
++ multiple physical uplinks
++ LAGs towards the LAN.
++ **Feedback : Multiple physical uplinks and LAGs towards the LAN helps ensure that the network is highly resilient. Note that two REs can be placed in the high-end SRX devices, however, the second RE does not act as a backup RE.**
 + EX Series
 + QFX Series
 + **Feedback : A VCF is constructed using a spine-and-leaf architecture. Each spine device must be a QFX5100 device. In an optimal VCF configuration, the leaf devices are also QFX5100 devices. You can, however, also configure QFX3600, QFX3500, and EX4300 switches as leaf devices.**
@@ -272,6 +278,9 @@
 + The power redundancy requirements are not met as the single source of power could fail and the network devices will not stay powered on.
 + The redundant power supplies should be plugged into separate power sources.
 + **Feedback : Redundant power supplies should always be plugged into separate power sources. If both power supplies are plugged into the same power source, then the failure of the power source will bring down the network device.**
++ when redundant power sources are present on site
++ when a two-device HA solution is not possible
++ **Feedback : You should use redundant power supplies whenever possible. You should make sure that there are redundant power sources on site, plugging redundant power supplies into the same power source doesn't help much if that single power source fails. When a two-device HA solution is not possible due to costs or complexity, redundant power supplies can provide some guarantee against device failure. Note that the SRX320 supports only one power supply.**
 
 ### VRRP
 + open standards protocol
