@@ -228,3 +228,43 @@ Feedback : Deploying an ADVPN removes the hub device from the forwarding path in
 + VCF uses a spine-and-leaf architecture.
 + Each connected host in a data center is no more than two hops away from every other host in a data center.
 + **Feedback : A VCF uses a spine-and-leaf architecture and each connected host is no more than two hops away from any other host.**
+
++ GRE
++ EVPN
++ **Feedback : You can use GRE and EVPN to stretch L2 traffic between two data centers over the DCI.**
+
+## Industry Alternatives
++ VPLS
++ VRRP
++ **Feedback : VPLS and VRRP are open source protocols that can work with multiple different vendors.**
+
++ RSVP
++ LDP
++ **Feedback : VPLS and VRRP are open source protocols that can work with multiple different vendors.**
+
++ ISIS
++ LACP
++ **Feedback : ISIS and LACP are open source protocols that can work with multiple different vendors.**
+
+### data-interchange format
++ JSON
++ **Feedback : You can use JSON to automate Junos OS platforms.**
+
+### automate Junos OS platforms
++ PyEZ
++ **Feedback : You can use PyEZ to automate Junos OS platforms.**
+
+### Junos operational scripts
++ A Junos operational script can be executed manually.
++ A Junos operational script can be executed automatically when a user logs in.
++ **Feedback : A Junos operational script can be executed manually in the CLI and when a user logs in.**
+
+### Junos event policies
++ An event policy uses if-then-else logic.
++ You can execute Junos OS operational command for the action of an event policy.
++ **Feedback : Junos event policies use if-then-else logic and you can excute operational commands for the action of an event policy.**
+
+### Junos event scripts
++ Junos event scripts are triggered automatically.
++ Junos event scripts can be used to monitor the overall status of the device.
++ **Feedback : Junos event scripts are triggered automatically and can be used to monitor the overall status of the device.**
