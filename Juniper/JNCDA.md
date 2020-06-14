@@ -483,6 +483,11 @@
 + VXLAN
 + **Feedback : VPLS, MACsec, and VXLAN should be included in the design in this scenario.**
 
+### virtual chassis fabric
++ Multiple devices are inter-connected into a single logical device.
++ It supports up to 40 Gbps interfaces.
++ **Feedback : VCF combines multiple devices into a single logical device and supports up to 40 Gbps interfaces.**
+
 ### data-interchange format
 + JSON
 + **Feedback : You can use JSON to automate Junos OS platforms.**
