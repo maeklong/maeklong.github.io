@@ -205,3 +205,5 @@ Feedback : Deploying an ADVPN removes the hub device from the forwarding path in
 ### Junos Space
 + Network Director
 + **Feedback : The Network Director application can be used to manage VLANs on EX devices.**
++ Security Director: Logging and Reporting
++ **Feedback : You can use the Security Director: Logging and Reporting application to store and management events for SRX devices.**
