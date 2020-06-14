@@ -483,6 +483,14 @@
 + VXLAN
 + **Feedback : VPLS, MACsec, and VXLAN should be included in the design in this scenario.**
 
+### data center contains network devices from multiple vendors
++ MACsec
++ VXLAN
++ **Feedback : MACsec and VXLAN are open source protocols that can work with different vendors.**
++ PIM
++ IGMPv2
++ **Feedback : PIM and IGMPv2 are open source protocols that can work with multiple different vendors.**
+
 ### virtual chassis fabric
 + Multiple devices are inter-connected into a single logical device.
 + It supports up to 40 Gbps interfaces.
