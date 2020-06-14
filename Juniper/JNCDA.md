@@ -230,6 +230,17 @@
 + reliability
 + **Feedback : Performance and reliability are two primary characteristics of the core tier in a network design.**
 
+### High-level design
++ business costs of not going forward
++ impact to the business from an operations perspective
++ cost of the proposed solution
++ **Feedback : Three important areas to define are business costs of not going forward, impact to the business from an operations perspective, and the cost of the proposed solution.**
+
+### route summarization
++ to benefit from a hierarchical IP addressing plan
++ to reduce routing overhead
++ **Feedback : Route summarization provides a hierarchical IP addressing plan and reduces the coexistence of BGP with IGPs.**
+
 ### highly resilient network
 + Virtual Chassis for EX devices.
 + Redundant power supplies for network devices.
@@ -237,6 +248,9 @@
 + Stateful failover for firewall platforms.
 + Chassis clusters for firewall platforms.
 + **Feedback : Stateful failover and chassis clusters for firewall platforms helps ensure that the network is highly resilient.**
++ EX Series
++ QFX Series
++ **Feedback : A VCF is constructed using a spine-and-leaf architecture. Each spine device must be a QFX5100 device. In an optimal VCF configuration, the leaf devices are also QFX5100 devices. You can, however, also configure QFX3600, QFX3500, and EX4300 switches as leaf devices.**
 
 ### backup WAN link
 + When the users in the network rely on communication through VoIP.
@@ -269,6 +283,12 @@
 + The chassis cluster nodes can be located in different cities.
 + **Feedback : To form a chassis cluster you must use a fabric link between the two nodes and the two nodes can be located in different cities.**
 
+### campus network design
++ distribution of users
++ transmission media characteristics
++ locations of wiring closets
++ **Feedback : Three environmental characteristics that affect the campus network design are distribution of users, transmission media characteristics, and the locations of the wiring closets.**
+
 ### campus redundancy best practices
 + You must include highly available redundant connections for all applications in your design.
 + You need to include hardware redundancy in your design.
@@ -280,6 +300,15 @@
 ### distance between the Ethernet switches
 + 100 meters
 + **Feedback : The maximum distance for a Cat 6 cable is 100 meters.**
++ direct attach copper
++ active optical fiber
++ passive optical fiber
++ **Feedback : Direct attach copper, active optical fiber, and passive optical fiber could be used to interconnect the switches in this scenario.**
++ **to interconnect the switches within the 23 feet (7 meters) distance limitation imposed by the data center**
++ multimode fiber
++ **Feedback : Multimode fiber is ideal for use in this situation.**
++ **cost-effective cable solution to connect a building access switch to a building distribution switch at a distance of 400 feet (120 meters)**
+
 
 ## Logical Design Considerations
 
