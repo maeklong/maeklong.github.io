@@ -34,8 +34,8 @@
 ### Underlay Network
 + BGP
 + **Feedback : The scalability of Layer 3 protocols, especially with regards to BGP, is much higher than Layer 2 technologies, and can scale from tens of thousands to hundreds of thousands of host devices.**
-+ IP Address *
-+ **Use to route data**
++ IP Address
++ **Feedback : The underlay network does not have visibility into the tunneled customer data traffic. The underlay network routes data based on packet IP addressing.**
 
 ### Data Center Underlay Network
 + spine network device redundancy
