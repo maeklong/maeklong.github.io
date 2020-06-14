@@ -51,6 +51,7 @@
 + Access
 + Design
 + **Feedback : The two sub-phases of the plan methodology are access and design.**
++ "Access" of the plan methodology must you do first
 
 ### key RFP elements
 + Business requirements
