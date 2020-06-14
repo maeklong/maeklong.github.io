@@ -294,6 +294,10 @@
 + You should use VRRP on the SRX devices for users in Group-B.
 + You should use VRRP on the SRX devices for users in Group-C.
 + **Feedback : You cannot use VRRP on the WAN connections because each WAN connection belongs to two different providers which means each WAN connection is in a different subnet. You cannot use VRRP on Group-A because Group-A only connects to one SRX device. Users in Group-B and Group-C connect to both SRX devices through the EX device, which allows you to use VRRP with them.**
+![](img/VRPP-2.png)
++ You can use VRRP on the SRX devices to WAN connections.
++ You can use VRRP on the SRX devices for users in Group-B.
++ **Feedback : You can use VRRP on the on the WAN connection, however, this would require some coordination between the customer and the provider. You can also use VRRP with Group-B.**
 
 ### chassis cluster
 + The SRX model numbers must be the same to form a chassis cluster.
