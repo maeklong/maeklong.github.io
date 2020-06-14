@@ -197,6 +197,11 @@
 + It should contain the bill of materials.
 + **Feedback : The technical specifications section of an RFP should contain the logical and physical topology design requirements. It should also contain the bill of materials.**
 
+### solution overview section
++ It should outline the technical benefits of the proposed design.
++ It should address the customer's goals, scope, and requirements.
++ **Feedback : The solution overview section of an RFP should outline the technical benefits of the design and address the customer's goals, scope, and requirements.**
+
 ### network design checklist
 + A process for understanding the customer's business and technical goals.
 + **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
