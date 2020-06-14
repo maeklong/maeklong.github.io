@@ -27,6 +27,11 @@
 + Current infrastructure lacks the media to interconnect buildings with each other. **???**
 + **design boundary is caused by the customer's existing physical environment**
 
+### WAN service 
++ MPLS/VPN
++ SONET/SDH
++ **Feedback : MPLS/VPN and SONET/SDH will most likely be used in your network design.**
+
 ### Juniper lifecycle service
 + Operate
 + Plan
