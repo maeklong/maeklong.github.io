@@ -137,3 +137,8 @@
 + When zero impact to users and applications is required during device failures.
 + When downtime is not acceptable for device upgrades.
 + **Feedback : You should add physical device redundancy to your network design when zero impact to users and applications is required during device failures and when downtime is not acceptable for device upgrades.**
+
+### redundant power supplies are plugged into a single power source
++ The power redundancy requirements are not met as the single source of power could fail and the network devices will not stay powered on.
++ The redundant power supplies should be plugged into separate power sources.
++ **Feedback : Redundant power supplies should always be plugged into separate power sources. If both power supplies are plugged into the same power source, then the failure of the power source will bring down the network device.**
