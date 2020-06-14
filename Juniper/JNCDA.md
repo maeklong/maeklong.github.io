@@ -25,7 +25,9 @@
 + **Feedback : The business and environmental requirements are key RFP elements.**
 
 ### business continuity RFP element
-????
++ Network efficiency requirements
++ QoS requirements
++ **Feedback : The business continuity RFP element includes network efficiency and QoS requirements.**
 
 ### environmental requirements RFP element
 + A detailed report that describes the facility specifications.
@@ -113,8 +115,8 @@
 ### network design checklist
 + A process for understanding the customer's business and technical goals.
 + **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
-+ The steps for designing a network topology
-+ **???***
++ The steps for designing a network topology.
++ **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
 +  A process for selecting protocols, address schemes, naming conventions, and so forth.
 + **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
 
@@ -253,6 +255,8 @@ Feedback : Deploying an ADVPN removes the hub device from the forwarding path in
 ### automate Junos OS platforms
 + PyEZ
 + **Feedback : You can use PyEZ to automate Junos OS platforms.**
++ Chief
++ **Feedback : You can use Chef to automate Junos OS platforms.**
 
 ### Junos operational scripts
 + A Junos operational script can be executed manually.
@@ -268,3 +272,8 @@ Feedback : Deploying an ADVPN removes the hub device from the forwarding path in
 + Junos event scripts are triggered automatically.
 + Junos event scripts can be used to monitor the overall status of the device.
 + **Feedback : Junos event scripts are triggered automatically and can be used to monitor the overall status of the device.**
+
+### Junos commit scripts
++ Junos commit scripts can enforce custom configuration rules.
++ When a candidate configuration is committed, all active commit scripts are used.
++ **Feedback : Junos commit scripts can enforce custom configuration rules, and all active commit scripts are used when a candidate configuration is committed**
