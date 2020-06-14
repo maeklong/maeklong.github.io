@@ -55,7 +55,8 @@
 + Access
 + Design
 + **Feedback : The two sub-phases of the plan methodology are access and design.**
-+ "Access" of the plan methodology must you do first
++ Access
++ **Feedback : You must first access the customer's environment before you can begin designing or building it.**
 
 ### key RFP elements
 + Business requirements
@@ -215,8 +216,8 @@
 + **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
 + A process for selecting protocols, address schemes, naming conventions, and so forth.
 + **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
-+ A validation process for analyzing customer's existing evironment. **???**
-+ **??**
++ A validation process for analyzing customer's existing environment.
++ **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
 
 ### solicit multiple vendors for design
 + Publish an RFI to key vendors.
