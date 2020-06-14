@@ -215,6 +215,8 @@
 + **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
 + A process for selecting protocols, address schemes, naming conventions, and so forth.
 + **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
++ A validation process for analyzing customer's existing evironment. **???**
++ **??**
 
 ### solicit multiple vendors for design
 + Publish an RFI to key vendors.
@@ -222,6 +224,11 @@
 + **Feedback : In this scenario, you should publish an RFI to key vendors and attend industry conferences.**
 
 ## Physical Design Considerations
+
+### Core Tier
++ performance
++ reliability
++ **Feedback : Performance and reliability are two primary characteristics of the core tier in a network design.**
 
 ### highly resilient network
 + Virtual Chassis for EX devices.
