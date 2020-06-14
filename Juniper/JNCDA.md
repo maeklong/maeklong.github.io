@@ -429,6 +429,7 @@
 ### Junos Space Security Director
 + centralized
 + **Feedback : The Junos Space Security Director application is a centralized management solution.**
++ ??? Security Director ???
 
 ### Network Director
 + centralized
@@ -536,3 +537,40 @@
 + Junos commit scripts can enforce custom configuration rules.
 + When a candidate configuration is committed, all active commit scripts are used.
 + **Feedback : Junos commit scripts can enforce custom configuration rules, and all active commit scripts are used when a candidate configuration is committed**
+
+
++ You are asked to provide a network design for a project which spans the needs of multiple organizational entities. Which key contact will you need to help define success for this activity?
++ ??? **the project manager overseeing all network development activities** ???
+
++ What are two important considerations with respect to the customer's IT organization which might affect your design? (Choose two.)
++ ??? **reporting hierarchy of the IT support organization** ???
++ ??? **staff expertise levels in the technology under consideration** ???
+
+
+
++ Which three critical design blocks or functional areas benefit from HA design solutions? (Choose three.)
++ ??? *** data center *** ???
++ ??? *** camput *** ???
++ ??? *** WAN *** ???
+
+
++ What are three relevant considerations for determining the appropriate amount of bandwidth for a site? (Choose three.)
++ ??? *** quantity of users at that site *** ???
++ ??? *** equipment types at that site *** ???
++ ??? *** applications used at that site *** ???
+
+
++ VLANs provide separation of which type of domain?
++ ??? *** broadcast domains *** ???
+
+
+
++ You are gathering information to determine capacity, density, and scaling of systems for a campus switching design. What information is critical to the design? (Choose three.)
++ ??? *** the number of users with a fixed desktop station and attached IP phone *** ???
++ ??? *** the number of guest users or contractors accessing with a mobile hot spot *** ???
++ ??? *** the number of unmanned IP-enabled end systems (e.g., HVAC, network printers, PoS machines) *** ???
+
+
++ Which two data center network architectures might be proposed by other vendors to compete with Juniper Networks Virtual Chassis Fabric (VCF) solution? (Choose two.)
++ ??? *** SONET *** ???
++ ??? *** three-tier architecture *** ???
