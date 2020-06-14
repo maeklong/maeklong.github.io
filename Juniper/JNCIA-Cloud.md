@@ -74,6 +74,12 @@
 + performance
 + **Feedback : vMX can be configured to run in two modes depending on the use case. Lite mode—Needs fewer resources in terms of CPU and memory to run at lower bandwidth. Performance mode—Needs higher resources in terms of CPU and memory to run at higher bandwidth.**
 
+### Public Cloud
++ vMX
++ vSRX
++ **Feedback : The virtual SRX platform, or vSRX, is a virtualized version of the Juniper Networks SRX security gateway platform. It retains the same software components and functions as its hardware counterpart, with separate control and forwarding planes. It runs on a Juniper Linux guest OS, which can be installed on a Hypervisor as a virtual machine. Like the vSRX, the vMX has a virtualized control plane and a virtualized forwarding plane, which run separately. Unlike the vSRX, not only are these two compon**
++ ** Juniper Networks virtualized products are available for use in the public cloud**
+
 ### ETSI Management and Orchestration (MANO) framework
 + virtualized network function manager (VNFM)
 + Network Functions Virtualization (NFV) orchestrator
@@ -87,6 +93,10 @@
 + A VNF is a virtual entity that can be launched and managed.
 + **Feedback : Virtualized network functions (VNFs) include all virtual entities that can be launched and managed from the Juniper Device Manager (JDM)**
 
+### NFV containers
++ NFV containers usually provide fewer functions than VM-based VNFs.
++ **Feedback : With container architecture, many services and functions of the original operating system are lost, as the operating system is no longer deployed with the services. The key focus of this software structure is to enable the desired services without the overhead of deploying a platform that provides a suite of services that may not be used. This introduces the concept of microservices. With microservices, resource requirements on the underlying host are greatly reduced, as are deployment times and**
+
 ### VNFs and NFV
 + VNFs include all virtual entities that can be launched and managed from the Juniper Device Manager.
 + NFV incorporates cloud and virtualization technologies to drive new network services with elastic scale and automation.
@@ -94,3 +104,23 @@
 
 ### Network Service Activator
 + **Feedback : Network Activator initially provisions NFX250 Network Services Platforms (referred to as remote devices in this documentation), which reside at end users’ sites. The remote devices download a boot image and initial configuration files from servers hosting Network Activator, using a process that provides full authorization and authentication for all interactions. When initial provisioning is complete, the remote device communicates with a management server, which then starts to manage and monitor**
+
+## SDN
+
+### SDN controller
++ An SDN controller centralizes control and configuration of a network.
++ An SDN controller automates repetitive tasks in a network.
++ **Feedback : The Virtual Networking and SDN layer is where central policy, control, and automation of networking above the hardware or fabric layers takes place. Software Defined Networking operates on the network at the virtualized network and services level. An SDN controller has a different role than an orchestration platform. The primary role of an SDN controller is to automate repetitive tasks in a network environment.**
+
+### OpenStack component
++ Keystone
++ **Feedback : Keystone provides identity management in an OpenStack environment. Users, applications, and API calls are all considered virtual users, and each requires authentication and authorization to access OpenStack services. Each API call is authenticated against the identity management system to ensure that the entity that is requesting a service is authorized.**
++ **OpenStack component is responsible for user authentication and authorization**
+
+### OpenFlow controller-based software defined network
++ The forwarding plane of each device in the network is programmed by the controller.
++ **????***
+
+### VMware NSX controller and a Junos Layer 2 gateway
++ OVSDB
++ **Feedback : The management of the virtual switch is achieved via the OVS DataBase (OVSDB). The database contains information such as the set of logical switches that the OVS must handle, the list of associated physical ports, as well as configuration information as statistics for those ports. The Layer 2 gateway runs an OVSDB server. Typically,a local client and a client on the controller clusters connect to this server. Using OVSDB, the controller cluster can thus coordinate different parameters across the**
