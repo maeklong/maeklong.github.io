@@ -207,3 +207,24 @@ Feedback : Deploying an ADVPN removes the hub device from the forwarding path in
 + **Feedback : The Network Director application can be used to manage VLANs on EX devices.**
 + Security Director: Logging and Reporting
 + **Feedback : You can use the Security Director: Logging and Reporting application to store and management events for SRX devices.**
++ Junos Space typically uses the eth0 interface to manage devices through the OOB network.
++ Junos Space typically uses the eth3 interface to manage devices through the in-band network.
++ **Feedback : Junos Space can use the eth0 and eth3 interface to manage devices. Typically the eth0 interface on a Junos Space device is used to manage devices through the OOB network. Typically the eth3 interface on a Junos Space device is used to manage devices through the in-band network.**
++ Connectivity Services Director
++ **Feedback : The Connectivity Services Director application can be used to manage L3 VPNs on MX devices.**
+
+### Junos Space Security Director
++ centralized
++ **Feedback : The Junos Space Security Director application is a centralized management solution.**
+
+### disaster recovery
++ Deploying a Data Center Interconnect.
++ **Feedback : Deploying a Data Center Interconnect between two data centers would ensure that the customer is completely prepared for a disaster recovery scenario.**
+
+### Virtual Chassis
++ **Feedback : There is no need for STP with a virtual chassis.**
+
+### virtual chassis fabric (VCF)
++ VCF uses a spine-and-leaf architecture.
++ Each connected host in a data center is no more than two hops away from every other host in a data center.
++ **Feedback : A VCF uses a spine-and-leaf architecture and each connected host is no more than two hops away from any other host.**
