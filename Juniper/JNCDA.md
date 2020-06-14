@@ -152,7 +152,7 @@
 + The VRRP members can contain two different routing platforms.
 + **Feedback : VRRP do not need any special connections between the members. VRRP is an open standards protocol, which means the routing platforms can be different.**
 + The maximum number of routing devices in a VRRP group is two
-+ **????**
++ **Feedback : The maximum number of routing devices in a VRRP group in two.**
 
 ### chassis cluster
 + The SRX model numbers must be the same to form a chassis cluster.
