@@ -117,3 +117,14 @@
 + **???***
 +  A process for selecting protocols, address schemes, naming conventions, and so forth.
 + **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
+
+## Physical Design Considerations
+
+### highly resilient network
++ Virtual Chassis for EX devices.
++ Redundant power supplies for network devices.
++ **Feedback : Virtual chassis for EX devices and redundant power supplies in network devices helps ensure that the network is highly resilient.**
++ Stateful failover for firewall platforms.
++ Chassis clusters for firewall platforms.
++ **Feedback : Stateful failover and chassis clusters for firewall platforms helps ensure that the network is highly resilient.**
+
