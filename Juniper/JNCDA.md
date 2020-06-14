@@ -493,6 +493,9 @@
 + LLDP
 + RSTP
 + **Feedback : LLDP and RSTP are open source protocols that can work with multiple different vendors.**
++ MSTP
++ IGMPv3
++ **Feedback : MSTP and IGMPv3 are open source protocols that can work with multiple different vendors.**
 
 ### virtual chassis fabric
 + Multiple devices are inter-connected into a single logical device.
@@ -512,6 +515,8 @@
 + **Feedback : You can use PyEZ to automate Junos OS platforms.**
 + Chief
 + **Feedback : You can use Chef to automate Junos OS platforms.**
++ YAML
++ **Feedback : You can use YAML to automate Junos OS platforms.**
 
 ### Junos operational scripts
 + A Junos operational script can be executed manually.
