@@ -183,6 +183,8 @@
 + **Feedback : An RFP response should include an executive summary, a solution overview, and technical specifications.**
 
 ### executive summary section
++ Introduction of the customer's need or problem.
++ **Feedback : The steps of the Juniper recommended executive summary structure in an RFP are: Introduction of the customer's need or problem, identification of business benefits, overview of your proposed solution, and relevant supporting information outlining why the customer should choose your plan.**
 + It is likely to be read by all decision makers.
 + It is an overview of Juniper's value proposition to the customer.
 + **Feedback : The executive summary section of an RFP is so important because it is likely to be read by all decision makers and it contains an overview of Juniper's value proposition to the customer.**
@@ -191,6 +193,8 @@
 + Focus on organizational issues.
 + Keep it short and simple.
 + **Feedback : When writing an excutive summary of an RFP, you should give focus on the organizational issues of the customer and keep it short and simple. You should avoid a history of Juniper Networks and canned responses.**
++ Overview of your proposed solution.
++ **Feedback : The steps of the Juniper recommended executive summary structure in an RFP are: Introduction of the customer's need or problem, identification of business benefits, overview of your proposed solution, and relevant supporting information outlining why the customer should choose your plan.**
 
 ### technical specifications section
 + It should contain the logical and physical topology design requirements.
