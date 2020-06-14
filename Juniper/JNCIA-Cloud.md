@@ -69,6 +69,11 @@
 + The vMX Series requires a license for production environments.
 + **Feedback : The vMX Virtual Router is a virtualized MX Series 3D Universal Edge Router that helps network operators of all types improve customer experience and profitability by increasing network and service agility and accelerating time to market for new services, while streamlining their operations environment. The vMX is available as licensed software for x86-based servers and on Amazon Web Services (AWS) and AWS GovCloud, where it can provide secure routing between AWS virtual path connections (VPCs),**
 
+### vMX on KVM
++ a little
++ performance
++ **Feedback : vMX can be configured to run in two modes depending on the use case. Lite mode—Needs fewer resources in terms of CPU and memory to run at lower bandwidth. Performance mode—Needs higher resources in terms of CPU and memory to run at higher bandwidth.**
+
 ### ETSI Management and Orchestration (MANO) framework
 + virtualized network function manager (VNFM)
 + Network Functions Virtualization (NFV) orchestrator
