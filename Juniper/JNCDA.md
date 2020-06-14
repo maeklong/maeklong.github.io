@@ -144,15 +144,29 @@
 + formulate the plan
 + **Feedback : The steps of business continuity planning are, know your network, assess the risks, formulate the plan, and test the plan.**
 
+### Test the Plan step
++ You should test the plan hypothetically on paper.
++ You should test the plan in full-fledged live exercises.
++ **Feedback : You should always test your plan on paper or in live exercises.**
+
 ### user's business model
 + It suggests certain budgetary and scheduling constraints.
 + It allows the engineer to infer certain technical requirements.
 + **Feedback : A user's business model will suggest budgetary and scheduling constraints, as well as provide insight into the network’s technical requirements.**
 
+### Documentation Project
++ Survey all data centers and wiring closets.
++ Review the available documentation with the security administrators.
++ Review the available documentation with the network administrators.
++ **Feedback : As part of your documentation project, you should inspect all data centers and wiring closets, as well as speak to those responsible for them: the security and network administrators.**
+
 ### Know Your Network step
 + You should list all the functions and services in the network.
 + You should perform a business impact analysis.
 + **Feedback : In the Know Your Network step of the business continuity planning you should list all the functions and services of the network and perform a business impact analysis.**
++ know your network
++ assess the risks
++ **Feedback : The steps of business continuity planning are, know your network, assess the risks, formulate the plan, and test the plan.**
 
 ### Assess the Risks step
 + You should perform a risk assessment.
@@ -190,6 +204,11 @@
 + **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
 + A process for selecting protocols, address schemes, naming conventions, and so forth.
 + **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
+
+### solicit multiple vendors for design
++ Publish an RFI to key vendors.
++ Attend industry conferences.
++ **Feedback : In this scenario, you should publish an RFI to key vendors and attend industry conferences.**
 
 ## Physical Design Considerations
 
