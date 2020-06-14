@@ -88,7 +88,9 @@
 + **Feedback : Virtualized network functions (VNFs) include all virtual entities that can be launched and managed from the Juniper Device Manager (JDM)**
 
 ### VNFs and NFV
-+ 
++ VNFs include all virtual entities that can be launched and managed from the Juniper Device Manager.
++ NFV incorporates cloud and virtualization technologies to drive new network services with elastic scale and automation.
++ **Feedback : Virtualized network functions (VNFs) include all virtual entities that can be launched and managed from the Juniper Device Manager (JDM).**
 
 ### Network Service Activator
 + **Feedback : Network Activator initially provisions NFX250 Network Services Platforms (referred to as remote devices in this documentation), which reside at end users’ sites. The remote devices download a boot image and initial configuration files from servers hosting Network Activator, using a process that provides full authorization and authentication for all interactions. When initial provisioning is complete, the remote device communicates with a management server, which then starts to manage and monitor**
