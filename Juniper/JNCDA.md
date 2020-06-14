@@ -490,6 +490,9 @@
 + PIM
 + IGMPv2
 + **Feedback : PIM and IGMPv2 are open source protocols that can work with multiple different vendors.**
++ LLDP
++ RSTP
++ **Feedback : LLDP and RSTP are open source protocols that can work with multiple different vendors.**
 
 ### virtual chassis fabric
 + Multiple devices are inter-connected into a single logical device.
