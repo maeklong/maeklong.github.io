@@ -3,10 +3,29 @@
 
 ## Customer Design Requirements
 
+### Customer Business Requirements
++ vision of future growth
+++ Feedback : The business summary will likely include a description of the network design project and objectives describing the business and technical goals of the new design. The general overview will likely include planning for future growth and an explanation for why the new design is required**
+
+### Customer Data
++ interviews
++ questionnaires
++ **Feedback : As you begin to work with the customer more closely, you will need to gather the data necessary to accurately determine what you will need for your network design. Use questionnaires, surveys, and interviews to interact with your customer’s workforce.**
+
 ### Network Design
 + You should understand the state of the customer's current network.
 + You should analyze current and future network behavior.
 + **Feedback : When designing a network for a customer you should always understand the state of the customers current network. You should also analyze the current and future network behavior of the customer's network.**
++ scale constraints of existing hardware
++ protocol incompatibilities
++ **Feedback : The network design must take into consideration the ability of the existing hardware to scale and any protocol incompatibilities between the two networks.**
++ The network engineer can infer traffic patterns.
++ Quality of service (QoS) can be optimized for specific applications.
++ **Feedback : When designing a network, it’s imperative for the network engineer to infer traffic patterns and optimize QoS for specified applications.**
+
+### design boundary
++ Current infrastructure lacks the media to interconnect buildings with each other. **???**
++ **design boundary is caused by the customer's existing physical environment**
 
 ### Juniper lifecycle service
 + Operate
@@ -38,6 +57,8 @@
 + Number of wireless connections needed
 + Traffic analysis
 + **Feedback : The modular requirements RFP element includes the number of wireless connections that are needed and a in-depth traffic analysis.**
++ traffic flow analysis
++ **Feedback : The traffic flow analysis will help you determine many variables that will assist you in understanding what is needed when developing the new design.**
 
 ### aspects of greenfield projects
 + New networks with few or no restraints to consider.
@@ -194,11 +215,12 @@
 + **Feedback : You should use a firewall to restrict between the different groups.**
 
 ### redundant WAN links
++ redundant WAN links
 + **Feedback : Redundant WAN links can address the connectivity issue as a single WAN link could be flapping and causing the connectivity issues.**
 
 ### hub-and-spoke VPN
 + **Replace the hub-and-spoke VPN with an ADVPN.
-Feedback : Deploying an ADVPN removes the hub device from the forwarding path in spoke-to-spoke communication. Full-meshed VPN does not work in this situation because of the management overhead a full mesh VPN places on the IT staff that has recently seen cutbacks.**
++ **Feedback : Deploying an ADVPN removes the hub device from the forwarding path in spoke-to-spoke communication. Full-meshed VPN does not work in this situation because of the management overhead a full mesh VPN places on the IT staff that has recently seen cutbacks.**
 
 ### SSL VPN
 + **Feedback : SSL VPNs allow remote home workers to access corporate resources securely.**
@@ -264,9 +286,7 @@ Feedback : Deploying an ADVPN removes the hub device from the forwarding path in
 + **Feedback : A Junos operational script can be executed manually in the CLI and when a user logs in.**
 
 ### Junos event policies
-+ An event policy uses if-then-else logic.
-+ You can execute Junos OS operational command for the action of an event policy.
-+ **Feedback : Junos event policies use if-then-else logic and you can excute operational commands for the action of an event policy.**
++ An event policy uses iQoS requirements
 
 ### Junos event scripts
 + Junos event scripts are triggered automatically.
