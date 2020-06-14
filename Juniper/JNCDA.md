@@ -32,6 +32,15 @@
 + SONET/SDH
 + **Feedback : MPLS/VPN and SONET/SDH will most likely be used in your network design.**
 
+# Untrusted Domains
++ WAN edge
++ access
++ **Feedback : The WAN edge and access tiers connect to untrusted domains.**
+
+### RBAC
++ network firewall
++ **Feedback : A network firewall provides role-based access to a particular network resource.**
+
 ### Juniper lifecycle service
 + Operate
 + Plan
