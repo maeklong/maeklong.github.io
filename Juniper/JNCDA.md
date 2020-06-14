@@ -365,10 +365,17 @@
 ### different groups must be tightly restricted
 + A Layer 4 firewall
 + **Feedback : You should use a firewall to restrict between the different groups.**
++ Use a firewall with security policies to control the traffic.
++ **Feedback : You can effectively restrict access between groups in a network by using security policies on a firewall. If you attempted to use Layer 2/3 ACLs to restrict this access, it could quickly become overwhelming as you must account for both directions of a flow.**
 
 ### redundant WAN links
 + redundant WAN links
 + **Feedback : Redundant WAN links can address the connectivity issue as a single WAN link could be flapping and causing the connectivity issues.**
+
+### ADVPN
++ ADVPN
++ **Feedback : The ADVPN technology provides low application latency for spoke to spoke communication and also provides low management overhead.**
++ **need to deploy an IPsec VPN technology that provides low application latency when a remote office is communicating with another remote office**
 
 ### hub-and-spoke VPN
 + **Replace the hub-and-spoke VPN with an ADVPN.
