@@ -433,6 +433,9 @@
 + centralized
 + **Feedback : Network Director is a centralized management application.**
 
+### Juniper Secure Analytics
++ **Feedback : Juniper Secure Analytics allows you to correlate data and logs from network devices from multiple different vendors.**
+
 ### disaster recovery
 + Deploying a Data Center Interconnect.
 + **Feedback : Deploying a Data Center Interconnect between two data centers would ensure that the customer is completely prepared for a disaster recovery scenario.**
@@ -473,6 +476,12 @@
 + ISIS
 + LACP
 + **Feedback : ISIS and LACP are open source protocols that can work with multiple different vendors.**
+
+### upgrade core network
++ VPLS
++ MACsec
++ VXLAN
++ **Feedback : VPLS, MACsec, and VXLAN should be included in the design in this scenario.**
 
 ### data-interchange format
 + JSON
