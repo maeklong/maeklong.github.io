@@ -6,7 +6,7 @@
 ### Software Suites
 + OpenStack
 + vSphere
-+ Governments
++ Kubernetes
 + **Feedback : OpenStack, vSphere, and Kubernetes are used in different roles in cloud architectures.**
 
 ### Secure VPN Technology
@@ -29,6 +29,7 @@
 ### PaaS
 + PaaS
 + **Feedback : Platform as a Service, or PaaS, goes one step beyond IaaS by providing a requested operating system on which applications can be installed.**
++ **Type of service would allow you to provision five servers with Windows Server 2016 installed**
 
 ### Underlay Network
 + BGP
