@@ -142,3 +142,12 @@
 + The power redundancy requirements are not met as the single source of power could fail and the network devices will not stay powered on.
 + The redundant power supplies should be plugged into separate power sources.
 + **Feedback : Redundant power supplies should always be plugged into separate power sources. If both power supplies are plugged into the same power source, then the failure of the power source will bring down the network device.**
+
+### VRRP
++ open standards protocol
++ provides redundancy through a virtual IP address
++ **Feedback : VRRP is an open standards protocol and provides redundancy through the use of a virtual IP address.**
+
+### chassis cluster
++ The SRX model numbers must be the same to form a chassis cluster.
++ **Feedback : A chassis cluster must contain the same SRX models. Attempting to cluster an SRX340 and a SRX345 together will not work.**
