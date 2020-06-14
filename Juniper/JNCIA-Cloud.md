@@ -62,8 +62,14 @@
 + vMX Series
 + MX Series
 + **Feedback : Included in Junos OS, the Junos Automation Toolkit is a suite of tools supported on all Juniper Networks switches, routers, and security devices.**
++ **two platforms share the same automation scripts**
 
 ### ETSI Management and Orchestration (MANO) framework
 + virtualized network function manager (VNFM)
 + Network Functions Virtualization (NFV) orchestrator
 + **Feedback : Two of the key components of the ETSI NFV architectural framework are the NFV Orchestrator and VNF Manager, known as NFV MANO. Additional layers, such as service orchestration are also required for operators to enable true NFV services. Open Source software can facilitate the implementation of an ETSI aligned NFV architecture, provide practical and essential feedback to the ETSI ISG NFV and increase the likelihood of interoperability among NFV implementations.**
+
+### Scaling
++ Service Scaling
++ **Feedback : Service scaling increases instances of an application providing scalability for important resources.**
++ **Whenever an application becomes popular, the resulting high-traffic load on the VNFs leads to user dissatisfaction**
