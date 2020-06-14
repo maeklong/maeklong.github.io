@@ -57,6 +57,12 @@
 + Business requirements
 + Environmental requirements
 + **Feedback : The business and environmental requirements are key RFP elements.**
++ Modular requirements
++ Connectivity and throughput requirements
++ **Feedback : The modular and the connectivity and throughput requirements are key RFP elements.**
++ A list of design requirements.
++ The types of solutions the design must provide.
++ **Feedback : An RFP must include a list of design requirements and the types of solutions that the design will provide.**
 
 ### business continuity RFP element
 + Network efficiency requirements
