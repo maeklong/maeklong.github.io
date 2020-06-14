@@ -383,6 +383,16 @@
 + **Feedback : SSL VPNs allow remote home workers to access corporate resources securely.**
 + **allows remote home workers to access resources at the corporate headquarters securely**
 
+### VPN
++ site to site
++ hub and spoke
++ **Feedback : Two deployment models for VPNs are site to site and hub and spoke.**
+
+### WAN design
++ IPsec tunnels over the Internet
++ VPLS Layer 2 VPN
++ **Feedback : IPsec tunnels over the Internet and VPLS Layer 2 VPN meet these requirements.**
+
 ### Junos Space
 + Network Director
 + **Feedback : The Network Director application can be used to manage VLANs on EX devices.**
