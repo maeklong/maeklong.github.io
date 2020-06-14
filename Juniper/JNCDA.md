@@ -400,6 +400,10 @@
 + hub and spoke
 + **Feedback : Two deployment models for VPNs are site to site and hub and spoke.**
 
+### Full mesh VPN 
++ **???**
++ **they do not wish to use PKI certificates as a form of authentication**
+
 ### WAN design
 + IPsec tunnels over the Internet
 + VPLS Layer 2 VPN
@@ -415,6 +419,11 @@
 + **Feedback : Junos Space can use the eth0 and eth3 interface to manage devices. Typically the eth0 interface on a Junos Space device is used to manage devices through the OOB network. Typically the eth3 interface on a Junos Space device is used to manage devices through the in-band network.**
 + Connectivity Services Director
 + **Feedback : The Connectivity Services Director application can be used to manage L3 VPNs on MX devices.**
+
+### Out-of-Band
++ An OOB management network is more reliable than in-band management network.
++ An OOB management network can function with lower bandwidth requirements than in-band management network.
++ **Feedback : The OOB management network is more reliable than an in-band management network because the management traffic will not have to fight for bandwidth with the normal transit traffic. The OOB management network can function with lower bandwidth requirements than in-band management because the management traffic will not have to compete with the transit traffic for bandwidth.**
 
 ### Junos Space Security Director
 + centralized
