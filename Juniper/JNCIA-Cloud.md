@@ -25,6 +25,7 @@
 ### SaaS
 + SaaS
 + **Feedback : Software as a Service, or SaaS, abstracts the underlying hardware and software configuration and focuses on providing application access to an end customer.**
++ **to deploy a website that can scale as needed**
 
 ### PaaS
 + PaaS
