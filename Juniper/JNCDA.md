@@ -55,4 +55,24 @@
 + You should keep your design proposal as simple as possible.
 + You should create the logical design before the physical design.
 + **Feedback : You should keep your design proposal as simple as possible. You should create the logical design before creating the physical design.**
++ Security should be considered throughout the design process.
++ You design proposal should be clearly documented.
++ **Feedback : Security should be considered at every step of the design proposal.**
+
+### modularity in your network design
++ Modularity facilitates future growth and troubleshooting efforts.
++ Modularity provides hierarchical structure to your design.
++ **Feedback : Modularity is important because it helps with future growth and troubleshooting efforts as well as giving a hierarchical structure to your design.**
+
+## Customer Organizational Structure
+
+### business continuity
++ The prevention of interruption to mission-critical services.
++ The ability to reestablish full functionality quickly after a disaster.
++ **Feedback : Business continuity should involve prevention and recovery methods that are proactive. Reactive measures such as manually turning on a backup server, or manually loading backed up data are reactive disaster recovery methods.**
+
+### business continuity planning
++ test the plan
++ formulate the plan
++ **Feedback : The steps of business continuity planning are, know your network, assess the risks, formulate the plan, and test the plan.**
 
