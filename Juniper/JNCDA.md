@@ -290,6 +290,10 @@
 + **Feedback : VRRP do not need any special connections between the members. VRRP is an open standards protocol, which means the routing platforms can be different.**
 + The maximum number of routing devices in a VRRP group is two
 + **Feedback : The maximum number of routing devices in a VRRP group in two.**
+![](img/VRPP.png)
++ You should use VRRP on the SRX devices for users in Group-B.
++ You should use VRRP on the SRX devices for users in Group-C.
++ **Feedback : You cannot use VRRP on the WAN connections because each WAN connection belongs to two different providers which means each WAN connection is in a different subnet. You cannot use VRRP on Group-A because Group-A only connects to one SRX device. Users in Group-B and Group-C connect to both SRX devices through the EX device, which allows you to use VRRP with them.**
 
 ### chassis cluster
 + The SRX model numbers must be the same to form a chassis cluster.
