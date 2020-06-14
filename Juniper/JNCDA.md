@@ -128,3 +128,12 @@
 + Chassis clusters for firewall platforms.
 + **Feedback : Stateful failover and chassis clusters for firewall platforms helps ensure that the network is highly resilient.**
 
+### backup WAN link
++ When the users in the network rely on communication through VoIP.
++ When the cost of a second link is less than the cost of downtime.
++ **Feedback : You should add a backup WAN link when the users in the network rely on communication through VoIP and when the cost of a second link is less than the cost of the downtime. Note that you cannot combine both WAN link into a LAG to increase throughput because the backup WAN link is with a different provider.**
+
+### physical device redundancy
++ When zero impact to users and applications is required during device failures.
++ When downtime is not acceptable for device upgrades.
++ **Feedback : You should add physical device redundancy to your network design when zero impact to users and applications is required during device failures and when downtime is not acceptable for device upgrades.**
