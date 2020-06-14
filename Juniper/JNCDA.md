@@ -64,6 +64,11 @@
 + The types of solutions the design must provide.
 + **Feedback : An RFP must include a list of design requirements and the types of solutions that the design will provide.**
 
+### business requirements RFP element 
++ A summary the type of business the customer is in.
++ An explanation of why a new design is required.
++ **Feedback : The business requirements RFP element includes a summary of the type of business the customer is in and an explanation of why a new design is required.**
+
 ### business continuity RFP element
 + Network efficiency requirements
 + QoS requirements
