@@ -299,6 +299,11 @@
 + You can use VRRP on the SRX devices for users in Group-B.
 + **Feedback : You can use VRRP on the on the WAN connection, however, this would require some coordination between the customer and the provider. You can also use VRRP with Group-B.**
 
+### single point of failure
+![](img/Core-Access.png)
++ Connect each server to two access switches.
++ **Feedback : The current topology has a single point of failure for a server if the connected access switch fails. Moving one of the connections on the servers to a different access switch removes this single point of failure.**
+
 ### chassis cluster
 + The SRX model numbers must be the same to form a chassis cluster.
 + **Feedback : A chassis cluster must contain the same SRX models. Attempting to cluster an SRX340 and a SRX345 together will not work.**
