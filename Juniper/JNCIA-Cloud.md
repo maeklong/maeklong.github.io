@@ -64,12 +64,21 @@
 + **Feedback : Included in Junos OS, the Junos Automation Toolkit is a suite of tools supported on all Juniper Networks switches, routers, and security devices.**
 + **two platforms share the same automation scripts**
 
+### vMX
+
+
 ### ETSI Management and Orchestration (MANO) framework
 + virtualized network function manager (VNFM)
 + Network Functions Virtualization (NFV) orchestrator
 + **Feedback : Two of the key components of the ETSI NFV architectural framework are the NFV Orchestrator and VNF Manager, known as NFV MANO. Additional layers, such as service orchestration are also required for operators to enable true NFV services. Open Source software can facilitate the implementation of an ETSI aligned NFV architecture, provide practical and essential feedback to the ETSI ISG NFV and increase the likelihood of interoperability among NFV implementations.**
 
-### Scaling
-+ Service Scaling
+### Service Scaling
 + **Feedback : Service scaling increases instances of an application providing scalability for important resources.**
 + **Whenever an application becomes popular, the resulting high-traffic load on the VNFs leads to user dissatisfaction**
+
+### VNF
++ A VNF is a virtual entity that can be launched and managed.
++ **Feedback : Virtualized network functions (VNFs) include all virtual entities that can be launched and managed from the Juniper Device Manager (JDM)**
+
+### Network Service Activator
++ **Feedback : Network Activator initially provisions NFX250 Network Services Platforms (referred to as remote devices in this documentation), which reside at end users’ sites. The remote devices download a boot image and initial configuration files from servers hosting Network Activator, using a process that provides full authorization and authentication for all interactions. When initial provisioning is complete, the remote device communicates with a management server, which then starts to manage and monitor**
