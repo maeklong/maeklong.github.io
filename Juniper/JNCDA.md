@@ -241,6 +241,12 @@
 + to reduce routing overhead
 + **Feedback : Route summarization provides a hierarchical IP addressing plan and reduces the coexistence of BGP with IGPs.**
 
+### security policy
++ IP address
++ security zone
++ application port
++ **Feedback : Three match criteria of a security policy on an SRX Series device are IP address, security zone, and application port.**
+
 ### highly resilient network
 + Virtual Chassis for EX devices.
 + Redundant power supplies for network devices.
