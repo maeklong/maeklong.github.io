@@ -368,6 +368,16 @@
 ### hub-and-spoke VPN
 + **Replace the hub-and-spoke VPN with an ADVPN.
 + **Feedback : Deploying an ADVPN removes the hub device from the forwarding path in spoke-to-spoke communication. Full-meshed VPN does not work in this situation because of the management overhead a full mesh VPN places on the IT staff that has recently seen cutbacks.**
++ hub-and-spoke
++ **Feedback : A hub-and-spoke topology would be one or two campuses or data centers connected to several smaller branch offices. The main site would typically have a higher user density while the branch sites would have a lower user density.**
++ **located in a single, multifloor building. Several smaller, remote buildings connect into your main corporate network**
+
+### Measurement
++ the number of physical desktop ports
++ the number of guest access users
++ the number of unmanned IP enabled end-point systems
++ **Feedback : The measurements needed are the number of physical desktop ports, guest access users, and unmanned IP enabled end-point systems.**
++ ** a goal of providing a differentiated security policy per role and per device**
 
 ### SSL VPN
 + **Feedback : SSL VPNs allow remote home workers to access corporate resources securely.**
@@ -403,6 +413,18 @@
 + GRE
 + EVPN
 + **Feedback : You can use GRE and EVPN to stretch L2 traffic between two data centers over the DCI.**
+
+### Datacenter
++ data repositories/distribution
++ data center interconnects
++ high availability considerations
++ **Feedback : Three relevant considerations are data repositories/distribution, data center interconnects, and high availability considerations.**
+
+### Log & Report
++ on-box logging
++ Junos Space Log Director
++ third-party log management
++ **Feedback : On-box logging, Junos Space Log Director, third-party log management would satisfy the requirements.**
 
 ## Industry Alternatives
 + VPLS
