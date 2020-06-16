@@ -350,3 +350,10 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 
 ### API-based SDN
 ![](img/API-based_SDN.png)
+
+
+### components are part of the AppFormix architecture?
++ policy controller
++ (compute node)
++ (SDN controller)
++ data platform
