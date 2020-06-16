@@ -10,6 +10,10 @@
 + (Services are always provisioned by the ISP.
 + (Services must be provisioned manually.)
 
+### examples of public cloud providers ???
++ Microsoft Azure
++ Amazon Web Services
+
 ### Software Suites
 + OpenStack
 + vSphere
