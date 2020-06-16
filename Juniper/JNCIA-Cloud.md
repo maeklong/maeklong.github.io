@@ -339,3 +339,9 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 
 ### Contrail exchange forwarding information between the Contrail controller and gateway router
 + BGP
+
+### scenarios is Contrail used
++ private cloud networking
++ (network hardware lifecycle management)
++ (Network Functions Virtualization)
++ policy-based routing
