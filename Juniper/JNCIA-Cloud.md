@@ -363,3 +363,6 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 ### Actions would Policy Enforcer take when it determines a user has downloaded a file containing malware
 + Put the user in a quarantine VLAN.
 + Block the user from accessing the network.
+
+### feature set of the vSRX allows you to monitor application usage to identify highrisk applications and analyze traffic patterns?
++ AppTrack
