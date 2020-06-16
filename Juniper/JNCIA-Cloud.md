@@ -243,3 +243,19 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 ### vSRX
 + AppTrack
 + **Feedback : AppTrack analyzes application data and classifies it based on risk level, zones, source and destination addresses.**
+
+### pricing models
++ bring your own license
++ pay as you go
++ **Feedback : AWS is a highly flexible, scalable, and reliable cloud platform where individuals and enterprises can host servers and services on the cloud as a pay-as-you-go (PAYG) service or bring-your-own-license (BYOL). vSRX PAYG images do not require any Juniper Networks licenses.**
+
+### Software-Defined Secure Network architectures
++ to centrally manage security policies
++ to automate responses to detected security threats
++ **Feedback : Software Defined Secure Networks, or SDSN, is the concept of a pervasive security infrastructure, or the idea of using the whole network as a security system. To implement such a security system, the recent developments in automation, machine learning, and centralized policy management and enforcement are used.**
+
+### sandboxing in Sky ATP
++ to analyze the behavior of potential security threats
++ to store infected files for further analysis
++ **Feedback : Dynamic analysis sandboxes suspect files and executes them in a real environment where they can run uninterrupted for minutes. During that time, active deception encourages the malware to show itself, and a record of its activity is kept. The file is then fed into the Sky ATP machine-learning algorithms.**
+
