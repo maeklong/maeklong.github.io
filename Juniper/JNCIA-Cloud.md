@@ -70,7 +70,7 @@
 + **Feedback : The vMX Virtual Router is a virtualized MX Series 3D Universal Edge Router that helps network operators of all types improve customer experience and profitability by increasing network and service agility and accelerating time to market for new services, while streamlining their operations environment. The vMX is available as licensed software for x86-based servers and on Amazon Web Services (AWS) and AWS GovCloud, where it can provide secure routing between AWS virtual path connections (VPCs),**
 
 ### vMX on KVM
-+ a little
++ a little (lite)
 + performance
 + **Feedback : vMX can be configured to run in two modes depending on the use case. Lite mode—Needs fewer resources in terms of CPU and memory to run at lower bandwidth. Performance mode—Needs higher resources in terms of CPU and memory to run at higher bandwidth.**
 
@@ -119,7 +119,7 @@
 
 ### OpenFlow controller-based software defined network
 + The forwarding plane of each device in the network is programmed by the controller.
-+ **????***
++ **Feedback : In an OpenFlow network, all of the forwarding elements are directly programmable allowing switching decisions to be made centrally. This means forwarding policy no longer needs to be configured on individual devices and the hop-by-hop behavior can be abstracted and configuration can be made based on the desired network state.**
 
 ### VMware NSX controller and a Junos Layer 2 gateway
 + OVSDB
