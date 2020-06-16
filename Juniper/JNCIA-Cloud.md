@@ -38,6 +38,8 @@
 + Kubernetes
 + **Feedback : OpenStack, vSphere, and Kubernetes are used in different roles in cloud architectures.**
 
+
+
 ### Secure VPN Technology
 + IPsec VPN
 + **Feedback : Access to private cloud environments is through private leased connections, or over the Internet through secure VPN access. IPsec VPN encrypts and hashes traffic as it traverses the putlic Internet.**
@@ -314,3 +316,10 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 ### insight
 + Contrail Analytics
 + **Feedback : Starting with Contrail Release 2.20, you can view a variety of analytics related to underlay and overlay traffic in the Contrail Web user interface.**
+
+## Others
+### to reduce full-mesh internal BGP peering
++ VRR
++ (CSO)
++ (vSRX)
++ (cSRX)
