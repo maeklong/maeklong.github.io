@@ -214,3 +214,12 @@
 + JSON
 + **Feedback : For each alarm, AppFormix can post a structured description of an event as a JSON payload to an external HTTP endpoint. These notifications can be used to initiate any action or workflow, whether it is corrective, preventive, or otherwise, to keep the infrastructure and its workloads operating in their optimal state.**
 
+## Cloud Managed Services
+
+### CSO
+CSO is ETSI compliant.
+Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch networks, offering opportunities for high flexibility of the network, rapid introduction of new services, automation of network administration, and cost savings. Based on the European Telecommunications Standards Institute (ETSI) standards for Network Functions Virtualization (NFV) management and orchestration (MANO).
+
+### centralized cloud CPE
++ Physical CPE devices are not required at the customer's office.
++ **Feedback : The centralized deployment offers a fast migration route, because you can replace a traditional CPE at a customer’s site with a simple Layer 3 network interface device (NID) to enable access to the network provider’s cloud. This deployment is the recommended model for sites that can accommodate network services—particularly security services—in the cloud.**
