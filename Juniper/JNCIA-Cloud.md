@@ -172,6 +172,7 @@
 + **Which statement describes the role of the NorthStar Controller**
 + PCEP
 + **Feedback : Juniper Networks® NorthStar Controller is based on the Path Computation Element (PCE)architecture as defined in RFC 5440. It specifically leverages the “active stateful PCE” concept, which enables it to learn about the network and LSP path state via the Path Computation Element Protocol (PCEP) by communication with a client-side component present in the network devices themselves. The client is referred to as a Path Computation Client (PCC).**
++ **used to communicate LSP and status information between the NorthStar Controller and label edge routers**
 + RSVP-TE
 + **Feedback : The path setup is performed through RSVP-TE signaling, which is enabled in the network and allows labels to be assigned from an ingress router to the egress router.**
 + PCE
