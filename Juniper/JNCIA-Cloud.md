@@ -159,6 +159,7 @@
 ### VMware NSX controller and a Junos Layer 2 gateway
 + OVSDB
 + **Feedback : The management of the virtual switch is achieved via the OVS DataBase (OVSDB). The database contains information such as the set of logical switches that the OVS must handle, the list of associated physical ports, as well as configuration information as statistics for those ports. The Layer 2 gateway runs an OVSDB server. Typically,a local client and a client on the controller clusters connect to this server. Using OVSDB, the controller cluster can thus coordinate different parameters across the**
++ **open source management framework does VMware NSX use to manage VXLANs on a Junos device**
 
 ### vSRX Series and VMware NSX integration
 + You can add the vSRX virtual firewall as a security element in the VMware NSX environment.
@@ -222,6 +223,7 @@
 + SNMP
 + **Feedback : The WANDL IP/MPLSView server connects to production devices using SSH or telnet, and gathers information and statistics using CLI commands and SNMP polling.**
 + **SNMP does WANDL use to collect live network information**
++ **used to perform capacity planning on MPLS WAN connections**
 
 ## Cloud Monitoring
 
