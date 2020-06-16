@@ -345,3 +345,6 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 + (network hardware lifecycle management)
 + (Network Functions Virtualization)
 + policy-based routing
+
+### API-based SDN
+![](img/API-based_SDN.png)
