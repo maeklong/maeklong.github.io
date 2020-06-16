@@ -263,3 +263,8 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 + Put the user in a quarantine VLAN.
 + Block the user from accessing the network.
 + **Feedback : In addition to blocking traffic from infected entities on the perimeter firewalls, customers can take network-oriented actions like quarantining to contain lateral threat movement inside the network.**
+
+### Juniper Networks SDSN solution
++ enforcement everywhere on the network
++ centralized management
++ **Feedback : Security in an SDSN involves the network devices throughout the entire network. Detection of network threats is performed by both cloud and on premise systems. Centralized policy management ensures that all of the devices that participate in the secure network have a consistent security posture,and assists in the propagation of enforcement rules.**
