@@ -191,3 +191,6 @@
 + **What is a supported data model for the Juniper Telemetry Interface**
 
 ### big data analytics and machine learning
++ AppFormix
++ **Feedback : AppFormix redefines state-of-the-art telemetry and management across software-defined infrastructure and application software layers, delivering realtime and historic monitoring, performance visibility, and dynamic optimization features to improve cloud orchestration, security, accounting, and planning for users.**
+
