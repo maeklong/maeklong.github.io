@@ -207,3 +207,10 @@
 + Collects system state information.
 + Raises rule-based alerts.
 + **Feedback : Contrail analytics nodes are responsible for the collection of system state information, usage statistics, and debug information from all of the software modules across all of the nodes of the system. Contrail analytics raise or clear alerts using Python-coded rules that examine the contents of the UVE and the configuration of the object. Some rules are built in. Others can be added using Python stevedore plugins.**
+
+### AppFormix
++ from an agent on a host or system
++ **From where does AppFormix gather performance metrics in a network**
++ JSON
++ **Feedback : For each alarm, AppFormix can post a structured description of an event as a JSON payload to an external HTTP endpoint. These notifications can be used to initiate any action or workflow, whether it is corrective, preventive, or otherwise, to keep the infrastructure and its workloads operating in their optimal state.**
+
