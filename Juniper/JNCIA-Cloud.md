@@ -87,6 +87,8 @@
 + QFX Series **
 + **Feedback : VMware NSX Layer 2 gateway services will be available on Juniper Networks QFX Series access switches, EX9200 line of programmable core/aggregation Ethernet switches, and MX Series 3D Universal Edge Routers. Deployed as a Virtual Tunnel End Point, or VTEP, each platform registers with VMware’s NSX controller and can be configured to provide Layer 2 gateway services to any virtual network. This allows the NSX controller to coordinate the creation of VXLAN tunnels between the hypervisor and the phy**
 
++ ??? **certified to interoperate with VMware NSX?** ???
+
 ### Automation Script
 + vMX Series
 + MX Series
