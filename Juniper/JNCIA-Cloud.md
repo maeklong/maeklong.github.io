@@ -64,6 +64,8 @@
 + **Feedback : Included in Junos OS, the Junos Automation Toolkit is a suite of tools supported on all Juniper Networks switches, routers, and security devices.**
 + **two platforms share the same automation scripts**
 
+## NFV
+
 ### vMX
 + The vMX Series uses carrier-grade routing optimized for the x86 environment.
 + The vMX Series requires a license for production environments.
@@ -127,7 +129,7 @@
 
 ### vSRX Series and VMware NSX integration
 + You can add the vSRX virtual firewall as a security element in the VMware NSX environment.
-+ **???**
++ **Feedback : The NSX Manager deploys the registered vSRX instance as a Juniper security service for each ESXi host in a vSphere cluster. The deployment is based on the vSRX .ovf file. Whenever an ESXi host is added to a vSphere cluster, NSX Manager creates a vSRX agent VM in the new ESXi host. The same process occurs if an ESXi host is removed from a vSphere cluster.**
 
 ### Junos Space application 
 + Network Director
