@@ -202,3 +202,8 @@
 + JTI provides real-time reporting.
 + JTI can stream in multiple message formats.
 + **Feedback : The Junos Telemetry Interface permits streaming of telemetry data to a performance management system enabling network administrators to measure trends in link and node utilization, and troubleshoot such issues as network congestion in real time. The Junos Telemetry Interface supports two ways of exporting data in the Google protocol buffers (gpb) format: Through UDP from so-called native sensors that export data close to the source, such as the line card or network processing unit (NPU). Juniper**
+
+### Contrail analytic
++ Collects system state information.
++ Raises rule-based alerts.
++ **Feedback : Contrail analytics nodes are responsible for the collection of system state information, usage statistics, and debug information from all of the software modules across all of the nodes of the system. Contrail analytics raise or clear alerts using Python-coded rules that examine the contents of the UVE and the configuration of the object. Some rules are built in. Others can be added using Python stevedore plugins.**
