@@ -194,3 +194,6 @@
 + AppFormix
 + **Feedback : AppFormix redefines state-of-the-art telemetry and management across software-defined infrastructure and application software layers, delivering realtime and historic monitoring, performance visibility, and dynamic optimization features to improve cloud orchestration, security, accounting, and planning for users.**
 
+### transport monitoring data
++ UDP
++ **Which protocol is used to transport monitoring data in Juniper's open and extensible data model**
