@@ -197,3 +197,8 @@
 ### transport monitoring data
 + UDP
 + **Which protocol is used to transport monitoring data in Juniper's open and extensible data model**
+
+### Junos Telemetry Interface
++ JTI provides real-time reporting.
++ JTI can stream in multiple message formats.
++ **Feedback : The Junos Telemetry Interface permits streaming of telemetry data to a performance management system enabling network administrators to measure trends in link and node utilization, and troubleshoot such issues as network congestion in real time. The Junos Telemetry Interface supports two ways of exporting data in the Google protocol buffers (gpb) format: Through UDP from so-called native sensors that export data close to the source, such as the line card or network processing unit (NPU). Juniper**
