@@ -323,3 +323,19 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 + (CSO)
 + (vSRX)
 + (cSRX)
+
+### comprises a complete ETSI NFVI solution
++ Contrail Cloud
+
+### technologies that a vMX's control plane uses to communicate with the forwarding plane on the same server
++ SR-IVO
++ Virtio
+
+### Which protocol is used by Contrail Device Manager to configure physical routers
++ NETCONF
+
+### Which Contrail component handles packet forwarding for virtual machines?
++ vRouter
+
+### Contrail exchange forwarding information between the Contrail controller and gateway router
++ BGP
