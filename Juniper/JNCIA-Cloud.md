@@ -227,6 +227,8 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 + **Feedback : The CSO Customer Portal is an application that you can provide to customers to enable them to manage sites and services for their organizations through a GUI.**
 + Designer Tools
 + **Feedback : Network Service Designer, which enables design, creation, management, and configuration of network services through a GUI. Network services are stored in the network service catalog.**
++ Service and Infrastructure Monitor
++ **Feedback : The CSO Service and Infrastructure Monitor, which works with Icinga, an open source enterprise monitoring system to provide data about the Cloud CPE Centralized Deployment Model.**
 
 ### centralized cloud CPE
 + Physical CPE devices are not required at the customer's office.
