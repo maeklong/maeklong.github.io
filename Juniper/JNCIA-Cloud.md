@@ -225,4 +225,5 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 + **Feedback : The centralized deployment offers a fast migration route, because you can replace a traditional CPE at a customer’s site with a simple Layer 3 network interface device (NID) to enable access to the network provider’s cloud. This deployment is the recommended model for sites that can accommodate network services—particularly security services—in the cloud.**
 + VNFs are stored on CPEs at the customer branch offices.
 + **Feedback : The distributed deployment supports private hosting of VNFs on an NFX250 at a customer’s site, and offers software defined wide area networking (SD-WAN) capabilities.**
-
++ VNFs are stored as VMs at a centralized data center.
++ **Feedback : In the Cloud CPE Centralized Deployment Model (centralized deployment), customers access network services in a service provider’s cloud.**
