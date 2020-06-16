@@ -268,3 +268,11 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 + enforcement everywhere on the network
 + centralized management
 + **Feedback : Security in an SDSN involves the network devices throughout the entire network. Detection of network threats is performed by both cloud and on premise systems. Centralized policy management ensures that all of the devices that participate in the secure network have a consistent security posture,and assists in the propagation of enforcement rules.**
+
+### Junos Space Security Director
++ Security Director is a centralized security policy manager.
++ **Feedback : Security Director implements global policy changes. Security Director manages and controls the security policies that are active in SRX and vSRX platforms.**
+
+### insight
++ Contrail Analytics
++ **Feedback : Starting with Contrail Release 2.20, you can view a variety of analytics related to underlay and overlay traffic in the Contrail Web user interface.**
