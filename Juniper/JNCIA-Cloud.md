@@ -1,7 +1,14 @@
 # Cloud, Associate (JNCIA-Cloud)
 # (JN0-211)
 
+
 ## Cloud Architectures
+
+### Characteristics of cloud computing ???
++ Services are provisioned using automation.
++ Services are provisioned by the customer.
++ (Services are always provisioned by the ISP.
++ (Services must be provisioned manually.)
 
 ### Software Suites
 + OpenStack
@@ -202,6 +209,7 @@
 
 ### transport monitoring data
 + UDP
++ **Feedback : In the open and extensible data model defined by Juniper Networks. Data is generated as Google protocol buffers (gpb) structured messages. The files that define each .proto message are published on the Juniper Networks web site. Native sensors export data close to the source, such as the line card or network processing unit (NPU), using the User Datagram Protocol (UDP). Because this model features a distributed architecture, it scales easily.**
 + **Which protocol is used to transport monitoring data in Juniper's open and extensible data model**
 
 ### Junos Telemetry Interface
