@@ -128,3 +128,41 @@
 ### vSRX Series and VMware NSX integration
 + You can add the vSRX virtual firewall as a security element in the VMware NSX environment.
 + **???**
+
+### Junos Space application 
++ Network Director
++ **Feedback : Juniper provides a single pane-of-glass management solution with Junos Space Network Director, which manages both physical and virtual networking environments while integrating with management tools from Vmware. When virtual machines move from one location in the data center to another, Network Director is immediately aware of this change. In this way, a network administrator can now change the VLAN configurations on the virtual and physical switches.**
+
+### Compute Hypervisor
++ ESXi
++ KVM
++ **Feedback : Typically, the servers running Contrail components are using the Linux operating system and a KVM hypervisor. As of Contrail Release 2.0 and greater, limited capability is provided for extending the Contrail compute node functionality to servers running the VMware ESXi virtualization platform.**
+
+### Opensource Management Framework
++ OVSDB
++ **Feedback : Some Juniper Networks devices support Virtual Extensible LAN (VXLAN) and the Open vSwitch Database (OVSDB) management protocol. Support for VXLAN and OVSDB enables the Juniper Networks devices in a physical network to be integrated into a virtual network.**
+
+### Deploying vSRX
++ Junos Space Security Director
++ VMware NSX Manager
++ **Feedback : The vSRX VM is deployed in conjunction with Juniper Networks Junos Space Security Director and VMware NSX Manager.**
+
+### SDN Type
++ OpenFlow-based SDN
++ **Feedback : While the definition of SDN has been stretched over time, the original concept and its implementations based on the OpenFlow protocol remain. Often referred to as “Classic” or “Pure” SDN, the idea is to strip SDN down to its simplest form: the total separation of control and forwarding planes. The control plane is centralized in the SDN controller, while the forwarding plane remains distributed in a simplified forwarding element.**
+
+### Contrail
++ private cloud networking
++ Network Functions Virtualization
++ **Feedback : Contrail, and the open source release of OpenContrail, is an open source SDN controller that integrates with OpenStack. It uses APIs to interact with the native OpenStack components, and places a Juniper Networks virtual router on each host in the network. The virtual router serves as the end point for the network overlay tunnels that interconnect physical hosts, and that connect physical hosts to gateway devices.**
+
+## SDN WAN
+
+### NorthStar Controller
++ PCEP
++ **Feedback : Juniper Networks® NorthStar Controller is based on the Path Computation Element (PCE)architecture as defined in RFC 5440. It specifically leverages the “active stateful PCE” concept, which enables it to learn about the network and LSP path state via the Path Computation Element Protocol (PCEP) by communication with a client-side component present in the network devices themselves. The client is referred to as a Path Computation Client (PCC).**
++ RSVP-TE
++ **Feedback : The path setup is performed through RSVP-TE signaling, which is enabled in the network and allows labels to be assigned from an ingress router to the egress router.**
+
+
+
