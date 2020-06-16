@@ -4,17 +4,29 @@
 
 ## Cloud Architectures
 
+### organization is responsible for defining cloud computing
++ (ANSI)
++ (IANA)
++ (IEEE)
++ NIST
+
 ### Characteristics of cloud computing ???
 + Services are provisioned using automation.
 + Services are provisioned by the customer.
 + (Services are always provisioned by the ISP.
 + (Services must be provisioned manually.)
 
+### Characteristics of cloud computing ???
++ (customer-owned equipment)
++ measured service
++ resource pooling
++ (unrestricted public access to all resources)
+
 ### public cloud ???
-+ The cloud infrastructure is provisioned for exclusive use by a single organization comprising multiple consumers.
-+ The cloud infrastructure is provisioned for exclusive use by a specific community of consumers from organizations that have shared concerns.
++ (The cloud infrastructure is provisioned for exclusive use by a single organization comprising multiple consumers.)
++ (The cloud infrastructure is provisioned for exclusive use by a specific community of consumers from organizations that have shared concerns.)
 + The cloud infrastructure is provisioned for open use by the general public.
-+ The cloud infrastructure is a composition of two or more distinct cloud infrastructures.
++ (The cloud infrastructure is a composition of two or more distinct cloud infrastructures.)
 
 ### examples of public cloud providers ???
 + Microsoft Azure
