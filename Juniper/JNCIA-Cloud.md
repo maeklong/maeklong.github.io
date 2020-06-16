@@ -237,3 +237,9 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 + **Feedback : The distributed deployment supports private hosting of VNFs on an NFX250 at a customer’s site, and offers software defined wide area networking (SD-WAN) capabilities.**
 + VNFs are stored as VMs at a centralized data center.
 + **Feedback : In the Cloud CPE Centralized Deployment Model (centralized deployment), customers access network services in a service provider’s cloud.**
+
+## Cloud Security
+
+### vSRX
++ AppTrack
++ **Feedback : AppTrack analyzes application data and classifies it based on risk level, zones, source and destination addresses.**
