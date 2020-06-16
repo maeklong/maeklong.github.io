@@ -351,7 +351,6 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 ### API-based SDN
 ![](img/API-based_SDN.png)
 
-
 ### components are part of the AppFormix architecture?
 + policy controller
 + (compute node)
@@ -361,8 +360,6 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 ### role does AppFormix perform in an SDN WAN environment?
 + AppFormix sends alert information to an orchestration platform.
 
-
-
-Actions would Policy Enforcer take when it determines a user has downloaded a file containing malware
+### Actions would Policy Enforcer take when it determines a user has downloaded a file containing malware
 + Put the user in a quarantine VLAN.
 + Block the user from accessing the network.
