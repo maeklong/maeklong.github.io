@@ -225,6 +225,8 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 + **Feedback : The CSO Administration Portal is an application that you use to manage resources, customers, and availability of network services through a graphical user interface (GUI).**
 + Customer Portal
 + **Feedback : The CSO Customer Portal is an application that you can provide to customers to enable them to manage sites and services for their organizations through a GUI.**
++ Designer Tools
++ **Feedback : Network Service Designer, which enables design, creation, management, and configuration of network services through a GUI. Network services are stored in the network service catalog.**
 
 ### centralized cloud CPE
 + Physical CPE devices are not required at the customer's office.
