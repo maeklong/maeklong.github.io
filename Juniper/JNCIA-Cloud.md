@@ -158,11 +158,36 @@
 
 ## SDN WAN
 
+### SDN WAN implementation
++ SDN WAN uses MPLS tunnels to connect POPs.
++ SDN WAN uses a centralized control plane.
++ **Feedback : The SDN WAN provides a centralized control plane for MPLS domains. The NorthStar Controller is a WAN SDN controller that automates the discovery and creation of traffic-engineered label switched paths across a service provider or large enterprise network.**
+
 ### NorthStar Controller
++ NorthStar
++ **Which SDN product is used to manage and optimize MPLS WAN connections?**
++ It is an SDN WAN controller.
++ **Which statement describes the role of the NorthStar Controller**
 + PCEP
 + **Feedback : Juniper Networks® NorthStar Controller is based on the Path Computation Element (PCE)architecture as defined in RFC 5440. It specifically leverages the “active stateful PCE” concept, which enables it to learn about the network and LSP path state via the Path Computation Element Protocol (PCEP) by communication with a client-side component present in the network devices themselves. The client is referred to as a Path Computation Client (PCC).**
 + RSVP-TE
 + **Feedback : The path setup is performed through RSVP-TE signaling, which is enabled in the network and allows labels to be assigned from an ingress router to the egress router.**
++ PCE
++ PCC
++ **Feedback : PCE: Path Computational Element. This component computes paths through the network and can apply constraints during the computation of those paths.The NorthStar controller performs this role. PCC: Path Computation Client. A path computation client is a software application that requests a path.**
 
+### WANDL constructs topologies
++ Enters data manually.
++ Imports configuration files.
++ **Feedback : Device configuration files and saved command output information is imported into the server to create a model. Manual data file creation, which is more time-consuming, requires using a text editor to manually create the data files.**
++ SNMP
++ **Feedback : The WANDL IP/MPLSView server connects to production devices using SSH or telnet, and gathers information and statistics using CLI commands and SNMP polling.**
++ **SNMP does WANDL use to collect live network information**
 
+## Cloud Monitoring
 
+### Juniper Telemetry Interface
++ OpenConfig data model
++ **What is a supported data model for the Juniper Telemetry Interface**
+
+### big data analytics and machine learning
