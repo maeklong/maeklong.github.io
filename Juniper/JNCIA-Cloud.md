@@ -166,8 +166,6 @@
 + **Feedback : The SDN WAN provides a centralized control plane for MPLS domains. The NorthStar Controller is a WAN SDN controller that automates the discovery and creation of traffic-engineered label switched paths across a service provider or large enterprise network.**
 
 ### NorthStar Controller
-+ NorthStar
-+ **Which SDN product is used to manage and optimize MPLS WAN connections?**
 + It is an SDN WAN controller.
 + **Which statement describes the role of the NorthStar Controller**
 + PCEP
@@ -175,9 +173,14 @@
 + **used to communicate LSP and status information between the NorthStar Controller and label edge routers**
 + RSVP-TE
 + **Feedback : The path setup is performed through RSVP-TE signaling, which is enabled in the network and allows labels to be assigned from an ingress router to the egress router.**
++ **required for NorthStar to establish paths between PE devices**
 + PCE
 + PCC
 + **Feedback : PCE: Path Computational Element. This component computes paths through the network and can apply constraints during the computation of those paths.The NorthStar controller performs this role. PCC: Path Computation Client. A path computation client is a software application that requests a path.**
+
+### MPLS WAN connections
++ NorthStar
++ **Which SDN product is used to manage and optimize MPLS WAN connections?**
 
 ### WANDL constructs topologies
 + Enters data manually.
