@@ -259,3 +259,7 @@ Feedback : The Juniper Networks Cloud CPE solution transforms traditional branch
 + to store infected files for further analysis
 + **Feedback : Dynamic analysis sandboxes suspect files and executes them in a real environment where they can run uninterrupted for minutes. During that time, active deception encourages the malware to show itself, and a record of its activity is kept. The file is then fed into the Sky ATP machine-learning algorithms.**
 
+### Policy Enforcer 
++ Put the user in a quarantine VLAN.
++ Block the user from accessing the network.
++ **Feedback : In addition to blocking traffic from infected entities on the perimeter firewalls, customers can take network-oriented actions like quarantining to contain lateral threat movement inside the network.**
