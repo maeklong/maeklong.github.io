@@ -31,7 +31,8 @@
 + **the importance of understanding a user's applications when designing a network solution**
 
 ### design boundary
-+ Current infrastructure lacks the media to interconnect buildings with each other. **???**
++ Current infrastructure lacks the media to interconnect buildings with each other.
++ **Feedback : Design boundaries might include hidden agendas from employees within the company, governmental laws or statutes that were not previously identified, or even limitations on the existing physical media that is in place.++
 + **design boundary is caused by the customer's existing physical environment**
 
 ### WAN service 
