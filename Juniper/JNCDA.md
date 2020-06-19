@@ -61,6 +61,7 @@
 + **Feedback : The two sub-phases of the plan methodology are access and design.**
 + Access
 + **Feedback : You must first access the customer's environment before you can begin designing or building it.**
++ **sub-phase of the plan methodology must you do first**
 
 ### key RFP elements
 + Business requirements
@@ -72,6 +73,7 @@
 + A list of design requirements.
 + The types of solutions the design must provide.
 + **Feedback : An RFP must include a list of design requirements and the types of solutions that the design will provide.**
++ **items must be included in an RFP**
 
 ### modular requirements RFP element
 + Hierarchical design considerations
