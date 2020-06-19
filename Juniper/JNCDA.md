@@ -479,6 +479,7 @@
 + data center interconnects
 + high availability considerations
 + **Feedback : Three relevant considerations are data repositories/distribution, data center interconnects, and high availability considerations.**
++ **a plan to reduce the number of data centers deployed by a customer**
 
 ### Log & Report
 + on-box logging
