@@ -145,6 +145,7 @@
 + Create continuity plans.
 + Analyze packet flow.
 + **Feedback : Business continuity should be proactively built into the network design to ensure that essential functions can continue. Before a business continuity plan can be tested, staff must be notified and also be familiar with what is expected of them for a given scenario. The actual tests can be theoretical or, better yet, they can be full-fledged live exercises.**
++ **The customer has voiced concerns that the network design and implementation cannot affect current sales in any way**
 + business continuity
 + **Feedback : Business continuity is an organization’s need to ensure that essential functions can continue during and after a disaster, including the prevention of interruption to mission-critical services, and the ability to reestablish full functionality as quickly as possible.**
 
