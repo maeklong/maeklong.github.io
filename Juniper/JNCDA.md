@@ -23,6 +23,7 @@
 + scale constraints of existing hardware
 + protocol incompatibilities
 + **Feedback : The network design must take into consideration the ability of the existing hardware to scale and any protocol incompatibilities between the two networks.**
++ **to acquire another organization and integrate that acquisition into their corporation**
 + The network engineer can infer traffic patterns.
 + Quality of service (QoS) can be optimized for specific applications.
 + **Feedback : When designing a network, it’s imperative for the network engineer to infer traffic patterns and optimize QoS for specified applications.**
