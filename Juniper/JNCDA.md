@@ -388,7 +388,7 @@
 + **Feedback : You should use a firewall to restrict between the different groups.**
 + Use a firewall with security policies to control the traffic.
 + **Feedback : You can effectively restrict access between groups in a network by using security policies on a firewall. If you attempted to use Layer 2/3 ACLs to restrict this access, it could quickly become overwhelming as you must account for both directions of a flow.**
-
++ **access between different groups must be tightly restricted**
 ### redundant WAN links
 + redundant WAN links
 + **Feedback : Redundant WAN links can address the connectivity issue as a single WAN link could be flapping and causing the connectivity issues.**
@@ -422,8 +422,8 @@
 + **Feedback : Two deployment models for VPNs are site to site and hub and spoke.**
 
 ### Full mesh VPN 
-+ **???**
-+ **they do not wish to use PKI certificates as a form of authentication**
++ full mesh VPN
++ **Feedback : You should recommend a full mesh VPN in this scenario. The ADVPN and full mesh VPN provides low application latency between spoke devices, but the ADVPN must use PKI certificates for authentication, whereas the full mesh VPN does not need to use PKI certificates for authentication.**
 
 ### WAN design
 + IPsec tunnels over the Internet
@@ -517,6 +517,9 @@
 + LLDP
 + RSTP
 + **Feedback : LLDP and RSTP are open source protocols that can work with multiple different vendors.**
++ LLDP
++ RSTP
++ **Feedback : LLDP and RSTP are open source protocols that can work with multiple different vendorsปิดข่าว
 + MSTP
 + IGMPv3
 + **Feedback : MSTP and IGMPv3 are open source protocols that can work with multiple different vendors.**
