@@ -27,6 +27,7 @@
 + The network engineer can infer traffic patterns.
 + Quality of service (QoS) can be optimized for specific applications.
 + **Feedback : When designing a network, it’s imperative for the network engineer to infer traffic patterns and optimize QoS for specified applications.**
++ **the importance of understanding a user's applications when designing a network solution**
 
 ### design boundary
 + Current infrastructure lacks the media to interconnect buildings with each other. **???**
