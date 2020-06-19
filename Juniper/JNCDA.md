@@ -148,6 +148,7 @@
 + **The customer has voiced concerns that the network design and implementation cannot affect current sales in any way**
 + business continuity
 + **Feedback : Business continuity is an organization’s need to ensure that essential functions can continue during and after a disaster, including the prevention of interruption to mission-critical services, and the ability to reestablish full functionality as quickly as possible.**
++ **Any outage results in lost revenue for your company, and may result in lost customers. Network uptime is your top priority**
 
 ### business continuity planning
 + test the plan
@@ -163,12 +164,14 @@
 + It suggests certain budgetary and scheduling constraints.
 + It allows the engineer to infer certain technical requirements.
 + **Feedback : A user's business model will suggest budgetary and scheduling constraints, as well as provide insight into the network’s technical requirements.**
++ **ways that a user's business model is important for network design purposes**
 
 ### Documentation Project
 + Survey all data centers and wiring closets.
 + Review the available documentation with the security administrators.
 + Review the available documentation with the network administrators.
 + **Feedback : As part of your documentation project, you should inspect all data centers and wiring closets, as well as speak to those responsible for them: the security and network administrators.**
++ **to document the existing network and security infrastructure before a design update project begins**
 
 ### Know Your Network step
 + You should list all the functions and services in the network.
@@ -177,6 +180,7 @@
 + know your network
 + assess the risks
 + **Feedback : The steps of business continuity planning are, know your network, assess the risks, formulate the plan, and test the plan.**
++ **the first two steps of business continuity planning**
 
 ### Assess the Risks step
 + You should perform a risk assessment.
@@ -233,6 +237,7 @@
 + Publish an RFI to key vendors.
 + Attend industry conferences.
 + **Feedback : In this scenario, you should publish an RFI to key vendors and attend industry conferences.**
++ **to solicit multiple vendors for design suggestions to help you define your plan moving forward**
 
 ## Physical Design Considerations
 
