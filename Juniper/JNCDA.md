@@ -16,6 +16,7 @@
 + interviews
 + job aids
 + **Feedback : Using questionnaires, interviews, and job aids are great ways to gather data about the customer's current networking environment.**
++ **options are effective ways of gathering data about the customer's current networking environment**
 
 ### Network Design
 + You should understand the state of the customer's current network.
