@@ -182,6 +182,7 @@
 + A solution overview
 + technical specifications
 + **Feedback : An RFP response should include an executive summary, a solution overview, and technical specifications.**
++ **BoM doesn't include
 
 ### executive summary section
 + Introduction of the customer's need or problem.
