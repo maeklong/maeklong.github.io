@@ -11,6 +11,7 @@
 + interviews
 + questionnaires
 + **Feedback : As you begin to work with the customer more closely, you will need to gather the data necessary to accurately determine what you will need for your network design. Use questionnaires, surveys, and interviews to interact with your customer’s workforce.**
++ **customer data would you use to determine the applications that your customer uses most often**
 + questionnaires
 + interviews
 + job aids
