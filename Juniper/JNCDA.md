@@ -486,6 +486,7 @@
 + Junos Space Log Director
 + third-party log management
 + **Feedback : On-box logging, Junos Space Log Director, third-party log management would satisfy the requirements.**
++ **to view logs and generate basic usage reports from network devices**
 
 ## Industry Alternatives
 + VPLS
