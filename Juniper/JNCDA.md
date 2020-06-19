@@ -516,7 +516,7 @@
 ### automate Junos OS platforms
 + PyEZ
 + **Feedback : You can use PyEZ to automate Junos OS platforms.**
-+ Chief
++ Chef
 + **Feedback : You can use Chef to automate Junos OS platforms.**
 + YAML
 + **Feedback : You can use YAML to automate Junos OS platforms.**
