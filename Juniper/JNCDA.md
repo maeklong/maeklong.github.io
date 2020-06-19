@@ -95,6 +95,7 @@
 + **Feedback : The modular requirements RFP element includes the number of wireless connections that are needed and a in-depth traffic analysis.**
 + traffic flow analysis
 + **Feedback : The traffic flow analysis will help you determine many variables that will assist you in understanding what is needed when developing the new design.**
++ **to understand the types of applications on the network and how often those applications are used**
 
 ### aspects of greenfield projects
 + New networks with few or no restraints to consider.
