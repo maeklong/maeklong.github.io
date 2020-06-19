@@ -159,6 +159,7 @@
 + You should test the plan hypothetically on paper.
 + You should test the plan in full-fledged live exercises.
 + **Feedback : You should always test your plan on paper or in live exercises.**
++ **to the Test the Plan step of business continuity planning**
 
 ### user's business model
 + It suggests certain budgetary and scheduling constraints.
@@ -200,6 +201,7 @@
 ### executive summary section
 + Introduction of the customer's need or problem.
 + **Feedback : The steps of the Juniper recommended executive summary structure in an RFP are: Introduction of the customer's need or problem, identification of business benefits, overview of your proposed solution, and relevant supporting information outlining why the customer should choose your plan.**
++ **the first step of the Juniper recommended executive summary structure of an RFP**
 + It is likely to be read by all decision makers.
 + It is an overview of Juniper's value proposition to the customer.
 + **Feedback : The executive summary section of an RFP is so important because it is likely to be read by all decision makers and it contains an overview of Juniper's value proposition to the customer.**
@@ -222,6 +224,7 @@
 + It should outline the technical benefits of the proposed design.
 + It should address the customer's goals, scope, and requirements.
 + **Feedback : The solution overview section of an RFP should outline the technical benefits of the design and address the customer's goals, scope, and requirements.**
++ **the solution overview section of an RFP**
 
 ### network design checklist
 + A process for understanding the customer's business and technical goals.
@@ -251,6 +254,7 @@
 + impact to the business from an operations perspective
 + cost of the proposed solution
 + **Feedback : Three important areas to define are business costs of not going forward, impact to the business from an operations perspective, and the cost of the proposed solution.**
++ **to develop a high-level design to meet a customer's requirement to transition an aging switched infrastructure to a newer approach, meeting their needs for the next five years**
 
 ### route summarization
 + to benefit from a hierarchical IP addressing plan
@@ -279,6 +283,7 @@
 + EX Series
 + QFX Series
 + **Feedback : A VCF is constructed using a spine-and-leaf architecture. Each spine device must be a QFX5100 device. In an optimal VCF configuration, the leaf devices are also QFX5100 devices. You can, however, also configure QFX3600, QFX3500, and EX4300 switches as leaf devices.**
++ **Virtual Chassis Fabric, which two platforms are supported? (Choose two.)**
 
 ### backup WAN link
 + When the users in the network rely on communication through VoIP.
