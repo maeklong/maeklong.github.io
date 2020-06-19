@@ -528,6 +528,10 @@
 
 ### Junos event policies
 + An event policy uses iQoS requirements
++
++ An event policy uses if-then-else logic.
++ You can execute Junos OS operational command for the action of an event policy.
++ **Feedback : Junos event policies use if-then-else logic and you can excute operational commands for the action of an event policy.**
 
 ### Junos event scripts
 + Junos event scripts are triggered automatically.
