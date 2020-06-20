@@ -486,6 +486,7 @@ Connectivity Services Director
 
 ### Virtual Chassis
 + **Feedback : There is no need for STP with a virtual chassis.**
++ **customer has had troubles in the past with his STP implementations and has asked you to design a Layer 2 network that doesn't require STP**
 
 ### virtual chassis fabric (VCF)
 + VCF uses a spine-and-leaf architecture.
