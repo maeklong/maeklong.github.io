@@ -315,6 +315,7 @@
 + when redundant power sources are present on site
 + when a two-device HA solution is not possible
 + **Feedback : You should use redundant power supplies whenever possible. You should make sure that there are redundant power sources on site, plugging redundant power supplies into the same power source doesn't help much if that single power source fails. When a two-device HA solution is not possible due to costs or complexity, redundant power supplies can provide some guarantee against device failure. Note that the SRX320 supports only one power supply.**
++ **situations does power supply redundancy make sense in a network design**
 
 ### VRRP
 + open standards protocol
