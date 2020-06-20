@@ -384,7 +384,7 @@
 + The type of devices is important.
 + **Feedback : When determining the size and scope of a new network design you should consider the number of users and the type of devices that will be accessing the network.**
 
-### Capacity Planning
+### Capacity Planning (network capacity planning)
 + The application behavior is important.
 + The network management platform is not important.
 + **Feedback : When determining network capacity the application behavior is important. The network management platform is not important when determining network capacity.**
