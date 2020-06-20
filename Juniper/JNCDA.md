@@ -366,6 +366,7 @@
 ### distance between the Ethernet switches
 + 100 meters
 + **Feedback : The maximum distance for a Cat 6 cable is 100 meters.**
++ **A campus that involves Ethernet switches that will be using Cat 6 copper cables. the maximum distance between the Ethernet switches**
 + direct attach copper
 + active optical fiber
 + passive optical fiber
