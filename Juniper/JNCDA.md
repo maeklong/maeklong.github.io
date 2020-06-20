@@ -540,6 +540,7 @@ Connectivity Services Director
 + PIM
 + IGMPv2
 + **Feedback : PIM and IGMPv2 are open source protocols that can work with multiple different vendors.**
++ **to propose two technologies that will work among all the vendors' networking equipment**
 + LLDP
 + RSTP
 + **Feedback : LLDP and RSTP are open source protocols that can work with multiple different vendors.**
