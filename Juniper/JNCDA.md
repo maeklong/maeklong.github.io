@@ -516,6 +516,7 @@ Connectivity Services Director
 + VPLS
 + VRRP
 + **Feedback : VPLS and VRRP are open source protocols that can work with multiple different vendors.**
++ **to propose two technologies that will work among all the vendors' networking equipment**
 
 + RSVP
 + LDP
@@ -535,6 +536,7 @@ Connectivity Services Director
 + MACsec
 + VXLAN
 + **Feedback : MACsec and VXLAN are open source protocols that can work with different vendors.**
++ **to propose two technologies that will work among all the vendors' networking equipment**
 + PIM
 + IGMPv2
 + **Feedback : PIM and IGMPv2 are open source protocols that can work with multiple different vendors.**
