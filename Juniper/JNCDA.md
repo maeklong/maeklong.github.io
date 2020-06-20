@@ -496,6 +496,7 @@ Connectivity Services Director
 + GRE
 + EVPN
 + **Feedback : You can use GRE and EVPN to stretch L2 traffic between two data centers over the DCI.**
++ **can you use to stretch Layer 2 traffic between two data centers over a DCI**
 
 ### Datacenter
 + data repositories/distribution
