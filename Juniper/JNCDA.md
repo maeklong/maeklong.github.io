@@ -590,10 +590,9 @@
 + ??? **staff expertise levels in the technology under consideration** ???
 
 
-
 + Which three critical design blocks or functional areas benefit from HA design solutions? (Choose three.)
 + ??? *** data center *** ???
-+ ??? *** camput *** ???
++ ??? *** campus *** ???
 + ??? *** WAN *** ???
 
 
