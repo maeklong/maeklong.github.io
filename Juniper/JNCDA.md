@@ -452,6 +452,7 @@
 + **would be used to manage Juniper EX Series switches**
 + Security Director: Logging and Reporting
 + **Feedback : You can use the Security Director: Logging and Reporting application to store and management events for SRX devices.**
++ **can be used to store and manage events for SRX device**
 + Junos Space typically uses the eth0 interface to manage devices through the OOB network.
 + Junos Space typically uses the eth3 interface to manage devices through the in-band network.
 + **Feedback : Junos Space can use the eth0 and eth3 interface to manage devices. Typically the eth0 interface on a Junos Space device is used to manage devices through the OOB network. Typically the eth3 interface on a Junos Space device is used to manage devices through the in-band network.**
