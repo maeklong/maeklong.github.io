@@ -238,11 +238,15 @@
 ### network design checklist
 + A process for understanding the customer's business and technical goals.
 + **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
+
++ A validation process for analyzing customer's existing environment.
++ **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
+
 + The steps for designing a network topology.
 + **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
++ **the third item in your network design checklist**
+
 + A process for selecting protocols, address schemes, naming conventions, and so forth.
-+ **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
-+ A validation process for analyzing customer's existing environment.
 + **Feedback : The first four steps of the recommended network design checklist are: A process for understanding the customer's business and technical goals, a validation process for analyzing customer's existing environment, the steps for designing a network topology, and a process for selecting protocols, address schemes, naming conventions, and so forth.**
 
 ### solicit multiple vendors for design
