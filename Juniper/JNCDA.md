@@ -456,7 +456,8 @@
 + Junos Space typically uses the eth0 interface to manage devices through the OOB network.
 + Junos Space typically uses the eth3 interface to manage devices through the in-band network.
 + **Feedback : Junos Space can use the eth0 and eth3 interface to manage devices. Typically the eth0 interface on a Junos Space device is used to manage devices through the OOB network. Typically the eth3 interface on a Junos Space device is used to manage devices through the in-band network.**
-+ Connectivity Services Director
++ **Junos Space deployment**
+Connectivity Services Director
 + **Feedback : The Connectivity Services Director application can be used to manage L3 VPNs on MX devices.**
 
 ### Out-of-Band
@@ -477,6 +478,7 @@
 
 ### Juniper Secure Analytics
 + **Feedback : Juniper Secure Analytics allows you to correlate data and logs from network devices from multiple different vendors.**
++ **to propose a data correlation and logging solution that will work with Juniper devices, as well as the network devices from the other vendors in their network**
 
 ### disaster recovery
 + Deploying a Data Center Interconnect.
