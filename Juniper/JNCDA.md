@@ -77,7 +77,7 @@
 + **Feedback : An RFP must include a list of design requirements and the types of solutions that the design will provide.**
 + **items must be included in an RFP**
 
-### modular requirements RFP element
+### Modular requirements RFP element
 + Hierarchical design considerations
 + Functionality of each module within the design
 + **Feedback : The modular requirements RFP element includes the hierarchical design considerations and the functionality of each module within the design.**
@@ -163,7 +163,7 @@
 + **Feedback : You should always test your plan on paper or in live exercises.**
 + **to the Test the Plan step of business continuity planning**
 
-### user's business model
+### User's business model
 + It suggests certain budgetary and scheduling constraints.
 + It allows the engineer to infer certain technical requirements.
 + **Feedback : A user's business model will suggest budgetary and scheduling constraints, as well as provide insight into the network’s technical requirements.**
