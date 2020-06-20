@@ -105,10 +105,11 @@
 + **Feedback : The traffic flow analysis will help you determine many variables that will assist you in understanding what is needed when developing the new design.**
 + **to understand the types of applications on the network and how often those applications are used**
 
-### aspects of greenfield projects
+### Greenfield projects
 + New networks with few or no restraints to consider.
 + Next-generation networks created from the ground up.
 + **Feedback : Greenfield projects typically involve a new network in which legacy and existing applications do not need to be considered.**
++ **aspects of greenfield projects**
 
 ### categories that customer requirements
 + Security
@@ -132,7 +133,7 @@
 + Modularity provides hierarchical structure to your design.
 + **Feedback : Modularity is important because it helps with future growth and troubleshooting efforts as well as giving a hierarchical structure to your design.**
 
-### brownfield projects
+### Brownfield projects
 + Old equipment that should be replaced.
 + Legacy applications that are no longer used.
 + **Feedback : Brownfield projects typically involve an existing network in which legacy and existing application must be considered.**
