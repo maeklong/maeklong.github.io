@@ -439,6 +439,7 @@
 ### Full mesh VPN 
 + full mesh VPN
 + **Feedback : You should recommend a full mesh VPN in this scenario. The ADVPN and full mesh VPN provides low application latency between spoke devices, but the ADVPN must use PKI certificates for authentication, whereas the full mesh VPN does not need to use PKI certificates for authentication.**
++ ** a network requires a VPN technology that employs low application latency between spoke devices. The customer has also stated that they do not wish to use PKI certificates as a form of authentication**
 
 ### WAN design
 + IPsec tunnels over the Internet
@@ -620,3 +621,7 @@
 + Which two data center network architectures might be proposed by other vendors to compete with Juniper Networks Virtual Chassis Fabric (VCF) solution? (Choose two.)
 + ??? *** SONET *** ???
 + ??? *** three-tier architecture *** ???
+
+
++ Connectivity issues have been seen by the users in remote offices when attempting to access resources at the corporate headquarters. You must design a fix for this issues. Which technology should you include in your design?
++ ??? *** redundant WAN links *** ???
