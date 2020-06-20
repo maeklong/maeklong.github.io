@@ -448,6 +448,7 @@
 ### Junos Space
 + Network Director
 + **Feedback : The Network Director application can be used to manage VLANs on EX devices.**
++ **would be used to manage Juniper EX Series switches**
 + Security Director: Logging and Reporting
 + **Feedback : You can use the Security Director: Logging and Reporting application to store and management events for SRX devices.**
 + Junos Space typically uses the eth0 interface to manage devices through the OOB network.
@@ -470,6 +471,7 @@
 ### Network Director
 + centralized
 + **Feedback : Network Director is a centralized management application.**
++ **an example of centralized network management application**
 
 ### Juniper Secure Analytics
 + **Feedback : Juniper Secure Analytics allows you to correlate data and logs from network devices from multiple different vendors.**
