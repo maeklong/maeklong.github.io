@@ -111,7 +111,7 @@
 + **Feedback : Greenfield projects typically involve a new network in which legacy and existing applications do not need to be considered.**
 + **aspects of greenfield projects**
 
-### categories that customer requirements
+### Categories that customer requirements
 + Security
 + Availability
 + **Feedback : The six categories are security, availability, scalability, manageability, and performance**
@@ -120,7 +120,7 @@
 + Manageability
 + **Feedback : The six categories are security, availability, scalability, manageability, and performance.**
 
-### design proposals
+### Design Proposals
 + You should keep your design proposal as simple as possible.
 + You should create the logical design before the physical design.
 + **Feedback : You should keep your design proposal as simple as possible. You should create the logical design before creating the physical design.**
