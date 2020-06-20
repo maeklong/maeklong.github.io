@@ -450,6 +450,7 @@
 + centralized
 + **Feedback : The Junos Space Security Director application is a centralized management solution.**
 + ??? Security Director ???
++ ??? **to manage your network's firewall policy** ???
 
 ### Network Director
 + centralized
