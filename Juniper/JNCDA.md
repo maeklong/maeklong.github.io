@@ -60,6 +60,7 @@
 + Access
 + Design
 + **Feedback : The two sub-phases of the plan methodology are access and design.**
++ **the two main sub-phases of the plan methodology**
 + Access
 + **Feedback : You must first access the customer's environment before you can begin designing or building it.**
 + **sub-phase of the plan methodology must you do first**
