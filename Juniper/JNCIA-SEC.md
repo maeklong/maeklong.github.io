@@ -62,5 +62,7 @@
 
 ## Security Policies
 
-###
-
+### security policy components
++ user-defined address object
++ application
++ **Feedback : Each security policy must contain a matching source address, destination address, and application.**
