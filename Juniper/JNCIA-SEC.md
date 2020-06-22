@@ -49,3 +49,8 @@
 + policy
 + **Feedback : Screens and services ALGs are applied to both fast-path and first-packet processing.**
 + **services does fast-path processing skip**
+
+### Addressing
++ 192.168.0.7/255.255.0.255
++ **Feedback : The wildcard mask determines which of the bits in the IP address A.B.C.D should be ignored. For example, the source IP address 192.168.0.11/255.255.0.255 in a security policy implies that the security policy match criteria can discard the third octet in the IP address (conventionally represented as 192.168.*.11).**
++ **wildcard address for an address book entry**
