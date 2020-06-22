@@ -66,3 +66,8 @@
 + user-defined address object
 + application
 + **Feedback : Each security policy must contain a matching source address, destination address, and application.**
+
+### unified security policies
++ A unified policy can be a global-based policy.
++ A unified policy can be a zone-based policy.
++ **Feedback : You can use both zone security policies and global security policies at the same time within a configuration. However, zone security policies are checked first before global policies.**
