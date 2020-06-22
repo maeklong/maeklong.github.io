@@ -58,3 +58,9 @@
 ### Zone
 + zone
 + **Feedback : A zone is a collection of one or more network segments sharing identical security requirements. To group network segments within a zone, you must assign logical interfaces from the device to a zone.**
++ **security component is a collection of one of more network segments sharing identical security requirements**
+
+## Security Policies
+
+###
+
