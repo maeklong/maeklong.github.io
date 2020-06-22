@@ -45,3 +45,7 @@
 ### Services
 + screens
 + **Feedback : Regardless if the packet is matched or not, the next service to inspect the packet are screens.**
++ zones
++ policy
++ **Feedback : Screens and services ALGs are applied to both fast-path and first-packet processing.**
++ **services does fast-path processing skip**
