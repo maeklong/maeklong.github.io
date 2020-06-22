@@ -62,6 +62,11 @@
 
 ## Security Policies
 
+### Policy
++ policy
++ **Feedback : Security policies enforce a set of rules for transit traffic, identifying which traffic can pass through the firewall and the actions taken on the traffic as it passes through the firewall. Security policies allow you to decide which users and data can enter and exit the network, as well as where, when, and how**
++ **a set of rules that tells a Junos security device how to treat transit traffic**
+
 ### security policy components
 + user-defined address object
 + application
