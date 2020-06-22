@@ -21,3 +21,8 @@
 + a DHCP client on ge-0/0/0
 + **Feedback : A default configuration includes two security zones (trust and untrust) as well as setting a DHCP client for interfaces ge-0/0/0 and ge0/0/7.**
 
+### match criteria
++ source port
++ unique session token number for a given zone and virtual router
++ protocol
++ **Feedback : To determine if a flow exists for a packet, the NPU attempts to match the packet’s information to that of an existing session based on the following match criteria: source address, destination address, source port, destination port, protocol, and unique session token number for a given zone and virtual router**
