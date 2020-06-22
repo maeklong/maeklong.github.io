@@ -17,4 +17,7 @@
 + **Feedback : PoE is supported on the SRX210, SRX240, SRX320, SRX550, and SRX650 devices.**
 
 ### default configuration on an SRX300
-+ 
++ an untrust security zone
++ a DHCP client on ge-0/0/0
++ **Feedback : A default configuration includes two security zones (trust and untrust) as well as setting a DHCP client for interfaces ge-0/0/0 and ge0/0/7.**
+
