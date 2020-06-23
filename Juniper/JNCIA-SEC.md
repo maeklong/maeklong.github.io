@@ -245,3 +245,16 @@
 + IDP
 + application firewall (X)
 + user firewall
+
+### Security policy components require
++ a user-defined name (X)
++ log
++ match criteria(X)
++ action (X)
++ count
+
+### the default policy’s action for any traffic not matching a configured zone security policy or global policy
++ close
++ permit
++ reject
++ silent discard (X)
