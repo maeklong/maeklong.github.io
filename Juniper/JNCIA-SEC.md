@@ -85,3 +85,8 @@
 + A unified policy can be a global-based policy.
 + A unified policy can be a zone-based policy.
 + **Feedback : You can use both zone security policies and global security policies at the same time within a configuration. However, zone security policies are checked first before global policies.**
+
+
+## Sky Advanced Threat Prevention
+
+### GeoIP feature of Sky ATP
