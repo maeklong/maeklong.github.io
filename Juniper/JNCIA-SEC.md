@@ -346,10 +346,9 @@
 + next-hop type
 
 ### Using J-Web on an SRX Series device, what are two required fields for the initial setup? (Choose two.)
-+ Host Name (X)
-+ User Name
-+ IP address
-+ Root Password (X)
++ Host Name
++ Root Password
++ **OK**
 
 ### Which three Juniper devices are supported by Juniper Sky Enterprise? (Choose three.) (Wrong)
 + SRX Series (X)
@@ -366,10 +365,9 @@
 + VPN tunnel throughput (X)
 
 ### Which two hypervisors support vSRX Series devices? (Choose two.)
-+ Amazon Web Services (AWS)
-+ VMware ESX (X)
-+ Microsoft Azure
-+ KVM (X)
++ VMware ESX
++ KVM
++ **OK**
 
 ### Users are restricted from accessing Facebook, however, a recent examination of the security logs show that users are accessing Facebook. Referring to the exhibit, what should you do to solve the problem? (Wrong)
 ![](img/SecurityLog.jpg)
