@@ -315,4 +315,7 @@
 + stronger hashes minimize collisions in hash comparisons (X)
 
 ### In the IKE Phase 1 configuration, what are the two choices for “Mode”
-+ 
++ main (X)
++ static
++ aggressive (X)
++ dynamic
