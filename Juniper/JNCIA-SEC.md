@@ -403,3 +403,7 @@ Amazon Web Services (AWS)
 VMware ESX (X)
 Microsoft Azure
 KVM (X)
+
+
+
+Users are restricted from accessing Facebook, however, a recent examination of the security logs show that users are accessing Facebook. Referring to the exhibit, what should you do to solve the problem?
