@@ -104,4 +104,7 @@
 + Sky ATP e-mail protection inspects IMAP traffic.
 + **Feedback : Sky ATP e-mail protection includes the SMTP and IMAP protocols.**
 
-
+### HTTP file inspection
++ HTTP file inspection
++ **Feedback : Files downloaded from a webserver use HTTP and Sky ATP HTTP file inspection should be used to protect against malicious file transfer in this situation.**
++ **to protect against malicious files that might be download through Web-based e-mail**
