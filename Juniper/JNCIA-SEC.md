@@ -318,78 +318,64 @@
 + **OK**
 
 ### When does a Junos security device perform UTM inspection?
-both first path and fast path processing (X)
++ both first path and fast path processing
++ **OK**
 
-Which list order does the antispam filter process e-mail for spam? (Wrong)
+### Which list order does the antispam filter process e-mail for spam? (Wrong)
++ external spam block list server, whitelist, blacklist
++ blacklist, whitelist, external spam block list server(X)
++ whitelist, blacklist, external spam block list server
++ external spam block list server, blacklist, whitelist
 
-external spam block list server, whitelist, blacklist
-blacklist, whitelist, external spam block list server(X)
-whitelist, blacklist, external spam block list server
-external spam block list server, blacklist, whitelist
+### What two whitelist types are supported for the SRX antivirus module? (Choose two.) (Wrong)
++ Application
++ URL (X)
++ MIME
++ File (X)
 
-What two whitelist types are supported for the SRX antivirus module? (Choose two.) (Wrong)
+### Which two methods are used to notify a user they’ve had content blocked an SRX Series device? (Choose two.) (Wrong)
++ embedded message in the protocol
++ webhook (X)
++ SNMP trap (X)
++ an e-mail message can be sent
 
-Application
-URL (X)
-MIME
-File (X)
+### Using the J-Web interface on an SRX Series device, what information is available when displaying the Monitor -> Routing -> Route Information? (Wrong)
++ inactive routes
++ inet4.0 route table (X)
++ next hop latency
++ next-hop type
 
-Which two methods are used to notify a user they’ve had content blocked an SRX Series device? (Choose two.) (Wrong)
+### Using J-Web on an SRX Series device, what are two required fields for the initial setup? (Choose two.)
++ Host Name (X)
++ User Name
++ IP address
++ Root Password (X)
 
-embedded message in the protocol
-webhook (X)
-SNMP trap (X)
-an e-mail message can be sent
+### Which three Juniper devices are supported by Juniper Sky Enterprise? (Choose three.) (Wrong)
++ SRX Series (X)
++ EX Series
++ MX Series (X)
++ NFX Series
++ QFX Series (X)
 
+### Which three reports does Juniper Sky Enterprise offer in real-time on Junos EX Series devices? (Choose three.) (Wrong)
++ failed Junos device login attempts (X)
++ PoE monitoring
++ live packet capture
++ ARP tables (X)
++ VPN tunnel throughput (X)
 
-Using the J-Web interface on an SRX Series device, what information is available when displaying the Monitor -> Routing -> Route Information? (Wrong)
+### Which two hypervisors support vSRX Series devices? (Choose two.)
++ Amazon Web Services (AWS)
++ VMware ESX (X)
++ Microsoft Azure
++ KVM (X)
 
-inactive routes
-inet4.0 route table (X)
-next hop latency
-next-hop type
-
-
-Using J-Web on an SRX Series device, what are two required fields for the initial setup? (Choose two.)
-
-Host Name (X)
-User Name
-IP address
-Root Password (X)
-
-
-Which three Juniper devices are supported by Juniper Sky Enterprise? (Choose three.) (Wrong)
-
-SRX Series (X)
-EX Series
-MX Series (X)
-NFX Series
-QFX Series (X)
-
-
-Which three reports does Juniper Sky Enterprise offer in real-time on Junos EX Series devices? (Choose three.) (Wrong)
-
-failed Junos device login attempts (X)
-PoE monitoring
-live packet capture
-ARP tables (X)
-VPN tunnel throughput (X)
-
-
-Which two hypervisors support vSRX Series devices? (Choose two.)
-
-Amazon Web Services (AWS)
-VMware ESX (X)
-Microsoft Azure
-KVM (X)
-
-
-
-Users are restricted from accessing Facebook, however, a recent examination of the security logs show that users are accessing Facebook. Referring to the exhibit, what should you do to solve the problem? (Wrong)
+### Users are restricted from accessing Facebook, however, a recent examination of the security logs show that users are accessing Facebook. Referring to the exhibit, what should you do to solve the problem? (Wrong)
 
 SecurityLog.jpg
 
-Change the Block-Facebook-Access rule service to "any".
-Change the Internet-Access rule dynamic application to "any".
-Change the Block-Facebook-Access rule dynamic application to "any". (X)
-Change the Internet-Access rule service to "junos-defaults".
++ Change the Block-Facebook-Access rule service to "any".
++ Change the Internet-Access rule dynamic application to "any".
++ Change the Block-Facebook-Access rule dynamic application to "any". (X)
++ Change the Internet-Access rule service to "junos-defaults".
