@@ -93,3 +93,8 @@
 + GeoIP uses dynamic address entries.
 + The SRX Series device needs connectivity with the Sky ATP cloud for GeoIP to function properly.
 + **Feedback : The GeoIP feature uses dyanamic address entries and the SRX needs connectivity to the Sky ATP cloud for GeoIP to function properly.**
+
+### C&C threat prevention feature of Sky ATP
++ C&C threat prevention stops compromised hosts in your network from communicating with known C&C servers.
++ C&C threat prevention can stop hosts in your network from unwillingly participating in a DDoS attack.
++ **Feedback : C&C treat prevention stops your hosts from communicating with known C&C servers and stops hosts in your network from unwillingly participating in DDoS attacks.**
