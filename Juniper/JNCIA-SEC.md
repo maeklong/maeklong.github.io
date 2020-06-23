@@ -206,14 +206,14 @@
 + responsible for kernel processes (X)
 + **two distinctions of a Junos control plane**
 
-### Junos data plane
+### Junos data plane (Wrong)
 + screen options
 + clustering control (X)
 + implemented on the PFE (X)
 + implemented on RE
 + **two distinctions of a Junos data plane**
 
-### Exception traffic
+### Exception traffic (Wrong)
 + ICMP
 + OSPF updates (X)
 + packets with IP options
@@ -225,13 +225,13 @@
 + configuration commits are required (X)
 + real-time monitoring (X)
 
-### Requirements of a functional zone
+### Requirements of a functional zone (Wrong)
 + It must be named fxp0.
 + It must be named management.(X)
 + It cannot pass transit traffic.
 + It can pass transit traffic. (X)
 
-### Junos security device
+### Junos security device (Wrong)
 + By default, a Junos security device allows SSH only.(X)
 + By default, a Junos security device allows Telnet only.
 + By default, a Junos security device allows both Telnet and SSH.
@@ -259,7 +259,7 @@
 + reject
 + silent discard (X)
 
-### Sky ATP file inspection profiles
+### Sky ATP file inspection profiles (Wrong)
 + They are used to determine which action to take for malicious files found in HTTP traffic. (X)
 + They are used to determine which action to take for malicious files found in SMTP traffic.
 + They are used to determine the maximum size of files to scan.
