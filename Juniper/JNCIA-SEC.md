@@ -282,3 +282,10 @@
 + When the verdict number of the file is more than the verdict threshold.
 + When Sky ATP is unable to scan the file. (X)
 + When the traffic doesn’t match a threat prevention policy.
+
+### a Junos OS security device do to existing sessions upon commit, when a change is made to a NAT rule pool that is currently in use
++ It waits for the existing session to timeout and then creates a new session for matched traffic.
++ It issues a deny to the existing session until the session timeout occurs and then creates a new session for matched traffic.
++ It does nothing until the device is rebooted and rebuilds a new session table.
++ It destroys the existing session and creates a new session for matched traffic.(X)
+
