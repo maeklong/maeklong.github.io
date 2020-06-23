@@ -390,8 +390,16 @@ QFX Series (X)
 
 Which three reports does Juniper Sky Enterprise offer in real-time on Junos EX Series devices? (Choose three.)
 
-failed Junos device login attempts
+failed Junos device login attempts (X)
 PoE monitoring
 live packet capture
-ARP tables
-VPN tunnel throughput
+ARP tables (X)
+VPN tunnel throughput (X)
+
+
+Which two hypervisors support vSRX Series devices? (Choose two.)
+
+Amazon Web Services (AWS)
+VMware ESX (X)
+Microsoft Azure
+KVM (X)
