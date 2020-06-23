@@ -90,3 +90,6 @@
 ## Sky Advanced Threat Prevention
 
 ### GeoIP feature of Sky ATP
++ GeoIP uses dynamic address entries.
++ The SRX Series device needs connectivity with the Sky ATP cloud for GeoIP to function properly.
++ **Feedback : The GeoIP feature uses dyanamic address entries and the SRX needs connectivity to the Sky ATP cloud for GeoIP to function properly.**
