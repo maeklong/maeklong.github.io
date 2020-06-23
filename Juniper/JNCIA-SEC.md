@@ -270,3 +270,9 @@
 + APK files
 + ZIP files
 + DLL files
+
+### the next step after creating a threat prevention policy
++ Reference a security policy in the threat prevention policy.
++ Reference the threat prevention policy in a security policy.(X)
++ Reference the threat prevention policy in an IPS policy.
++ Reference an IPS policy in the threat prevention policy.
