@@ -290,7 +290,10 @@
 + It destroys the existing session and creates a new session for matched traffic.(X)
 
 ### You have enabled a NAT pool on an SRX Series device; however, you are not receiving any return traffic. What configuration item will solve this?
-+ enabling MACsec
++ enabling MACsec (X)
 + enabling proxy ARP
 + expand the NAT pool
 + disabling PAT
+
+### In the first layer of a two-layer matching condition for a NAT rule, what are three matching options for the traffic direction matching from a “from” clause
++ 
