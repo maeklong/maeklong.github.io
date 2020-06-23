@@ -186,3 +186,7 @@
 + It is a standard release.
 + **Feedback : The edition will typically be either domestic or export. Domestic versions support strong encryption, whereas export versions do not. S is for service releases.**
 + **the package “junos-srxme-19.1R1.6-domestic.tgz”. Based on the naming convention...**
+
+
+security logging
+Feedback : Security logging must be enabled before the reporting engine can create reports.
