@@ -280,5 +280,5 @@
 ### the default action of an advanced anti-malware policy applied to a file
 + When the verdict number of the file is less than the verdict threshold.
 + When the verdict number of the file is more than the verdict threshold.
-+ When Sky ATP is unable to scan the file.
++ When Sky ATP is unable to scan the file. (X)
 + When the traffic doesn’t match a threat prevention policy.
