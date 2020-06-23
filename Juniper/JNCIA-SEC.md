@@ -187,6 +187,13 @@
 + **Feedback : The edition will typically be either domestic or export. Domestic versions support strong encryption, whereas export versions do not. S is for service releases.**
 + **the package “junos-srxme-19.1R1.6-domestic.tgz”. Based on the naming convention...**
 
+### routine engine
++ security logging
++ **Feedback : Security logging must be enabled before the reporting engine can create reports.**
++ **Prior to creating reports by the routing engines, what must be enabled on an SRX Series device**
 
-security logging
-Feedback : Security logging must be enabled before the reporting engine can create reports.
+### troubleshooting
++ Ping Host
++ Traceroute
++ **Feedback : Both utilities are available under the Administration -> Tools -> workspace.**
++ **troubleshooting utilities are available within the J-Web interface**
