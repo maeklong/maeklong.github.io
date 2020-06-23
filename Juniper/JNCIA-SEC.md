@@ -232,3 +232,7 @@
 + It can pass transit traffic. (X)
 
 ### Junos security device
++ By default, a Junos security device allows SSH only.(X)
++ By default, a Junos security device allows Telnet only.
++ By default, a Junos security device allows both Telnet and SSH.
++ By default, a Junos security device does not allow traffic destined to itself.
