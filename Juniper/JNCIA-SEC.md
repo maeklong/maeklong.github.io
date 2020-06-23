@@ -412,5 +412,5 @@ SecurityLog.jpg
 
 Change the Block-Facebook-Access rule service to "any".
 Change the Internet-Access rule dynamic application to "any".
-Change the Block-Facebook-Access rule dynamic application to "any".
+Change the Block-Facebook-Access rule dynamic application to "any". (X)
 Change the Internet-Access rule service to "junos-defaults".
