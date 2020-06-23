@@ -339,3 +339,25 @@ first path processing only
 fast path processing only
 both first path and fast path processing (X)
 neither first path nor fast path processing
+
+
+Which list order does the antispam filter process e-mail for spam?
+
+external spam block list server, whitelist, blacklist
+blacklist, whitelist, external spam block list server(X)
+whitelist, blacklist, external spam block list server
+external spam block list server, blacklist, whitelist
+
+What two whitelist types are supported for the SRX antivirus module? (Choose two.)
+
+Application
+URL (X)
+MIME
+File (X)
+
+Which two methods are used to notify a user they’ve had content blocked an SRX Series device? (Choose two.)
+
+embedded message in the protocol
+webhook (X)
+SNMP trap (X)
+an e-mail message can be sent
