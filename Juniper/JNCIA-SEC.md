@@ -117,3 +117,8 @@
 ### NAT & PAT
 + both first path and fast path processing
 + **Feedback : A Junos security device implements NAT and PAT in both first path and fast path processing. Note that destination NAT and source NAT occur separately in the first path packet flow.**
++ **When does a Junos security device implement NAT**
+
+### Type of NAT
++ static
++ **Bidirectional initiation of translation is classified as which type of NAT**
