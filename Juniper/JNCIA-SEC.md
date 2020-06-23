@@ -173,3 +173,6 @@
 + content filtering
 + **Feedback : Unified threat management (UTM) provides multiple security features and services in a single device or service on the network, protecting users from security threats in a simplified way. UTM includes functions such as antivirus, antispam, content filtering, and Web filtering.**
 + **Unified Threat Management (UTM) include**
+## Monitoring/Reporting
+
+### 
