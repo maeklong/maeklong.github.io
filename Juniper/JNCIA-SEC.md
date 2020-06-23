@@ -86,7 +86,6 @@
 + A unified policy can be a zone-based policy.
 + **Feedback : You can use both zone security policies and global security policies at the same time within a configuration. However, zone security policies are checked first before global policies.**
 
-
 ## Sky Advanced Threat Prevention
 
 ### GeoIP feature of Sky ATP
@@ -108,3 +107,13 @@
 + HTTP file inspection
 + **Feedback : Files downloaded from a webserver use HTTP and Sky ATP HTTP file inspection should be used to protect against malicious file transfer in this situation.**
 + **to protect against malicious files that might be download through Web-based e-mail**
+
+## Network Address Translation
+
+### Interface-based NAT
++ Interface-based NAT uses the outbound interface IP address to translate the source address of outgoing packets.
++ **Feedback : All packets subject to translation have their source IP address translated to the IP address on the egress interface. PAT is required to tell sessions from different hosts apart and is always enabled.**
+
+### NAT & PAT
++ both first path and fast path processing
++ **Feedback : A Junos security device implements NAT and PAT in both first path and fast path processing. Note that destination NAT and source NAT occur separately in the first path packet flow.**
