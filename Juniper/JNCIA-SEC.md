@@ -307,3 +307,12 @@
 + show security flow gate
 + show security flow statistics (X)
 + show security flow session
+
+### hashing functions provide data integrity in VPNs
++ weaker hashes minimize collisions in hash comparisons
++ original data is compressed
++ original data cannot be determined from the hash value (X)
++ stronger hashes minimize collisions in hash comparisons (X)
+
+### In the IKE Phase 1 configuration, what are the two choices for “Mode”
++ 
