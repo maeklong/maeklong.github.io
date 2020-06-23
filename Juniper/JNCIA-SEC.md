@@ -213,10 +213,20 @@
 + implemented on RE
 + **two distinctions of a Junos data plane**
 
-### exception traffic
+### Exception traffic
 + ICMP
 + OSPF updates (X)
 + packets with IP options
 + encrypted packets (X)
 
 ### J-Web
++ is not available on every SRX
++ configuration commits are not required
++ configuration commits are required (X)
++ real-time monitoring (X)
+
+### Requirements of a functional zone
++ It must be named fxp0.
++ It must be named management.(X)
++ It cannot pass transit traffic.
++ It can pass transit traffic. (X)
