@@ -319,3 +319,9 @@
 + static
 + aggressive (X)
 + dynamic
+
+### traffic selectors distinguish interesting transit traffic over a VPN tunnel
++ by specifying accepted applications
++ by specifying accepted TCP/IP ports
++ by specifying accepted networks
++ by specifying accepted MAC address
