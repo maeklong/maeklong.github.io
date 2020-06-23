@@ -301,3 +301,5 @@
 + MAC address (X)
 + TCP/IP port (X)
 + routing instance
+
+### operational command allows users to observe NAT translations
