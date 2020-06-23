@@ -158,3 +158,8 @@
 + **Feedback : As traffic travels inbound on an interface of the SRX Series device, security policies process the traffic. If the security policy contains a UTM policy, a TCP proxy is used to process the matching traffic. The TCP proxy is used for both a TCP client and TCP server, to terminate and originate a TCP session. The TCP proxy feeds the data stream to the application proxy.**
 + **the correct order for processing UTM traffic within the Junos flow module services**
 
+### application control policies
++ Deploy a vSRX with the AppSecure suite in AWS and configure the AppFW.
++ **Feedback : Application Firewall (AppFW) refers to the ability to take the results from the App ID engine and leverage them to make an informed decision to permit, deny/ reject, or redirect the traffic.**
++ **A security administrator wants to deploy application control policies to allow or deny traffic based on dynamic applications in the organization's Amazon Web Services (AWS) deployment**
+
