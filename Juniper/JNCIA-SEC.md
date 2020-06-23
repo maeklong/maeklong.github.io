@@ -407,3 +407,8 @@ KVM (X)
 
 
 Users are restricted from accessing Facebook, however, a recent examination of the security logs show that users are accessing Facebook. Referring to the exhibit, what should you do to solve the problem?
+
+Change the Block-Facebook-Access rule service to "any".
+Change the Internet-Access rule dynamic application to "any".
+Change the Block-Facebook-Access rule dynamic application to "any".
+Change the Internet-Access rule service to "junos-defaults".
