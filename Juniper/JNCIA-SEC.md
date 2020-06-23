@@ -324,4 +324,18 @@
 + by specifying accepted applications
 + by specifying accepted TCP/IP ports
 + by specifying accepted networks
-+ by specifying accepted MAC address
++ by specifying accepted MAC address (X)
+
+### When setting up a VPN to a remote gateway, what would selecting the “Optimized” check box do when selecting “Enable VPN monitor”
++ set up continuous ICMP requests
++ compress all VPN traffic
++ coalesce VPN traffic
++ consider transit traffic as the tunnel verification (X)
+
+
+When does a Junos security device perform UTM inspection?
+
+first path processing only
+fast path processing only
+both first path and fast path processing (X)
+neither first path nor fast path processing
