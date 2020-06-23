@@ -175,8 +175,14 @@
 + **Unified Threat Management (UTM) include**
 ## Monitoring/Reporting
 
-### 
+### Log Collector
 + Log Receiver node
 + Log Storage node
 + **Feedback : For larger deployments, begin with a single Log Receiver node and Log Storage node, and incrementally add Log Storage nodes as your needs expand.**
 + **You are installing a Junos Space Log Collector VM for a large-scale deployment. What are two valid node types for this deployment**
+
+### Packages
++ It supports strong encryption.
++ It is a standard release.
++ **Feedback : The edition will typically be either domestic or export. Domestic versions support strong encryption, whereas export versions do not. S is for service releases.**
++ **the package “junos-srxme-19.1R1.6-domestic.tgz”. Based on the naming convention...**
