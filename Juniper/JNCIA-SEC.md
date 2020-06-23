@@ -70,6 +70,12 @@
 + **Feedback : The Junos OS evaluates traffic against security policies in a specific order. Once a rule that matches traffic has been found, the specified action is taken and policy evaluation ends. Policies are checked in the following order: zone policies, global policies, and the default policy.**
 + **order do Junos security devices examine policies for transit traffic**
 
+### Policy Rule Ordering
++ Rules with more specific match criteria should be listed higher.
++ By default, new rules go to the end of the list.
++ **Feedback : Ordering is important. Rules with more specific match criteria should be listed higher in the order with all new rules (by default) go to the end of the list.**
++ **considering security policy rule ordering**
+
 ### security policy components
 + user-defined address object
 + application
