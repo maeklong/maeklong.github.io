@@ -303,3 +303,7 @@
 + routing instance
 
 ### operational command allows users to observe NAT translations
++ show security flow status
++ show security flow gate
++ show security flow statistics (X)
++ show security flow session
