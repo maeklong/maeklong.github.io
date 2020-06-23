@@ -157,3 +157,4 @@
 + interface I/O, security policy, TCP proxy, application proxy
 + **Feedback : As traffic travels inbound on an interface of the SRX Series device, security policies process the traffic. If the security policy contains a UTM policy, a TCP proxy is used to process the matching traffic. The TCP proxy is used for both a TCP client and TCP server, to terminate and originate a TCP session. The TCP proxy feeds the data stream to the application proxy.**
 + **the correct order for processing UTM traffic within the Junos flow module services**
+
