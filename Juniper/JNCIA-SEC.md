@@ -230,3 +230,5 @@
 + It must be named management.(X)
 + It cannot pass transit traffic.
 + It can pass transit traffic. (X)
+
+### Junos security device
