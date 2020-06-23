@@ -236,3 +236,12 @@
 + By default, a Junos security device allows Telnet only.
 + By default, a Junos security device allows both Telnet and SSH.
 + By default, a Junos security device does not allow traffic destined to itself.
+
+### System defined zone
++ junos-host
+
+### security component would help identify application type of all allowed traffic traversing port 80
++ zone policy
++ IDP
++ application firewall (X)
++ user firewall
