@@ -266,4 +266,7 @@
 + They are used to determine which file types to scan. (X)
 
 ### the free version of Sky ATP, file type you can scan
-+ 
++ EXE files (X)
++ APK files
++ ZIP files
++ DLL files
