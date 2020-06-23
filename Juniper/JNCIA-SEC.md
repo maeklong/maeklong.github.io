@@ -296,4 +296,8 @@
 + disabling PAT
 
 ### In the first layer of a two-layer matching condition for a NAT rule, what are three matching options for the traffic direction matching from a “from” clause
-+ 
++ interface (X)
++ zone
++ MAC address (X)
++ TCP/IP port (X)
++ routing instance
