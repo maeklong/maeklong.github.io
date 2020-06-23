@@ -197,3 +197,15 @@
 + Traceroute
 + **Feedback : Both utilities are available under the Administration -> Tools -> workspace.**
 + **troubleshooting utilities are available within the J-Web interface**
+
+## Other
+### Junos control plane
++ session setup
++ implemented on the RE (X)
++ implemented on the PFE
++ responsible for kernel processes (X)
++ **two distinctions of a Junos control plane**
+
+### Junos data plane
++ 
++ **two distinctions of a Junos data plane**
