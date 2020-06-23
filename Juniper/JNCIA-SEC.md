@@ -122,3 +122,8 @@
 ### Type of NAT
 + static
 + **Bidirectional initiation of translation is classified as which type of NAT**
+
+### Types of source NAT
++ interface-based
++ pool-based
++ **Feedback : Interface-based source NAT: All packets subject to translation have their source IP address translated to the IP address on the egress interface. PAT is required to tell sessions from different hosts apart and is always enabled. Pool-based NAT: A dynamic mapping of the original source address to an address from a user-defined pool. This can be used with or without PAT.**
