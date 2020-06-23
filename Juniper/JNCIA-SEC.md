@@ -163,3 +163,13 @@
 + **Feedback : Application Firewall (AppFW) refers to the ability to take the results from the App ID engine and leverage them to make an informed decision to permit, deny/ reject, or redirect the traffic.**
 + **A security administrator wants to deploy application control policies to allow or deny traffic based on dynamic applications in the organization's Amazon Web Services (AWS) deployment**
 
+### antivirus feature on SRX Series
++ The Sophos antivirus feature is less CPU intensive than the full file-based antivirus feature.
++ ???
+
+### UTM
++ antispam
++ antivirus
++ content filtering
++ **Feedback : Unified threat management (UTM) provides multiple security features and services in a single device or service on the network, protecting users from security threats in a simplified way. UTM includes functions such as antivirus, antispam, content filtering, and Web filtering.**
++ **Unified Threat Management (UTM) include**
