@@ -207,5 +207,16 @@
 + **two distinctions of a Junos control plane**
 
 ### Junos data plane
-+ 
++ screen options
++ clustering control (X)
++ implemented on the PFE (X)
++ implemented on RE
 + **two distinctions of a Junos data plane**
+
+### exception traffic
++ ICMP
++ OSPF updates (X)
++ packets with IP options
++ encrypted packets (X)
+
+### J-Web
