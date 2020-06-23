@@ -98,3 +98,10 @@
 + C&C threat prevention stops compromised hosts in your network from communicating with known C&C servers.
 + C&C threat prevention can stop hosts in your network from unwillingly participating in a DDoS attack.
 + **Feedback : C&C treat prevention stops your hosts from communicating with known C&C servers and stops hosts in your network from unwillingly participating in DDoS attacks.**
+
+### E-mail protection of Sky ATP 
++ Sky ATP e-mail protection inspects SMTP traffic.
++ Sky ATP e-mail protection inspects IMAP traffic.
++ **Feedback : Sky ATP e-mail protection includes the SMTP and IMAP protocols.**
+
+
