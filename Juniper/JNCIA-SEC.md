@@ -260,3 +260,10 @@
 + silent discard (X)
 
 ### Sky ATP file inspection profiles
++ They are used to determine which action to take for malicious files found in HTTP traffic. (X)
++ They are used to determine which action to take for malicious files found in SMTP traffic.
++ They are used to determine the maximum size of files to scan.
++ They are used to determine which file types to scan. (X)
+
+### the free version of Sky ATP, file type you can scan
++ 
