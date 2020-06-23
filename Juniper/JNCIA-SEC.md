@@ -289,3 +289,8 @@
 + It does nothing until the device is rebooted and rebuilds a new session table.
 + It destroys the existing session and creates a new session for matched traffic.(X)
 
+### You have enabled a NAT pool on an SRX Series device; however, you are not receiving any return traffic. What configuration item will solve this?
++ enabling MACsec
++ enabling proxy ARP
++ expand the NAT pool
++ disabling PAT
