@@ -199,12 +199,12 @@
 + **troubleshooting utilities are available within the J-Web interface**
 
 ## Other
+
 ### Junos control plane
-+ session setup
-+ implemented on the RE (X)
-+ implemented on the PFE
-+ responsible for kernel processes (X)
++ implemented on the RE
++ responsible for kernel processes
 + **two distinctions of a Junos control plane**
++ **OK**
 
 ### Junos data plane (Wrong)
 + screen options
@@ -220,10 +220,9 @@
 + encrypted packets (X)
 
 ### J-Web
-+ is not available on every SRX
-+ configuration commits are not required
-+ configuration commits are required (X)
-+ real-time monitoring (X)
++ configuration commits are required
++ real-time monitoring
++ **OK**
 
 ### Requirements of a functional zone (Wrong)
 + It must be named fxp0.
@@ -239,25 +238,21 @@
 
 ### System defined zone
 + junos-host
++ **OK**
 
 ### security component would help identify application type of all allowed traffic traversing port 80
-+ zone policy
-+ IDP
-+ application firewall (X)
-+ user firewall
++ application firewall
++ **OK**
 
 ### Security policy components require
-+ a user-defined name (X)
-+ log
-+ match criteria(X)
-+ action (X)
-+ count
++ a user-defined name
++ match criteria
++ action
++ **OK**
 
 ### the default policy’s action for any traffic not matching a configured zone security policy or global policy
-+ close
-+ permit
-+ reject
-+ silent discard (X)
++ silent discard
++ **OK**
 
 ### Sky ATP file inspection profiles (Wrong)
 + They are used to determine which action to take for malicious files found in HTTP traffic. (X)
@@ -266,96 +261,80 @@
 + They are used to determine which file types to scan. (X)
 
 ### the free version of Sky ATP, file type you can scan
-+ EXE files (X)
-+ APK files
-+ ZIP files
-+ DLL files
++ EXE files
++ **OK**
 
 ### the next step after creating a threat prevention policy
-+ Reference a security policy in the threat prevention policy.
-+ Reference the threat prevention policy in a security policy.(X)
-+ Reference the threat prevention policy in an IPS policy.
-+ Reference an IPS policy in the threat prevention policy.
++ Reference the threat prevention policy in a security policy.
++ **OK**
 
-### the default action of an advanced anti-malware policy applied to a file
+### the default action of an advanced anti-malware policy applied to a file (Wrong)
 + When the verdict number of the file is less than the verdict threshold.
 + When the verdict number of the file is more than the verdict threshold.
 + When Sky ATP is unable to scan the file. (X)
 + When the traffic doesn’t match a threat prevention policy.
 
 ### a Junos OS security device do to existing sessions upon commit, when a change is made to a NAT rule pool that is currently in use
-+ It waits for the existing session to timeout and then creates a new session for matched traffic.
-+ It issues a deny to the existing session until the session timeout occurs and then creates a new session for matched traffic.
-+ It does nothing until the device is rebooted and rebuilds a new session table.
-+ It destroys the existing session and creates a new session for matched traffic.(X)
++ It destroys the existing session and creates a new session for matched traffic.
++ **OK**
 
-### You have enabled a NAT pool on an SRX Series device; however, you are not receiving any return traffic. What configuration item will solve this?
+### You have enabled a NAT pool on an SRX Series device; however, you are not receiving any return traffic. What configuration item will solve this? (Wrong)
 + enabling MACsec (X)
 + enabling proxy ARP
 + expand the NAT pool
 + disabling PAT
 
-### In the first layer of a two-layer matching condition for a NAT rule, what are three matching options for the traffic direction matching from a “from” clause
+### In the first layer of a two-layer matching condition for a NAT rule, what are three matching options for the traffic direction matching from a “from” clause (Wrong)
 + interface (X)
 + zone
 + MAC address (X)
 + TCP/IP port (X)
 + routing instance
 
-### operational command allows users to observe NAT translations
+### operational command allows users to observe NAT translations (Wrong)
 + show security flow status
 + show security flow gate
 + show security flow statistics (X)
 + show security flow session
 
 ### hashing functions provide data integrity in VPNs
-+ weaker hashes minimize collisions in hash comparisons
-+ original data is compressed
-+ original data cannot be determined from the hash value (X)
-+ stronger hashes minimize collisions in hash comparisons (X)
++ original data cannot be determined from the hash value
++ stronger hashes minimize collisions in hash comparisons
++ **OK**
 
 ### In the IKE Phase 1 configuration, what are the two choices for “Mode”
-+ main (X)
-+ static
-+ aggressive (X)
-+ dynamic
++ main
++ aggressive
++ **OK**
 
-### traffic selectors distinguish interesting transit traffic over a VPN tunnel
+### traffic selectors distinguish interesting transit traffic over a VPN tunnel (Wrong)
 + by specifying accepted applications
 + by specifying accepted TCP/IP ports
 + by specifying accepted networks
 + by specifying accepted MAC address (X)
 
 ### When setting up a VPN to a remote gateway, what would selecting the “Optimized” check box do when selecting “Enable VPN monitor”
-+ set up continuous ICMP requests
-+ compress all VPN traffic
-+ coalesce VPN traffic
-+ consider transit traffic as the tunnel verification (X)
++ consider transit traffic as the tunnel verification
++ **OK**
 
-
-When does a Junos security device perform UTM inspection?
-
-first path processing only
-fast path processing only
+### When does a Junos security device perform UTM inspection?
 both first path and fast path processing (X)
-neither first path nor fast path processing
 
-
-Which list order does the antispam filter process e-mail for spam?
+Which list order does the antispam filter process e-mail for spam? (Wrong)
 
 external spam block list server, whitelist, blacklist
 blacklist, whitelist, external spam block list server(X)
 whitelist, blacklist, external spam block list server
 external spam block list server, blacklist, whitelist
 
-What two whitelist types are supported for the SRX antivirus module? (Choose two.)
+What two whitelist types are supported for the SRX antivirus module? (Choose two.) (Wrong)
 
 Application
 URL (X)
 MIME
 File (X)
 
-Which two methods are used to notify a user they’ve had content blocked an SRX Series device? (Choose two.)
+Which two methods are used to notify a user they’ve had content blocked an SRX Series device? (Choose two.) (Wrong)
 
 embedded message in the protocol
 webhook (X)
@@ -363,7 +342,7 @@ SNMP trap (X)
 an e-mail message can be sent
 
 
-Using the J-Web interface on an SRX Series device, what information is available when displaying the Monitor -> Routing -> Route Information?
+Using the J-Web interface on an SRX Series device, what information is available when displaying the Monitor -> Routing -> Route Information? (Wrong)
 
 inactive routes
 inet4.0 route table (X)
@@ -379,7 +358,7 @@ IP address
 Root Password (X)
 
 
-Which three Juniper devices are supported by Juniper Sky Enterprise? (Choose three.)
+Which three Juniper devices are supported by Juniper Sky Enterprise? (Choose three.) (Wrong)
 
 SRX Series (X)
 EX Series
@@ -388,7 +367,7 @@ NFX Series
 QFX Series (X)
 
 
-Which three reports does Juniper Sky Enterprise offer in real-time on Junos EX Series devices? (Choose three.)
+Which three reports does Juniper Sky Enterprise offer in real-time on Junos EX Series devices? (Choose three.) (Wrong)
 
 failed Junos device login attempts (X)
 PoE monitoring
@@ -406,7 +385,7 @@ KVM (X)
 
 
 
-Users are restricted from accessing Facebook, however, a recent examination of the security logs show that users are accessing Facebook. Referring to the exhibit, what should you do to solve the problem?
+Users are restricted from accessing Facebook, however, a recent examination of the security logs show that users are accessing Facebook. Referring to the exhibit, what should you do to solve the problem? (Wrong)
 
 SecurityLog.jpg
 
