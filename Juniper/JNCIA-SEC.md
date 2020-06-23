@@ -361,3 +361,37 @@ embedded message in the protocol
 webhook (X)
 SNMP trap (X)
 an e-mail message can be sent
+
+
+Using the J-Web interface on an SRX Series device, what information is available when displaying the Monitor -> Routing -> Route Information?
+
+inactive routes
+inet4.0 route table (X)
+next hop latency
+next-hop type
+
+
+Using J-Web on an SRX Series device, what are two required fields for the initial setup? (Choose two.)
+
+Host Name (X)
+User Name
+IP address
+Root Password (X)
+
+
+Which three Juniper devices are supported by Juniper Sky Enterprise? (Choose three.)
+
+SRX Series (X)
+EX Series
+MX Series (X)
+NFX Series
+QFX Series (X)
+
+
+Which three reports does Juniper Sky Enterprise offer in real-time on Junos EX Series devices? (Choose three.)
+
+failed Junos device login attempts
+PoE monitoring
+live packet capture
+ARP tables
+VPN tunnel throughput
