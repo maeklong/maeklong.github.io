@@ -357,6 +357,7 @@
 + QFX Series
 + **(Wrong, S-M-Q)**
 + **(Wrong, S-E-Q)**
++ **(Try, E-N-Q)**
 
 ### Which three reports does Juniper Sky Enterprise offer in real-time on Junos EX Series devices? (Choose three.) (Wrong)
 + failed Junos device login attempts
