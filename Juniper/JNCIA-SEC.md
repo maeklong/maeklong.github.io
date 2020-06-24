@@ -288,13 +288,11 @@
 + routing instance
 + **(Wrong: int+MAC+port)**
 + **(Wrong: interface+port+instance)**
-+ **(Try: zone+MAC+port)**
++ **(Wrong: zone+MAC+port)**
 
-### operational command allows users to observe NAT translations (Wrong)
-+ show security flow status (try)
-+ show security flow gate (Wrong)
-+ show security flow statistics (Wrong)
+### operational command allows users to observe NAT translations
 + show security flow session
++ **OK**
 
 ### hashing functions provide data integrity in VPNs
 + original data cannot be determined from the hash value
@@ -306,11 +304,9 @@
 + aggressive
 + **OK**
 
-### traffic selectors distinguish interesting transit traffic over a VPN tunnel (Wrong)
-+ by specifying accepted applications (Wrong)
-+ by specifying accepted TCP/IP ports
-+ by specifying accepted networks (**try**)
-+ by specifying accepted MAC address (Wrong)
+### traffic selectors distinguish interesting transit traffic over a VPN tunnel
++ by specifying accepted networks 
++ (**OK**)
 
 ### When setting up a VPN to a remote gateway, what would selecting the “Optimized” check box do when selecting “Enable VPN monitor”
 + consider transit traffic as the tunnel verification
