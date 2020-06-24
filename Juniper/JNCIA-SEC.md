@@ -219,10 +219,11 @@
 
 ### Exception traffic (Wrong)
 + ICMP
-+ OSPF updates (X)
++ OSPF updates
 + packets with IP options
-+ encrypted packets (X)
++ encrypted packets
 + (**Wrong : OSPF + Encrypt)
++ (**To try : ICMP + OSPF)
 
 ### J-Web
 + configuration commits are required
@@ -231,14 +232,16 @@
 
 ### Requirements of a functional zone (Wrong)
 + It must be named fxp0.
-+ It must be named management.(X)
++ It must be named management.
 + It cannot pass transit traffic.
-+ It can pass transit traffic. (X)
++ It can pass transit traffic.
++ **(Wrong, named mgnt + can pass)
++ **(To try, named mgnt + cannot pass)
 
 ### Junos security device (Wrong)
 + By default, a Junos security device allows SSH only.(Wrong)
 + By default, a Junos security device allows Telnet only.
-+ By default, a Junos security device allows both Telnet and SSH.
++ By default, a Junos security device allows both Telnet and SSH.(**To try**)
 + By default, a Junos security device does not allow traffic destined to itself.
 
 ### System defined zone
@@ -264,6 +267,8 @@
 + They are used to determine which action to take for malicious files found in SMTP traffic.
 + They are used to determine the maximum size of files to scan.
 + They are used to determine which file types to scan. (X)
++ **(Wrong : HTTP traffic + file type)**
++ **(To try: max file size + file type)**
 
 ### the free version of Sky ATP, file type you can scan
 + EXE files
