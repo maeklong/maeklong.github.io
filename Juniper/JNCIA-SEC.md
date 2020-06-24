@@ -140,6 +140,7 @@
 
 ### IPsec VPN tunnel
 + the VPN Wizard
++ **Feedback : This wizard leads you through the basic required steps to configure basic settings for a router-based VPN. To configure a VPN with a complete set of options, use either the J-Web interface or the command-line interface (CLI).**
 + **In the J-Web user interface, which feature is used to facilitate building IPsec VPN tunnels**
 
 ### IDs
