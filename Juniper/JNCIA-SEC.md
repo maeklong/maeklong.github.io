@@ -350,6 +350,7 @@
 + **(Wrong, S-M-Q)**
 + **(Wrong, S-E-Q)**
 + **(Wrong, E-N-Q)**
++ ***Try, M-N-Q**
 
 ### Which three reports does Juniper Sky Enterprise offer in real-time on Junos EX Series devices? (Choose three.) (Wrong)
 + failed Junos device login attempts
@@ -360,6 +361,7 @@
 + **Wrong: failed login + ARP + VPN**
 + **Wrong: PoE + ARP + VPN**
 + **Wrong: PoE + live+ VPN**
++ **Try: failed + live+ VPN**
 
 ### Which two hypervisors support vSRX Series devices? (Choose two.)
 + VMware ESX
