@@ -237,7 +237,7 @@
 + By default, a Junos security device allows SSH only.(Wrong)
 + By default, a Junos security device allows Telnet only.
 + By default, a Junos security device allows both Telnet and SSH.(Wrong)
-+ By default, a Junos security device does not allow traffic destined to itself.
++ By default, a Junos security device does not allow traffic destined to itself. (**try**)
 
 ### System defined zone
 + junos-host
