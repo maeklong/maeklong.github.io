@@ -339,7 +339,7 @@
 + **OK**
 
 ### Using the J-Web interface on an SRX Series device, what information is available when displaying the Monitor -> Routing -> Route Information? (Wrong)
-+ inactive routes
++ inactive routes (**try**)
 + inet4.0 route table (Wrong)
 + next hop latency (Wrong)
 + next-hop type
