@@ -235,8 +235,8 @@
 + It must be named management.
 + It cannot pass transit traffic.
 + It can pass transit traffic.
-+ **(Wrong, named mgnt + can pass)
-+ **(To try, named mgnt + cannot pass)
++ **(Wrong, named mgnt + can pass)**
++ **(To try, named mgnt + cannot pass)**
 
 ### Junos security device (Wrong)
 + By default, a Junos security device allows SSH only.(Wrong)
