@@ -222,8 +222,8 @@
 + OSPF updates
 + packets with IP options
 + encrypted packets
-+ (**Wrong : OSPF + Encrypt)
-+ (**To try : ICMP + OSPF)
++ (**Wrong : OSPF + Encrypt**)
++ (**To try : ICMP + OSPF**)
 
 ### J-Web
 + configuration commits are required
