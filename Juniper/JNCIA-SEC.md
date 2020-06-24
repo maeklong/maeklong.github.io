@@ -301,10 +301,11 @@
 + TCP/IP port (X)
 + routing instance
 + **(Wrong:int+MAC+port)**
++ **(To try: interface+port+instance)
 
 ### operational command allows users to observe NAT translations (Wrong)
 + show security flow status
-+ show security flow gate (To try)
++ show security flow gate (**To try**)
 + show security flow statistics (Wrong)
 + show security flow session
 
@@ -319,7 +320,7 @@
 + **OK**
 
 ### traffic selectors distinguish interesting transit traffic over a VPN tunnel (Wrong)
-+ by specifying accepted applications
++ by specifying accepted applications (**To try**)
 + by specifying accepted TCP/IP ports
 + by specifying accepted networks
 + by specifying accepted MAC address (Wrong)
@@ -333,7 +334,7 @@
 + **OK**
 
 ### Which list order does the antispam filter process e-mail for spam? (Wrong)
-+ external spam block list server, whitelist, blacklist
++ external spam block list server, whitelist, blacklist (To try)
 + blacklist, whitelist, external spam block list server(Wrong)
 + whitelist, blacklist, external spam block list server
 + external spam block list server, blacklist, whitelist
@@ -355,7 +356,7 @@
 ### Using the J-Web interface on an SRX Series device, what information is available when displaying the Monitor -> Routing -> Route Information? (Wrong)
 + inactive routes
 + inet4.0 route table (Wrong)
-+ next hop latency
++ next hop latency (To try)
 + next-hop type
 
 ### Using J-Web on an SRX Series device, what are two required fields for the initial setup? (Choose two.)
@@ -378,6 +379,8 @@
 + live packet capture
 + ARP tables (X)
 + VPN tunnel throughput (X)
++ **Wrong: failed login + ARP + VPN**
++ **To try: PoE + ARP + VPN**
 
 ### Which two hypervisors support vSRX Series devices? (Choose two.)
 + VMware ESX
@@ -387,6 +390,6 @@
 ### Users are restricted from accessing Facebook, however, a recent examination of the security logs show that users are accessing Facebook. Referring to the exhibit, what should you do to solve the problem? (Wrong)
 ![](img/SecurityLog.jpg)
 + Change the Block-Facebook-Access rule service to "any".
-+ Change the Internet-Access rule dynamic application to "any".
++ Change the Internet-Access rule dynamic application to "any". (**To try**)
 + Change the Block-Facebook-Access rule dynamic application to "any". (Wrong)
 + Change the Internet-Access rule service to "junos-defaults".
