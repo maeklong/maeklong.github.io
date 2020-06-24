@@ -316,11 +316,9 @@
 + both first path and fast path processing
 + **OK**
 
-### Which list order does the antispam filter process e-mail for spam? (Wrong)
-+ external spam block list server, whitelist, blacklist(Wrong)
-+ blacklist, whitelist, external spam block list server(Wrong)
+### Which list order does the antispam filter process e-mail for spam?
 + whitelist, blacklist, external spam block list server
-+ external spam block list server, blacklist, whitelist(**try**)
++ **OK**
 
 ### What two whitelist types are supported for the SRX antivirus module?
 + URL
@@ -332,11 +330,9 @@
 + an e-mail message can be sent
 + **OK**
 
-### Using the J-Web interface on an SRX Series device, what information is available when displaying the Monitor -> Routing -> Route Information? (Wrong)
-+ inactive routes (**try**)
-+ inet4.0 route table (Wrong)
-+ next hop latency (Wrong)
+### Using the J-Web interface on an SRX Series device, what information is available when displaying the Monitor -> Routing -> Route Information?
 + next-hop type
++ **OK**
 
 ### Using J-Web on an SRX Series device, what are two required fields for the initial setup? (Choose two.)
 + Host Name
