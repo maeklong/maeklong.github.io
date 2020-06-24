@@ -233,7 +233,7 @@
 + It can pass transit traffic. (X)
 
 ### Junos security device (Wrong)
-+ By default, a Junos security device allows SSH only.(X)
++ By default, a Junos security device allows SSH only.(Wrong)
 + By default, a Junos security device allows Telnet only.
 + By default, a Junos security device allows both Telnet and SSH.
 + By default, a Junos security device does not allow traffic destined to itself.
@@ -273,7 +273,7 @@
 ### the default action of an advanced anti-malware policy applied to a file (Wrong)
 + When the verdict number of the file is less than the verdict threshold.
 + When the verdict number of the file is more than the verdict threshold.
-+ When Sky ATP is unable to scan the file. (X)
++ When Sky ATP is unable to scan the file. (Wrong)
 + When the traffic doesn’t match a threat prevention policy.
 
 ### a Junos OS security device do to existing sessions upon commit, when a change is made to a NAT rule pool that is currently in use
@@ -281,7 +281,7 @@
 + **OK**
 
 ### You have enabled a NAT pool on an SRX Series device; however, you are not receiving any return traffic. What configuration item will solve this? (Wrong)
-+ enabling MACsec (X)
++ enabling MACsec (Wrong)
 + enabling proxy ARP
 + expand the NAT pool
 + disabling PAT
@@ -295,8 +295,8 @@
 
 ### operational command allows users to observe NAT translations (Wrong)
 + show security flow status
-+ show security flow gate
-+ show security flow statistics (X)
++ show security flow gate (To try)
++ show security flow statistics (Wrong)
 + show security flow session
 
 ### hashing functions provide data integrity in VPNs
@@ -313,7 +313,7 @@
 + by specifying accepted applications
 + by specifying accepted TCP/IP ports
 + by specifying accepted networks
-+ by specifying accepted MAC address (X)
++ by specifying accepted MAC address (Wrong)
 
 ### When setting up a VPN to a remote gateway, what would selecting the “Optimized” check box do when selecting “Enable VPN monitor”
 + consider transit traffic as the tunnel verification
@@ -325,7 +325,7 @@
 
 ### Which list order does the antispam filter process e-mail for spam? (Wrong)
 + external spam block list server, whitelist, blacklist
-+ blacklist, whitelist, external spam block list server(X)
++ blacklist, whitelist, external spam block list server(Wrong)
 + whitelist, blacklist, external spam block list server
 + external spam block list server, blacklist, whitelist
 
@@ -343,7 +343,7 @@
 
 ### Using the J-Web interface on an SRX Series device, what information is available when displaying the Monitor -> Routing -> Route Information? (Wrong)
 + inactive routes
-+ inet4.0 route table (X)
++ inet4.0 route table (Wrong)
 + next hop latency
 + next-hop type
 
@@ -375,5 +375,5 @@
 ![](img/SecurityLog.jpg)
 + Change the Block-Facebook-Access rule service to "any".
 + Change the Internet-Access rule dynamic application to "any".
-+ Change the Block-Facebook-Access rule dynamic application to "any". (X)
++ Change the Block-Facebook-Access rule dynamic application to "any". (Wrong)
 + Change the Internet-Access rule service to "junos-defaults".
