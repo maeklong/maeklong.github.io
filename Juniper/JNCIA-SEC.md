@@ -289,7 +289,8 @@
 + TCP/IP port
 + routing instance
 + **(Wrong: int+MAC+port)**
-+ **(Wrong: interface+port+instance)
++ **(Wrong: interface+port+instance)**
++ **(Try: zone+MAC+port)**
 
 ### operational command allows users to observe NAT translations (Wrong)
 + show security flow status
