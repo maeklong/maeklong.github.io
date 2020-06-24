@@ -367,6 +367,7 @@
 + VPN tunnel throughput
 + **Wrong: failed login + ARP + VPN**
 + **Wrong: PoE + ARP + VPN**
++ **Try: PoE + live+ VPN**
 
 ### Which two hypervisors support vSRX Series devices? (Choose two.)
 + VMware ESX
