@@ -331,15 +331,17 @@
 
 ### What two whitelist types are supported for the SRX antivirus module? (Choose two.) (Wrong)
 + Application
-+ URL (X)
++ URL
 + MIME
-+ File (X)
++ File
++ (**Wrong, URL+File)
++ **(To try, URL+MIME)
 
 ### Which two methods are used to notify a user they’ve had content blocked an SRX Series device? (Choose two.) (Wrong)
-+ embedded message in the protocol
++ embedded message in the protocol (**To try**)
 + webhook (X)
 + SNMP trap (X)
-+ an e-mail message can be sent
++ an e-mail message can be sent (**To try**)
 
 ### Using the J-Web interface on an SRX Series device, what information is available when displaying the Monitor -> Routing -> Route Information? (Wrong)
 + inactive routes
@@ -353,11 +355,13 @@
 + **OK**
 
 ### Which three Juniper devices are supported by Juniper Sky Enterprise? (Choose three.) (Wrong)
-+ SRX Series (X)
++ SRX Series
 + EX Series
-+ MX Series (X)
++ MX Series
 + NFX Series
-+ QFX Series (X)
++ QFX Series
++ **(Wrong, S-M-Q)**
++ **(To try, E-Q-S)**
 
 ### Which three reports does Juniper Sky Enterprise offer in real-time on Junos EX Series devices? (Choose three.) (Wrong)
 + failed Junos device login attempts (X)
