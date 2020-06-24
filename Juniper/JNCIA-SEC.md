@@ -219,6 +219,7 @@
 + OSPF updates
 + packets with IP options
 + encrypted packets
++ (**Try : OSPF + Packets**)
 + (**Wrong : OSPF + Encrypt**)
 + (**Wrong : ICMP + OSPF**)
 + (**Wrong : ICMP + packets**)
@@ -289,6 +290,7 @@
 + **(Wrong: int+MAC+port)**
 + **(Wrong: interface+port+instance)**
 + **(Wrong: zone+MAC+port)**
++ **(Try: int+zone+route)**
 
 ### operational command allows users to observe NAT translations
 + show security flow session
