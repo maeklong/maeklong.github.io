@@ -221,7 +221,7 @@
 + encrypted packets
 + (**Wrong : OSPF + Encrypt**)
 + (**Wrong : ICMP + OSPF**)
-+ (**Try : ICMP + packets**)
++ (**Wrong : ICMP + packets**)
 
 ### J-Web
 + configuration commits are required
@@ -233,11 +233,9 @@
 + It cannot pass transit traffic.
 + **OK**
 
-### Junos security device (Wrong)
-+ By default, a Junos security device allows SSH only.(Wrong)
-+ By default, a Junos security device allows Telnet only.
-+ By default, a Junos security device allows both Telnet and SSH.(Wrong)
-+ By default, a Junos security device does not allow traffic destined to itself. (**try**)
+### Junos security device
++ By default, a Junos security device does not allow traffic destined to itself.
++ (**OK**)
 
 ### System defined zone
 + junos-host
