@@ -214,12 +214,15 @@
 + implemented on the PFE (X)
 + implemented on RE
 + **two distinctions of a Junos data plane**
++ (**Wrong : Cluster+PFE**)
++ (**To try: Screen+PFE**)
 
 ### Exception traffic (Wrong)
 + ICMP
 + OSPF updates (X)
 + packets with IP options
 + encrypted packets (X)
++ (**Wrong : OSPF + Encrypt)
 
 ### J-Web
 + configuration commits are required
