@@ -300,6 +300,7 @@
 + MAC address (X)
 + TCP/IP port (X)
 + routing instance
++ **(Wrong:int+MAC+port)**
 
 ### operational command allows users to observe NAT translations (Wrong)
 + show security flow status
