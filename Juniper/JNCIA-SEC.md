@@ -277,24 +277,22 @@
 + It destroys the existing session and creates a new session for matched traffic.
 + **OK**
 
-### You have enabled a NAT pool on an SRX Series device; however, you are not receiving any return traffic. What configuration item will solve this? (Wrong)
-+ enabling MACsec (Wrong)
-+ enabling proxy ARP (**To try**)
-+ expand the NAT pool
-+ disabling PAT
+### You have enabled a NAT pool on an SRX Series device; however, you are not receiving any return traffic. What configuration item will solve this?
++ enabling proxy ARP
++ **OK**
 
 ### In the first layer of a two-layer matching condition for a NAT rule, what are three matching options for the traffic direction matching from a “from” clause (Wrong)
-+ interface (X)
++ interface
 + zone
-+ MAC address (X)
-+ TCP/IP port (X)
++ MAC address
++ TCP/IP port
 + routing instance
-+ **(Wrong:int+MAC+port)**
-+ **(To try: interface+port+instance)
++ **(Wrong: int+MAC+port)**
++ **(Wrong: interface+port+instance)
 
 ### operational command allows users to observe NAT translations (Wrong)
 + show security flow status
-+ show security flow gate (**To try**)
++ show security flow gate (Wrong)
 + show security flow statistics (Wrong)
 + show security flow session
 
@@ -309,7 +307,7 @@
 + **OK**
 
 ### traffic selectors distinguish interesting transit traffic over a VPN tunnel (Wrong)
-+ by specifying accepted applications (**To try**)
++ by specifying accepted applications (Wrong)
 + by specifying accepted TCP/IP ports
 + by specifying accepted networks
 + by specifying accepted MAC address (Wrong)
@@ -323,29 +321,25 @@
 + **OK**
 
 ### Which list order does the antispam filter process e-mail for spam? (Wrong)
-+ external spam block list server, whitelist, blacklist (To try)
++ external spam block list server, whitelist, blacklist(Wrong)
 + blacklist, whitelist, external spam block list server(Wrong)
 + whitelist, blacklist, external spam block list server
 + external spam block list server, blacklist, whitelist
 
-### What two whitelist types are supported for the SRX antivirus module? (Choose two.) (Wrong)
-+ Application
+### What two whitelist types are supported for the SRX antivirus module?
 + URL
 + MIME
-+ File
-+ (**Wrong, URL+File)
-+ **(To try, URL+MIME)
++ (**OK**)
 
-### Which two methods are used to notify a user they’ve had content blocked an SRX Series device? (Choose two.) (Wrong)
-+ embedded message in the protocol (**To try**)
-+ webhook (X)
-+ SNMP trap (X)
-+ an e-mail message can be sent (**To try**)
+### Which two methods are used to notify a user they’ve had content blocked an SRX Series device?
++ embedded message in the protocol
++ an e-mail message can be sent
++ **OK**
 
 ### Using the J-Web interface on an SRX Series device, what information is available when displaying the Monitor -> Routing -> Route Information? (Wrong)
 + inactive routes
 + inet4.0 route table (Wrong)
-+ next hop latency (To try)
++ next hop latency (Wrong)
 + next-hop type
 
 ### Using J-Web on an SRX Series device, what are two required fields for the initial setup? (Choose two.)
@@ -360,25 +354,23 @@
 + NFX Series
 + QFX Series
 + **(Wrong, S-M-Q)**
-+ **(To try, E-Q-S)**
++ **(Wrong, S-E-Q)**
 
 ### Which three reports does Juniper Sky Enterprise offer in real-time on Junos EX Series devices? (Choose three.) (Wrong)
-+ failed Junos device login attempts (X)
++ failed Junos device login attempts
 + PoE monitoring
 + live packet capture
-+ ARP tables (X)
-+ VPN tunnel throughput (X)
++ ARP tables
++ VPN tunnel throughput
 + **Wrong: failed login + ARP + VPN**
-+ **To try: PoE + ARP + VPN**
++ **Wrong: PoE + ARP + VPN**
 
 ### Which two hypervisors support vSRX Series devices? (Choose two.)
 + VMware ESX
 + KVM
 + **OK**
 
-### Users are restricted from accessing Facebook, however, a recent examination of the security logs show that users are accessing Facebook. Referring to the exhibit, what should you do to solve the problem? (Wrong)
+### Users are restricted from accessing Facebook, however, a recent examination of the security logs show that users are accessing Facebook. Referring to the exhibit, what should you do to solve the problem?
 ![](img/SecurityLog.jpg)
-+ Change the Block-Facebook-Access rule service to "any".
-+ Change the Internet-Access rule dynamic application to "any". (**To try**)
-+ Change the Block-Facebook-Access rule dynamic application to "any". (Wrong)
-+ Change the Internet-Access rule service to "junos-defaults".
++ Change the Internet-Access rule dynamic application to "any".
++ **OK**
