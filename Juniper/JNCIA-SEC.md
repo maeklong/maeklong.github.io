@@ -221,6 +221,7 @@
 + encrypted packets
 + (**Wrong : OSPF + Encrypt**)
 + (**Wrong : ICMP + OSPF**)
++ (**Try : ICMP + packets**)
 
 ### J-Web
 + configuration commits are required
