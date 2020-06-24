@@ -351,7 +351,7 @@
 + **Wrong: failed login + ARP + VPN**
 + **Wrong: PoE + ARP + VPN**
 + **Wrong: PoE + live+ VPN**
-+ **Try: failed + live+ VPN**
++ **Wrong: failed + live+ VPN**
 
 ### Which two hypervisors support vSRX Series devices? (Choose two.)
 + VMware ESX
