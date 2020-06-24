@@ -293,7 +293,7 @@
 + **(Try: zone+MAC+port)**
 
 ### operational command allows users to observe NAT translations (Wrong)
-+ show security flow status
++ show security flow status (try)
 + show security flow gate (Wrong)
 + show security flow statistics (Wrong)
 + show security flow session
@@ -311,7 +311,7 @@
 ### traffic selectors distinguish interesting transit traffic over a VPN tunnel (Wrong)
 + by specifying accepted applications (Wrong)
 + by specifying accepted TCP/IP ports
-+ by specifying accepted networks
++ by specifying accepted networks (**try**)
 + by specifying accepted MAC address (Wrong)
 
 ### When setting up a VPN to a remote gateway, what would selecting the “Optimized” check box do when selecting “Enable VPN monitor”
@@ -326,7 +326,7 @@
 + external spam block list server, whitelist, blacklist(Wrong)
 + blacklist, whitelist, external spam block list server(Wrong)
 + whitelist, blacklist, external spam block list server
-+ external spam block list server, blacklist, whitelist
++ external spam block list server, blacklist, whitelist(**try**)
 
 ### What two whitelist types are supported for the SRX antivirus module?
 + URL
