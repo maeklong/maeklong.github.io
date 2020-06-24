@@ -212,6 +212,7 @@
 + screen options
 + implemented on the PFE
 + **two distinctions of a Junos data plane**
++ **OK**
 
 ### Exception traffic (Wrong)
 + ICMP
@@ -226,18 +227,15 @@
 + real-time monitoring
 + **OK**
 
-### Requirements of a functional zone (Wrong)
-+ It must be named fxp0.
+### Requirements of a functional zone
 + It must be named management.
 + It cannot pass transit traffic.
-+ It can pass transit traffic.
-+ **(Wrong, named mgnt + can pass)**
-+ **(To try, named mgnt + cannot pass)**
++ **OK**
 
 ### Junos security device (Wrong)
 + By default, a Junos security device allows SSH only.(Wrong)
 + By default, a Junos security device allows Telnet only.
-+ By default, a Junos security device allows both Telnet and SSH.(**To try**)
++ By default, a Junos security device allows both Telnet and SSH.(Wrong)
 + By default, a Junos security device does not allow traffic destined to itself.
 
 ### System defined zone
@@ -258,13 +256,10 @@
 + silent discard
 + **OK**
 
-### Sky ATP file inspection profiles (Wrong)
-+ They are used to determine which action to take for malicious files found in HTTP traffic. (X)
-+ They are used to determine which action to take for malicious files found in SMTP traffic.
+### Sky ATP file inspection profiles
 + They are used to determine the maximum size of files to scan.
-+ They are used to determine which file types to scan. (X)
-+ **(Wrong : HTTP traffic + file type)**
-+ **(To try: max file size + file type)**
++ They are used to determine which file types to scan.
++ **OK**
 
 ### the free version of Sky ATP, file type you can scan
 + EXE files
@@ -274,11 +269,9 @@
 + Reference the threat prevention policy in a security policy.
 + **OK**
 
-### the default action of an advanced anti-malware policy applied to a file (Wrong)
-+ When the verdict number of the file is less than the verdict threshold. (To try)
-+ When the verdict number of the file is more than the verdict threshold.
-+ When Sky ATP is unable to scan the file. (Wrong)
-+ When the traffic doesn’t match a threat prevention policy.
+### the default action of an advanced anti-malware policy applied to a file
++ When the verdict number of the file is less than the verdict threshold.
++ **OK**
 
 ### a Junos OS security device do to existing sessions upon commit, when a change is made to a NAT rule pool that is currently in use
 + It destroys the existing session and creates a new session for matched traffic.
