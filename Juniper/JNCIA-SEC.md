@@ -279,7 +279,7 @@
 + **OK**
 
 ### the default action of an advanced anti-malware policy applied to a file (Wrong)
-+ When the verdict number of the file is less than the verdict threshold.
++ When the verdict number of the file is less than the verdict threshold. (To try)
 + When the verdict number of the file is more than the verdict threshold.
 + When Sky ATP is unable to scan the file. (Wrong)
 + When the traffic doesn’t match a threat prevention policy.
@@ -290,7 +290,7 @@
 
 ### You have enabled a NAT pool on an SRX Series device; however, you are not receiving any return traffic. What configuration item will solve this? (Wrong)
 + enabling MACsec (Wrong)
-+ enabling proxy ARP
++ enabling proxy ARP (**To try**)
 + expand the NAT pool
 + disabling PAT
 
