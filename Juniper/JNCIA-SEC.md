@@ -167,7 +167,7 @@
 
 ### antivirus feature on SRX Series
 + The Sophos antivirus feature is less CPU intensive than the full file-based antivirus feature.
-+ ???
++ **Feedback : The Sophos antivirus scanner uses a local internal cache to maintain query responses from the external list server to improve lookup performance. The Sophos antivirus scanning is offered as a less CPU-intensive alternative to the full file-based antivirus feature.**
 
 ### UTM
 + antispam
