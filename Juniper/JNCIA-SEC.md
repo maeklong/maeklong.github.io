@@ -121,6 +121,7 @@
 
 ### Type of NAT
 + static
++ **Feedback : Three basic types of NAT exist: source NAT, destination NAT, and static NAT. Source NAT translates the source IP address of a packet. Destination NAT translates the destination IP address of a packet. Static NAT allows connections to be originated from either side of the network, but is limited in that only one-to-one translations are possible.**
 + **Bidirectional initiation of translation is classified as which type of NAT**
 
 ### Types of source NAT
