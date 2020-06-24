@@ -214,15 +214,10 @@
 + **two distinctions of a Junos data plane**
 + **OK**
 
-### Exception traffic (Wrong)
-+ ICMP
+### Exception traffic
 + OSPF updates
 + packets with IP options
-+ encrypted packets
-+ (**Try : OSPF + Packets**)
-+ (**Wrong : OSPF + Encrypt**)
-+ (**Wrong : ICMP + OSPF**)
-+ (**Wrong : ICMP + packets**)
++ (**OK**)
 
 ### J-Web
 + configuration commits are required
@@ -281,16 +276,11 @@
 + enabling proxy ARP
 + **OK**
 
-### In the first layer of a two-layer matching condition for a NAT rule, what are three matching options for the traffic direction matching from a “from” clause (Wrong)
+### In the first layer of a two-layer matching condition for a NAT rule, what are three matching options for the traffic direction matching from a “from” clause
 + interface
 + zone
-+ MAC address
-+ TCP/IP port
 + routing instance
-+ **(Wrong: int+MAC+port)**
-+ **(Wrong: interface+port+instance)**
-+ **(Wrong: zone+MAC+port)**
-+ **(Try: int+zone+route)**
++ **(OK)**
 
 ### operational command allows users to observe NAT translations
 + show security flow session
@@ -350,7 +340,7 @@
 + **(Wrong, S-M-Q)**
 + **(Wrong, S-E-Q)**
 + **(Wrong, E-N-Q)**
-+ ***Try, M-N-Q**
++ **(Wrong, M-N-Q)**
 
 ### Which three reports does Juniper Sky Enterprise offer in real-time on Junos EX Series devices? (Choose three.) (Wrong)
 + failed Junos device login attempts
