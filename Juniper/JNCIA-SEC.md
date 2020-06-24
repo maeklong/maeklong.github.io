@@ -208,14 +208,10 @@
 + **two distinctions of a Junos control plane**
 + **OK**
 
-### Junos data plane (Wrong)
+### Junos data plane
 + screen options
-+ clustering control (X)
-+ implemented on the PFE (X)
-+ implemented on RE
++ implemented on the PFE
 + **two distinctions of a Junos data plane**
-+ (**Wrong : Cluster+PFE**)
-+ (**To try: Screen+PFE**)
 
 ### Exception traffic (Wrong)
 + ICMP
@@ -223,7 +219,7 @@
 + packets with IP options
 + encrypted packets
 + (**Wrong : OSPF + Encrypt**)
-+ (**To try : ICMP + OSPF**)
++ (**Wrong : ICMP + OSPF**)
 
 ### J-Web
 + configuration commits are required
