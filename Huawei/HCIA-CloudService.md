@@ -21,3 +21,9 @@
 + Industry cloud
 + Rapid cloud
 + Public cloud
+
+##### 2.The development of Cloud Computing includes(multiple choices):
++ Virtualization
++ Private Cloud
++ Hybrid Cloud
++ Public cloud
