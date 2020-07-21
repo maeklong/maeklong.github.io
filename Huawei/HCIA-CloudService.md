@@ -30,9 +30,11 @@
 ### 1.2 Huawei Cloud Architecture
 
 ##### 1.A region is a distinct logical area.
-+ true
 + false
 
 ##### 2. An availability zone (AZ) contains one or multiple physical data centers.
 + true
-+ false
+
+##### 1.Network Service includes:
++ Virtual Private Cloud
++ Elastic Load Balance
