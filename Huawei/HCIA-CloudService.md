@@ -1,9 +1,9 @@
 # HCIA - Cloud Service
 
-## xxxx
+## Huawei Cloud
 
-### 1.Pain Points of Current Enterprise IT Infrastructure includes(multiple choices):
-A.	Slow Business Launch
-B.	Complicated Lifecycle Management
-C.	High TCO
-D.	I/O Bottleneck
+### 1.Pain Points of Current Enterprise IT Infrastructure includes:
++ Slow Business Launch
++ Complicated Lifecycle Management
++ High TCO
++ I/O Bottleneck
