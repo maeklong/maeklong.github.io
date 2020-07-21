@@ -2,6 +2,8 @@
 
 ## Huawei Cloud
 
+### Concepts and Value of Cloud Services
+
 ##### 1.Pain Points of Current Enterprise IT Infrastructure includes:
 + Slow Business Launch
 + Complicated Lifecycle Management
@@ -15,9 +17,7 @@
 + Resource pooling
 
 ##### 1.Cloud Computing Deployment Models can be(multiple choices):
-
-
-A.	Private cloud
-B.	Industry cloud
-C.	Rapid cloud
-D.	Public cloud
++ Private cloud
++ Industry cloud
++ Rapid cloud
++ Public cloud
