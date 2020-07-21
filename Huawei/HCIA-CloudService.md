@@ -1,8 +1,8 @@
 # HCIA - Cloud Service
 
-## Huawei Cloud
+## 1. Huawei Cloud
 
-### Concepts and Value of Cloud Services
+### 1.1 Concepts and Value of Cloud Services
 
 ##### 1.Pain Points of Current Enterprise IT Infrastructure includes:
 + Slow Business Launch
@@ -19,7 +19,6 @@
 ##### 1.Cloud Computing Deployment Models can be(multiple choices):
 + Private cloud
 + Industry cloud
-+ Rapid cloud
 + Public cloud
 
 ##### 2.The development of Cloud Computing includes(multiple choices):
@@ -27,3 +26,5 @@
 + Private Cloud
 + Hybrid Cloud
 + Public cloud
+
+### 1.2 Huawei Cloud Architecture
