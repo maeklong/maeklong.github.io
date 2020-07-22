@@ -65,5 +65,10 @@
 
 
 
-### 1.4 Huawei Cloud service management system
+### 1.4 Huawei Cloud service Management System
+
+##### 1. You can view, purchase, use, and operate various HUAWEI CLOUD service products after you have logged in to the management console.
++ true
+##### 2. The management console manages various services such as computing, storage, network, security, management and deployment, application services, databases, data analysis, enterprise applications, and DevCloud.
++ true
 
