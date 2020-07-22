@@ -51,20 +51,15 @@
 + HICP
 + HCIE
 
-##### 1.Which belongs to HUAWEI CLOUD Developer Center Ecosystem Catalog? (multiple choices)
+##### 1. Which belongs to HUAWEI CLOUD Developer Center Ecosystem Catalog? (multiple choices)
 + Developer Contest
 + Cloud Expert
 + Sign-up Platform
 + MVP
 
-1. The HUAWEI CLOUD Partner Network (HCPN) is a global partner program for HUAWEI CLOUD.
+##### 1. The HUAWEI CLOUD Partner Network (HCPN) is a global partner program for HUAWEI CLOUD.
++ true
 
+##### 2. HUAWEI CLOUD Marketplace offers E2E comprehensive services for partners.
++ true
 
-true
-false
-unanswered
-2.HUAWEI CLOUD Marketplace offers E2E comprehensive services for partners.
-
-
-true
-false
