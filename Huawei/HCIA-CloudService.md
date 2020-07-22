@@ -72,3 +72,23 @@
 ##### 2. The management console manages various services such as computing, storage, network, security, management and deployment, application services, databases, data analysis, enterprise applications, and DevCloud.
 + true
 
+##### 1.How many types of login users does HUAWEI CLOUD support? (single choice)
++ 2
+
+##### 2.What is used by an ECS to store data?(single choice)
++ Elastic Volume Service
+
+
+
+## 2. Computing Cloud Service
+
+### 2.1 Computing Cloud Service - Elastic Cloud Server
+
+##### 1.Is an ECS a physical server?
++ false
+
+##### 1. High-performance computing ECSs provide a large number of CPU cores, large memory size, and high throughput.
++ true
+
+
+
