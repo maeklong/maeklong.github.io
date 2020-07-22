@@ -38,3 +38,16 @@
 ##### 1.Network Service includes:
 + Virtual Private Cloud
 + Elastic Load Balance
+
+##### 1. Which of the Following Compute Services Does HUAWEI CLOUD Provide?(multiple choices)
++ Elastic Cloud Server (ECS)
++ Auto Scaling (AS)
++ Image Management Service (IMS)
+
+### 1.3 Huawei Cloud Ecosystem
+
+##### 1.Career Certifications includes: (multiple choices)
++ HCIA
++ HICP
++ HCIE
+
