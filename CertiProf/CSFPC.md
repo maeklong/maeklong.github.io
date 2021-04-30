@@ -127,7 +127,7 @@
 + Contractual Partners
 
 ## The Domain Name System (DNS) translates domain names, significant bits of text, to IP addresses needed for network communications. The DNS protocol is also a regular DDoS enhancer, as it is likely for an attacker to impersonate the IP address of a target in a DNS request, thus triggering the DNS server to send unwanted traffic to the target. What other protocols are prone to amplification?
-+ Network Time Protocol (NTP)
++ Network Time Protocol (NTP) (X)
 + S7 signaling protocol
 + Address Resolution Protocol (ARP)
 + TCP/IP
