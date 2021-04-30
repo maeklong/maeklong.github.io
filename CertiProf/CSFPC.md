@@ -12,6 +12,8 @@
 + Best evidence
 + Direct evidence
 
+* Corroborating evidence (or corroboration) is evidence that tends to support a proposition that is already supported by some initial evidence, therefore confirming the proposition.
+
 ## __________is a principle where conditions appear from previous decisions about said systems.
 + Precautionary conditions
 + Latent design conditions
