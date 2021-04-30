@@ -18,7 +18,9 @@
 + Precautionary conditions
 + Latent design conditions
 + NIST conditions
-+ None of the above
++ None of the above (X)
+
++ *Stare decisis ensures that cases with similar scenarios and facts are approached in the same way. Simply put, it binds courts to follow legal precedents set by previous decisions*
 
 ## The detection issue is a classification job. The assessment of an IDS, therefore, equates the outcome of the detector with the base reality identified to the evaluator, but not to the detector. What are the possible outcomes of the detection process?
 + True Negatives are normal actions that occur in the trace and should not be stated in alerts by the detector
